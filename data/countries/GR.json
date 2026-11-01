@@ -1,0 +1,132 @@
+{
+ "code": "GR",
+ "name": {
+  "en": "Greece",
+  "pt": "Grécia",
+  "es": "Grecia",
+  "fr": "Grèce",
+  "de": "Griechenland",
+  "it": "Grecia",
+  "nl": "Griekenland",
+  "el": "Ελλάδα"
+ },
+ "region": "EU",
+ "languages": [
+  "el"
+ ],
+ "authority": {
+  "name": "Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (Hellenic Data Protection Authority)",
+  "url": "http://www.dpa.gr/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "riften/Laender/Laender-node.html . Greece Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (Hellenic Data Protection Authority) Kifisias Av. 1-3 11523 Ampelokipi Athens Greece http://www.dpa.gr/ contact@dpa.gr +30 21"
+  }
+ },
+ "laws": [
+  {
+   "id": "n4624-2019",
+   "role": "implementation",
+   "title": "Ν. 4624/2019 (ΦΕΚ 137/Α` 29.8.2019) — Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα, μέτρα εφαρμογής του Κανονισμού (ΕΕ) 2016/679",
+   "language": "el",
+   "url": "https://www.elinyae.gr/ethniki-nomothesia/n-46242019-fek-137a-2982019",
+   "number": "ΦΕΚ Α' 137/29.8.2019",
+   "date": "2019-08-29",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.elinyae.gr/ethniki-nomothesia/n-46242019-fek-137a-2982019",
+    "retrievedAt": "2026-11-01",
+    "sha256": "678b40c3f10d26d31e5f8c354a1203ab72b81a82230441024768d61300982531",
+    "language": "el",
+    "excerpt": "Ν. 4624/2019 (ΦΕΚ 137/Α` 29.8.2019) | ΕΛΙΝΥΑΕ Skip to main content Header Top 2 e-νημέρωση e-γνώμη Header Top English Site Main navigation ΕΛ.ΙΝ.Υ.Α.Ε. Αποστολή-Στόχος Ιστορικό Δομή Απολογισμοί - Καταστατικό Διοικητικό Συμβούλιο Δραστηριότητες Κατάρτιση - Εκπαίδευση Προγράμματα κατάρτισης Ασύγχ"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 15,
+  "status": "verified",
+  "article": "άρθρο 21 ν. 4624/2019",
+  "lawId": "n4624-2019",
+  "evidence": {
+   "url": "https://www.elinyae.gr/ethniki-nomothesia/n-46242019-fek-137a-2982019",
+   "retrievedAt": "2026-11-01",
+   "sha256": "678b40c3f10d26d31e5f8c354a1203ab72b81a82230441024768d61300982531",
+   "language": "el",
+   "excerpt": "φοριών απευθείας σε αυτόν, είναι σύννομη, εφόσον ο ανήλικος έχει συμπληρώσει το 15ο έτος της ηλικίας του και παρέχει τη συγκατάθεσή του. 2. Εάν ο ανήλικος είναι κάτω των 15 ετών η επεξεργασία της παραγράφου 1 είναι σύννομη μόνο μετά την παροχή συγκατάθεσης του νομίμου αντιπροσώπου του. Άρθρο 22: Επεξεργασία ειδικών κατηγοριών δεδομένων προσωπικού χαρακτήρα 1. Κα"
+  }
+ },
+ "notes": [
+  "Texto lido na reproducao integral da lei no site do ELINYAE (organismo publico grego); o site da autoridade (dpa.gr) esta inacessivel. A pagina nao indica se incorpora a codificacao da Lei 5221/2025: confirmar o texto em vigor no ΦΕΚ."
+ ],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "άρθρο 22",
+    "lawId": "n4624-2019",
+    "topic": "Επεξεργασία ειδικών κατηγοριών δεδομένων προσωπικού χαρακτήρα (περιλαμβάνει προληπτική ιατρική, διάγνωση και περίθαλψη)",
+    "status": "verified",
+    "evidence": {
+     "url": "https://www.elinyae.gr/ethniki-nomothesia/n-46242019-fek-137a-2982019",
+     "retrievedAt": "2026-11-01",
+     "sha256": "678b40c3f10d26d31e5f8c354a1203ab72b81a82230441024768d61300982531",
+     "language": "el",
+     "excerpt": "μετά την παροχή συγκατάθεσης του νομίμου αντιπροσώπου του. Άρθρο 22: Επεξεργασία ειδικών κατηγοριών δεδομένων προσωπικού χαρακτήρα 1. Κατά παρέκκλιση από το άρθρο 9 παράγραφος 1 του ΓΚΠΔ η επεξεργασία ειδικών κατηγοριών δεδομένων προσωπικού χαρακτήρα με την έννοια του άρθρου 9 παράγραφος 1 του ΓΚΠΔ από δημόσιους και ιδιωτικούς φορείς επιτρέπεται, εφόσον είναι απαραίτητη: α) για την άσκηση δικαιωμάτων που απορρέουν από το δικαίωμα κοινωνικής α"
+    }
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "n3418-2005",
+   "title": "Ν. 3418/2005 (ΦΕΚ 287/Α` 28.11.2005) — Κώδικας Ιατρικής Δεοντολογίας",
+   "language": "el",
+   "url": "https://www.elinyae.gr/en/node/47552",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Άρθρο 11",
+     "topic": "Υποχρέωση ενημέρωσης",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.elinyae.gr/en/node/47552",
+      "retrievedAt": "2026-11-01",
+      "sha256": "23e4db4236b32c4d6b0bd9ab8a3bae73357c1b67f48ccc261180cd7bcf1d09b8",
+      "language": "el",
+      "excerpt": "Άρθρο 11: Υποχρέωση ενημέρωσης 1. Ο ιατρός έχει καθήκον αληθείας προς τον ασθενή. Οφείλει να ενημερώνει πλήρως και κατανοητά τον ασθενή για την πραγματική κατάσταση της υγείας του, το περιεχόμενο και τα αποτελέσματα της προτεινόμενης ιατρικής πράξης, τις συνέπειες και τους ενδεχόμενους κινδύνους ή επιπλοκές από την εκτέλεσή της, τις εναλλ"
+     }
+    },
+    {
+     "article": "Άρθρο 12",
+     "topic": "Συναίνεση του ενημερωμένου ασθενή",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.elinyae.gr/en/node/47552",
+      "retrievedAt": "2026-11-01",
+      "sha256": "23e4db4236b32c4d6b0bd9ab8a3bae73357c1b67f48ccc261180cd7bcf1d09b8",
+      "language": "el",
+      "excerpt": "Άρθρο 12: Συναίνεση του ενημερωμένου ασθενή 1. Ο ιατρός δεν επιτρέπεται να προβεί στην εκτέλεση οποιασδήποτε ιατρικής πράξης χωρίς την προηγούμενη συναίνεση του ασθενή. 2. Προϋποθέσεις της έγκυρης συναίνεσης του ασθενή είναι οι ακόλουθες: α) Να παρέχεται μετά από πλήρη, σαφή και κατανοητή ενημέρωση, σύμφωνα με το προηγούμενο άρθρο. β) Ο ασθενής να έχει ικανότητα για συναίνεση. αα) Αν ο ασθενής είναι ανήλικος, η συναίνεση δί"
+     }
+    },
+    {
+     "article": "Άρθρο 13",
+     "topic": "Ιατρικό απόρρητο",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.elinyae.gr/en/node/47552",
+      "retrievedAt": "2026-11-01",
+      "sha256": "23e4db4236b32c4d6b0bd9ab8a3bae73357c1b67f48ccc261180cd7bcf1d09b8",
+      "language": "el",
+      "excerpt": "Άρθρο 13: Ιατρικό απόρρητο 1. Ο ιατρός οφείλει να τηρεί αυστηρά απόλυτη εχεμύθεια για οποιοδήποτε στοιχείο υποπίπτει στην αντίληψή του ή του αποκαλύπτει ο ασθενής ή τρίτοι, στο πλαίσιο της άσκησης των καθηκόντων του, και το οποίο αφορά στον ασθενή ή τους οικείους του. 2. Για την αυστηρή και αποτελεσματική τήρηση του ιατρικού απορρήτου, ο ι"
+     }
+    }
+   ],
+   "number": "ΦΕΚ 287/Α' 28.11.2005",
+   "note": "Texto no ELINYAE (organismo público grego), não no ΦΕΚ. A busca indica alteração pela Lei 3996/2011; a página não diz se incorpora alterações posteriores. A lei geral dos direitos do doente (Lei 2071/1992) não foi lida."
+  }
+ ]
+}

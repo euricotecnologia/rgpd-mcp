@@ -1,0 +1,4 @@
+EXTRATO RENDERIZADO NO NAVEGADOR (rgpd-mcp) - fonte: https://legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo - lido em 2026-11-01
+Loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et mise en oeuvre du règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre
+Art. 1er. (1) Tout traitement de données à caractère personnel qui n'est pas couvert par le règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des
+VERIFICACAO DE AUSENCIA (executada no navegador sobre o texto integral renderizado: 52387 caracteres, artigos 1 a 77): nenhuma ocorrencia de "mineur", "enfant" ou "consentement"; o texto cita o reglement (UE) 2016/679. Esta verificacao nao e reproduzivel pelo build (texto integral nao guardado).

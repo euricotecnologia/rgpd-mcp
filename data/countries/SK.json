@@ -1,0 +1,102 @@
+{
+ "code": "SK",
+ "name": {
+  "en": "Slovakia",
+  "pt": "Eslováquia",
+  "es": "Eslovaquia",
+  "fr": "Slovaquie",
+  "de": "Slowakei",
+  "it": "Slovacchia",
+  "nl": "Slowakije",
+  "sk": "Slovensko"
+ },
+ "region": "EU",
+ "languages": [
+  "sk"
+ ],
+ "authority": {
+  "name": "Úrad na ochranu osobných údajov Slovenskej republiky",
+  "url": "http://www.dataprotection.gov.sk/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "anspdcp@dataprotection.ro +40 31 805 9211 +40 31 805 9602 Ms Ancuţa Gianina Opre Slovakia Úrad na ochranu osobných údajov Slovenskej republiky Galvaniho 7/B 821 04 Bratislava Slovakia http://www.dataprotection.g"
+  }
+ },
+ "laws": [
+  {
+   "id": "z18-2018",
+   "role": "implementation",
+   "title": "Zákon o ochrane osobných údajov a o zmene a doplnení niektorých zákonov",
+   "language": "sk",
+   "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/18/",
+   "number": "18/2018 Z. z.",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/18/",
+    "retrievedAt": "2026-11-01",
+    "sha256": "e7e7afd08297b701875c17828ae42974a38748f7f1f79bca5bfa9d24b916d29a",
+    "language": "sk",
+    "excerpt": "zbierky/pravne-predpisy/SK/ZZ/2018/18/ - lido em 2026-11-01 18/2018 Z. z. Zákon o ochrane osobných údajov a o zmene a doplnení niektorých zákonov | Slov-Lex Časová verzia predpisu účinná od 18.08.2026 § 15 Podmienky poskytnutia súhlasu v súvislosti so službami informačnej spoločnosti (1) Prevádzkovateľ v súvislosti s ponukou služieb informačnej spoločnosti9) spracúva osobné údaje na základe súhlasu dot"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "verified",
+  "article": "§ 15 ods. 1 zákona č. 18/2018 Z. z.",
+  "lawId": "z18-2018",
+  "evidence": {
+   "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2018/18/",
+   "retrievedAt": "2026-11-01",
+   "sha256": "e7e7afd08297b701875c17828ae42974a38748f7f1f79bca5bfa9d24b916d29a",
+   "language": "sk",
+   "excerpt": "va osobné údaje na základe súhlasu dotknutej osoby zákonne, ak dotknutá osoba dovŕšila 16 rokov veku Ak má dotknutá osoba menej ako 16 rokov, takéto spracúvanie osobných údajov je zákonné iba za podmienky a v rozsahu, v akom takýto súhlas poskytol alebo schválil jej zákonný zástupca"
+  }
+ },
+ "notes": [
+  "Lido no Slov-Lex renderizado no navegador (versao efetiva desde 18.08.2026); extrato guardado."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "z576-2004",
+   "title": "Zákon č. 576/2004 Z. z. o zdravotnej starostlivosti, službách súvisiacich s poskytovaním zdravotnej starostlivosti",
+   "language": "sk",
+   "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 6 ods. 1",
+     "topic": "Poučenie a informovaný súhlas",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c388b26f3daecea9903fd50fa83ac535c12cc3bf56a9158f982292dcf30bbe6f",
+      "language": "sk",
+      "excerpt": "§ 6 Poučenie a informovaný súhlas (1) Ošetrujúci zdravotnícky pracovník je povinný informovať o účele, povahe, následkoch a rizikách poskytnutia zdravotnej starostlivosti, o možnostiach voľby navrhovaných postupov a rizikách odmietnutia poskytnutia zdravotnej starostlivosti (ďalej len „poskytnúť poučenie“), ak tento zákon neustanovuje inak ( § 18 Spracúvanie, poskytovanie a sprístupňovanie"
+     }
+    },
+    {
+     "article": "§ 18 ods. 1",
+     "topic": "Spracúvanie, poskytovanie a sprístupňovanie údajov zo zdravotnej dokumentácie",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/576/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c388b26f3daecea9903fd50fa83ac535c12cc3bf56a9158f982292dcf30bbe6f",
+      "language": "sk",
+      "excerpt": "§ 18 Spracúvanie, poskytovanie a sprístupňovanie údajov zo zdravotnej dokumentácie (1) Poskytovateľ je povinný údaje zo zdravotnej dokumentácie spracúvať, poskytovať a sprístupňovať v súlade s týmto zákonom a osobitnými predpismi.20) Poskytovateľ podľa prvej vety môže spracúvať, poskytovať a sprístupňovať údaje zo zdravotnej dokumentácie aj prostredníctvom osoby ním n"
+     }
+    }
+   ],
+   "number": "576/2004 Z. z.",
+   "note": "Slov-Lex, časová verzia účinná od 01.08.2026 (lida no Chrome do utilizador). Lidos só o início de § 6 (a definição de consentimento está nos números seguintes) e de § 18; a mlčanlivosť está na Lei 578/2004, não lida."
+  }
+ ]
+}

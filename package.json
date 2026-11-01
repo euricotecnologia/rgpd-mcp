@@ -1,0 +1,33 @@
+{
+  "name": "rgpd-mcp",
+  "version": "0.1.0",
+  "description": "MCP server with GDPR/RGPD legal texts and national data-protection laws of European countries, consent-form builder and language-agnostic consent modal.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "rgpd-mcp": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/",
+    "start": "node dist/cli.js serve",
+    "http": "node dist/cli.js http"
+  },
+  "files": [
+    "dist",
+    "data",
+    "web",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

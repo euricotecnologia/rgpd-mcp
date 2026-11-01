@@ -1,0 +1,124 @@
+{
+ "code": "SE",
+ "name": {
+  "en": "Sweden",
+  "pt": "Suécia",
+  "es": "Suecia",
+  "fr": "Suède",
+  "de": "Schweden",
+  "it": "Svezia",
+  "nl": "Zweden",
+  "sv": "Sverige"
+ },
+ "region": "EU",
+ "languages": [
+  "sv"
+ ],
+ "authority": {
+  "name": "Integritetsskyddsmyndigheten",
+  "url": "https://www.imy.se/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " https://www.aepd.es/ internacional@aepd.es 900 293 183 Prof. Lorenzo Cotino Hueso Sweden Integritetsskyddsmyndigheten Fleminggatan 14, plan 7 - Box 8114 104 20 Stockholm Sweden https://www.imy.se/ imy@imy.se"
+  }
+ },
+ "laws": [
+  {
+   "id": "lag2018-218",
+   "role": "implementation",
+   "title": "Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning",
+   "language": "sv",
+   "url": "https://data.riksdagen.se/dokument/sfs-2018-218.text",
+   "number": "SFS 2018:218",
+   "date": "2018-04-19",
+   "status": "verified",
+   "evidence": {
+    "url": "https://data.riksdagen.se/dokument/sfs-2018-218.text",
+    "retrievedAt": "2026-11-01",
+    "sha256": "f9291313fb314c4bbe5360c477bc3c8622fabba5c6a3a35aa55ad74f49b293a1",
+    "language": "sv",
+    "excerpt": "Lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning SFS nr: 2018:218 Departement/myndighet: Justitiedepartementet L6 Utfärdad: 2018-04-19 Omtryck: Ändrad: t.o.m. SFS 2026:1589 Övrig text: Källa: Regeringskansliet / Lagrummet 1 kap. Inledande bestämmelser 1 § Denna lag kompletterar Europaparlamentets och rådets"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "2 kap. 4 § lag (2018:218)",
+  "lawId": "lag2018-218",
+  "evidence": {
+   "url": "https://data.riksdagen.se/dokument/sfs-2018-218.text",
+   "retrievedAt": "2026-11-01",
+   "sha256": "f9291313fb314c4bbe5360c477bc3c8622fabba5c6a3a35aa55ad74f49b293a1",
+   "language": "sv",
+   "excerpt": "personuppgifter vara tillåten med stöd av barnets samtycke, om barnet är minst 13 år. Om barnet är under 13 år, ska sådan behandling vara tillåten endast om samtycke ges eller godkänns av den som har föräldraansvar för barnet. Möjlighet för enskilda att lämna uppgifter till brottsbekämpande myndigheter 5 § Enskilda får behandla personuppgifte"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "patientlag-2014-821",
+   "title": "Patientlag (2014:821)",
+   "language": "sv",
+   "url": "https://data.riksdagen.se/dokument/sfs-2014-821.text",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "4 kap. 2 §",
+     "topic": "Samtycke till hälso- och sjukvård",
+     "status": "verified",
+     "evidence": {
+      "url": "https://data.riksdagen.se/dokument/sfs-2014-821.text",
+      "retrievedAt": "2026-11-01",
+      "sha256": "358140568be7efa6ac4c6a6ecf6bea0f7770a8cd612c2b7aefaeebe7410b9e13",
+      "language": "sv",
+      "excerpt": "4 kap. Samtycke 1 § Patientens självbestämmande och integritet ska respekteras. 2 § Hälso- och sjukvård får inte ges utan patientens samtycke om inte annat följer av denna eller någon annan lag. Innan samtycke inhämtas ska patienten få information enligt 3 kap. Patienten kan, om inte annat särskilt följer av lag, lämna sitt samtycke skriftligen, muntligen eller genom att på annat sätt visa att han"
+     }
+    }
+   ],
+   "number": "SFS 2014:821",
+   "note": "Versão do Riksdagen com alterações até SFS 2026:213."
+  },
+  {
+   "id": "patientdatalag-2008-355",
+   "title": "Patientdatalag (2008:355)",
+   "language": "sv",
+   "url": "https://data.riksdagen.se/dokument/sfs-2008-355.text",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "3 kap. 1 §",
+     "topic": "Skyldigheten att föra patientjournal",
+     "status": "verified",
+     "evidence": {
+      "url": "https://data.riksdagen.se/dokument/sfs-2008-355.text",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1a441bc55ecb0190aa777504856aaf41997f3e11485fbe7557317b99ae162051",
+      "language": "sv",
+      "excerpt": "3 kap. Skyldigheten att föra patientjournal Inledande bestämmelse 1 § Vid vård av patienter ska det föras patientjournal. En patientjournal ska föras för varje patient och får inte vara gemensam för flera patienter. I lagen (2022:913) om sammanhållen vård- och omsorgsdokumentation finns bestämmelser om tillgång, genom direktåtkomst eller annat elektroniskt utlämnande, till andr"
+     }
+    },
+    {
+     "article": "Inre sekretess 1 §",
+     "topic": "Åtkomst till patientuppgifter endast vid deltagande i vården eller behov i arbetet",
+     "status": "verified",
+     "evidence": {
+      "url": "https://data.riksdagen.se/dokument/sfs-2008-355.text",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1a441bc55ecb0190aa777504856aaf41997f3e11485fbe7557317b99ae162051",
+      "language": "sv",
+      "excerpt": "Inre sekretess 1 § Den som arbetar hos en vårdgivare får ta del av dokumenterade uppgifter om en patient endast om han eller hon deltar i vården av patienten eller av annat skäl behöver uppgifterna för sitt arbete inom hälso- och sjukvården. Tilldelning av behörighet för elektronisk åtkomst 2 § En vårdgivare ska bestämma villkor för tilldelning av behörighet för åtkomst till sådana uppgifter om patien"
+     }
+    }
+   ],
+   "number": "SFS 2008:355",
+   "note": "Versão do Riksdagen com alterações até SFS 2024:241."
+  }
+ ]
+}

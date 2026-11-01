@@ -1,0 +1,113 @@
+{
+ "code": "FI",
+ "name": {
+  "en": "Finland",
+  "pt": "Finlândia",
+  "es": "Finlandia",
+  "fr": "Finlande",
+  "de": "Finnland",
+  "it": "Finlandia",
+  "nl": "Finland",
+  "fi": "Suomi",
+  "sv": "Finland"
+ },
+ "region": "EU",
+ "languages": [
+  "fi",
+  "sv"
+ ],
+ "authority": {
+  "name": "Office of the Data Protection Ombudsman",
+  "url": "http://www.tietosuoja.fi/en/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "10134 Tallinn Estonia http://www.aki.ee/ info@aki.ee +372 6828 712 Ms Pille Lehis Finland Office of the Data Protection Ombudsman P.O. Box 800 00531 Helsinki Finland http://www.tietosuoja.fi/en/ tietosuoja@om.fi +358 29"
+  }
+ },
+ "laws": [
+  {
+   "id": "tsl1050-2018",
+   "role": "implementation",
+   "title": "Tietosuojalaki (1050/2018)",
+   "language": "fi",
+   "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2018/1050",
+   "number": "1050/2018",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2018/1050",
+    "retrievedAt": "2026-11-01",
+    "sha256": "f3da4f69f24292b0bf0d36bf9e740220cd669fc3a79c5943be62df93a7245d37",
+    "language": "fi",
+    "excerpt": "2018 1050/2018 Tietosuojalaki Eduskunnan päätöksen mukaisesti säädetään: 1 luku Yleiset säännökset 1 § Lain tarkoitus Tällä lailla täsmennetään ja täydennetään luonnollisten henkilöiden suojelusta henkilötietojen käsittelyssä sekä näiden tietojen vapaasta liikkuvuudesta ja direktiivin 95/"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "5 § tietosuojalaki",
+  "lawId": "tsl1050-2018",
+  "evidence": {
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/2018/1050/fin@",
+   "retrievedAt": "2026-11-01",
+   "sha256": "f3da4f69f24292b0bf0d36bf9e740220cd669fc3a79c5943be62df93a7245d37",
+   "language": "fi",
+   "excerpt": "tietoyhteiskunnan palvelujen tarjoaminen suoraan lapselle, lapsen henkilötietojen käsittely on lainmukaista, jos lapsi on vähintään 13-vuotias. 6 § Erityisiä henkilötietoryhmiä koskeva käsittely Tietosuoja-asetuksen 9 artiklan 1 kohtaa ei sovelleta: 1) vakuutuslaitoksen käsitellessä vakuutustoiminnassa saatuja tietoja vakuutetun ja korvauksenhakijan terveydentilasta, sairaudesta tai vammaisuudesta t"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "laki785-1992",
+   "title": "Laki potilaan asemasta ja oikeuksista (785/1992)",
+   "language": "fi",
+   "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/1992/785",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "5 §",
+     "topic": "Potilaan tiedonsaantioikeus",
+     "status": "verified",
+     "evidence": {
+      "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/1992/785/fin@",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a447ebb2da82d4bb6592a386fea9528090abffd0ee64034b787e8077f3cbced6",
+      "language": "fi",
+      "excerpt": "5 § Potilaan tiedonsaantioikeus Potilaalle on annettava selvitys hänen terveydentilastaan, hoidon merkityksestä, eri hoitovaihtoehdoista ja niiden vaikutuksista sekä muista hänen hoitoonsa liittyvistä seikoista, joilla on merkitystä päätettäessä hänen hoitamisestaan. Selvitystä ei kuitenkaan tule antaa vastoin potilaan tahtoa tai silloin, kun on i"
+     }
+    },
+    {
+     "article": "6 §",
+     "topic": "Potilaan itsemääräämisoikeus",
+     "status": "verified",
+     "evidence": {
+      "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/1992/785/fin@",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a447ebb2da82d4bb6592a386fea9528090abffd0ee64034b787e8077f3cbced6",
+      "language": "fi",
+      "excerpt": "6 § Potilaan itsemääräämisoikeus Potilasta on hoidettava yhteisymmärryksessä hänen kanssaan. Jos potilas kieltäytyy tietystä hoidosta tai hoitotoimenpiteestä, häntä on mahdollisuuksien mukaan hoidettava yhteisymmärryksessä hänen kanssaan muulla lääketieteellisesti hyväksyttävällä tavalla. Jos täysi-ikäinen potilas ei mielenterveydenhäiriön, kehitysv"
+     }
+    },
+    {
+     "article": "13 §",
+     "topic": "Potilasasiakirjoihin sisältyvien tietojen salassapito",
+     "status": "verified",
+     "evidence": {
+      "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/1992/785/fin@",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a447ebb2da82d4bb6592a386fea9528090abffd0ee64034b787e8077f3cbced6",
+      "language": "fi",
+      "excerpt": "13 § Potilasasiakirjoihin sisältyvien tietojen salassapito Potilasasiakirjoihin sisältyvät tiedot ovat salassapidettäviä. Terveydenhuollon ammattihenkilö tai muu terveydenhuollon toimintayksikössä työskentelevä taikka sen tehtäviä suorittava henkilö ei saa ilman potilaan kirjallista suostumusta antaa sivulliselle potilasasiakirjoihin sisältyviä tietoja. Sivullisella tarkoitetaa"
+     }
+    }
+   ],
+   "number": "785/1992"
+  }
+ ]
+}

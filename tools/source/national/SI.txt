@@ -1,0 +1,4 @@
+EXTRATO RENDERIZADO NO NAVEGADOR (rgpd-mcp) - fonte: https://www.ip-rs.si/zakonodaja/zakon-o-varstvu-osebnih-podatkov/ (pagina da autoridade com o texto do ZVOP-2) - lido em 2026-11-01
+Zakon o varstvu osebnih podatkov (Uradni list RS, št. 163/22; ZVOP-2)
+8. člen (privolitev otroka za uporabo storitev informacijske družbe)
+(1) Privolitev otroka za uporabo storitev informacijske družbe, ki se ponujajo neposredno otrokom oziroma za katere se lahko verjetno domneva, da jih bodo uporabljali otroci, je veljavna, če je otrok star 15 let ali več. Če je otrok mlajši od 15 let, je privolitev veljavna le, če jo da ali odobri eden od staršev otroka, njegov skrbnik ali oseba, ki ji je podeljena starševska skrb.

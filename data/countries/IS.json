@@ -1,0 +1,103 @@
+{
+ "code": "IS",
+ "name": {
+  "en": "Iceland",
+  "pt": "Islândia",
+  "es": "Islandia",
+  "fr": "Islande",
+  "de": "Island",
+  "it": "Islanda",
+  "nl": "IJsland",
+  "is": "Ísland"
+ },
+ "region": "EEA",
+ "languages": [
+  "is"
+ ],
+ "authority": {
+  "name": "Persónuvernd (Icelandic Data Protection Authority)",
+  "url": "https://www.personuvernd.is",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "5 Hungary http://www.naih.hu/ privacy@naih.hu +36 1 3911 400 Dr Attila Péterfalvi Iceland Persónuvernd (Icelandic Data Protection Authority) Laugavegur 166 105 Reykjavík Iceland https://www.pe"
+  }
+ },
+ "laws": [
+  {
+   "id": "log90-2018",
+   "role": "implementation",
+   "title": "Lög um persónuvernd og vinnslu persónuupplýsinga (lög nr. 90/2018)",
+   "language": "is",
+   "url": "https://www.althingi.is/lagas/nuna/2018090.html",
+   "number": "Lög nr. 90/2018",
+   "date": "2018-06-27",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.althingi.is/lagas/nuna/2018090.html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "ba68e1460d78b151c203e65ab8386492e2aeea772626469a22455d3b8ff3fe52",
+    "language": "is",
+    "excerpt": "-11-01 - edicao \"Islensk log 1. oktober 2026\" (consolidada) Lög um persónuvernd og vinnslu persónuupplýsinga. Lög nr. 90 27. júní 2018. 10. gr. Skilyrði fyrir samþykki. Þegar barni er boðin þjónusta í upplýsingasamfélaginu með beinum hætti og vinnsla persónuupplýsinga byggist á samþykki þess telst vinnslan því aðeins lögmæt ef barnið hefur náð 13 ára aldri. Sé barnið undir 13 ára aldri telst"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "10. gr. laga nr. 90/2018",
+  "lawId": "log90-2018",
+  "evidence": {
+   "url": "https://www.althingi.is/lagas/nuna/2018090.html",
+   "retrievedAt": "2026-11-01",
+   "sha256": "ba68e1460d78b151c203e65ab8386492e2aeea772626469a22455d3b8ff3fe52",
+   "language": "is",
+   "excerpt": "hætti og vinnsla persónuupplýsinga byggist á samþykki þess telst vinnslan því aðeins lögmæt ef barnið hefur náð 13 ára aldri. Sé barnið undir 13 ára aldri telst vinnslan aðeins lögmæt að því marki sem forsjáraðili þess heimilar samþykki."
+  }
+ },
+ "notes": [
+  "Lido no Althingi (edicao consolidada de 1. oktober 2026) renderizado no navegador; extrato guardado. O texto do RGPD sai em ingles porque nao ha versao oficial em islandes no conjunto de dados."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "log74-1997",
+   "title": "Lög um réttindi sjúklinga (lög nr. 74/1997)",
+   "language": "is",
+   "url": "https://www.althingi.is/lagas/nuna/1997074.html",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "5. gr.",
+     "topic": "Réttur sjúklings til upplýsinga um heilsufar og meðferð",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.althingi.is/lagas/nuna/1997074.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1488c7e10b6cb252282f792b6419bd2b0ef734336b5d6551b9952df3354887da",
+      "language": "is",
+      "excerpt": "5. gr. Sjúklingur á rétt á upplýsingum um: a. heilsufar, þar á meðal læknisfræðilegar upplýsingar um ástand og batahorfur, b. fyrirhugaða meðferð ásamt upplýsingum um framgang hennar, áhættu og gagnsemi, c. önnur hugsanleg úrræði en fyrirhugaða meðferð og afleiðingar þess ef ekkert verður aðhafst, d 13. gr. Þagnar"
+     }
+    },
+    {
+     "article": "13. gr.",
+     "topic": "Þagnarskylda: samþykki sjúklings leysir starfsmann undan þagnarskyldu",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.althingi.is/lagas/nuna/1997074.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1488c7e10b6cb252282f792b6419bd2b0ef734336b5d6551b9952df3354887da",
+      "language": "is",
+      "excerpt": "13. gr. Þagnarskylda skv. 12. gr. nær ekki til atvika sem starfsmanni í heilbrigðisþjónustu ber að tilkynna um samkvæmt öðrum lagaákvæðum, t.d. ákvæðum barnaverndarlaga. Í þeim tilvikum ber starfsmanni skylda til að koma upplýsingum um atvikið á framfæri við þar til bær yfirvöld. Samþykki sjúklings eða forráðama"
+     }
+    }
+   ],
+   "number": "Lög nr. 74/1997",
+   "note": "Lidos só os arts. 5 e 13 (a numeração dos artigos na página do Althingi é irregular); a regra do consentimento para tratamento e a do prontuário (sjúkraskrá) não foram lidas. O texto do RGPD sai em inglês para a Islândia."
+  }
+ ]
+}

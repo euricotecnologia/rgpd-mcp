@@ -1,0 +1,107 @@
+{
+ "code": "HU",
+ "name": {
+  "en": "Hungary",
+  "pt": "Hungria",
+  "es": "Hungría",
+  "fr": "Hongrie",
+  "de": "Ungarn",
+  "it": "Ungheria",
+  "nl": "Hongarije",
+  "hu": "Magyarország"
+ },
+ "region": "EU",
+ "languages": [
+  "hu"
+ ],
+ "authority": {
+  "name": "Hungarian National Authority for Data Protection and Freedom of Information",
+  "url": "http://www.naih.hu/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "w.dpa.gr/ contact@dpa.gr +30 210 6475 600 +30 210 6475 628 Mr Georgios Batzalexis Hungary Hungarian National Authority for Data Protection and Freedom of Information Budapest Falk Miksa utca 9-11 1055 Hungary http://www.naih.hu/ privacy@naih.hu +36 1 3911"
+  }
+ },
+ "laws": [
+  {
+   "id": "infotv",
+   "role": "implementation",
+   "title": "2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról (Info tv.)",
+   "language": "hu",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=a1100112.tv",
+   "number": "2011. évi CXII.",
+   "status": "verified",
+   "evidence": {
+    "url": "https://net.jogtar.hu/jogszabaly?docid=a1100112.tv",
+    "retrievedAt": "2026-11-01",
+    "sha256": "05d9483220b3b6e52e74bac0c0798e5135f1cd304f25023384438b1f00f5135f",
+    "language": "hu",
+    "excerpt": "Info tv. - 2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról - Hatályos Jogszabályok Gyűjteménye Ugrás az oldal tartalmához Hatályos Jogszabályok Gyűjteménye fejléc Új Jogtár bejelentkezés Digital Compliance Veszélyhelyzet Hatályos jogszabályok Új jogszabályok Módosított jogszabályok Önkormányzati rendelettár Ezer év t"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "O Info tv. consolidado nao contem regra de idade (verificado por ausencia); aplica-se o art. 8(1) RGPD: 16 anos",
+  "lawId": "infotv"
+ },
+ "notes": [
+  "'inferred': so o Info tv. foi lido; outras leis hungaras nao foram verificadas."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "eutv-1997-154",
+   "title": "1997. évi CLIV. törvény az egészségügyről (Eütv.)",
+   "language": "hu",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "13. § (1)",
+     "topic": "A tájékoztatáshoz való jog",
+     "status": "verified",
+     "evidence": {
+      "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv",
+      "retrievedAt": "2026-11-01",
+      "sha256": "89d5ac1f1a43da82b3e274400da3705fb79e9af624db6cf46da885ae0a3cbd1c",
+      "language": "hu",
+      "excerpt": "13. § (1) A beteg jogosult a számára egyéniesített formában megadott teljes körű tájékoztatásra. (2) A betegnek joga van ahhoz, hogy a rá vonatkozó személyes adatok kezelésével összefüggő információkon felül részletes tájékoztatást kapjon a) egészségi állapotáról, beleértve ennek orvosi megítélését is, b) a javasolt vizsgálatokról, beavatkozásokról, c"
+     }
+    },
+    {
+     "article": "24. § (1)",
+     "topic": "Az egészségügyi dokumentáció megismerésének joga",
+     "status": "verified",
+     "evidence": {
+      "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv",
+      "retrievedAt": "2026-11-01",
+      "sha256": "89d5ac1f1a43da82b3e274400da3705fb79e9af624db6cf46da885ae0a3cbd1c",
+      "language": "hu",
+      "excerpt": "24. § (1) A beteg jogosult a róla készült egészségügyi dokumentációban foglaltakat – a 135. §-ban foglaltak figyelembevételével – megismerni. (2) A betegnek a rá vonatkozó személyes adataival kapcsolatos jogaira a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, va"
+     }
+    },
+    {
+     "article": "25. § (1)",
+     "topic": "Az orvosi titoktartáshoz való jog",
+     "status": "verified",
+     "evidence": {
+      "url": "https://net.jogtar.hu/jogszabaly?docid=99700154.tv",
+      "retrievedAt": "2026-11-01",
+      "sha256": "89d5ac1f1a43da82b3e274400da3705fb79e9af624db6cf46da885ae0a3cbd1c",
+      "language": "hu",
+      "excerpt": "25. § (1) A beteg jogosult arra, hogy az egészségügyi ellátásában részt vevő személyek az ellátása során tudomásukra jutott információkat, különösképpen a beteg egészségügyi és személyes adatait csak az arra jogosulttal közöljék, és azokat a vonatkozó jogszabályok szerint kezeljék (a továbbiakban: orvosi titok). (2) A betegnek joga van arról nyilatkozni, hogy betegségéről, annak várható kimenet"
+     }
+    }
+   ],
+   "number": "1997. évi CLIV.",
+   "note": "Hatályos Jogszabályok Gyűjteménye (jogtar.hu), texto consolidado; a lei de dados de saúde (Eüak., 1997. évi XLVII.) não foi lida."
+  }
+ ]
+}

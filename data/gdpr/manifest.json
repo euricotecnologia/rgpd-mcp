@@ -1,0 +1,170 @@
+{
+ "bg": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "bul",
+  "sha256": "f46af44834fe667592238573edd195e70843c9c3bf26ea7d31dec8653e7240a9",
+  "articles": 99,
+  "recitals": 173
+ },
+ "es": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "spa",
+  "sha256": "7e6f4309e448e2532be3fd9464f3de7929a0e25b5c4c53239b320669b9bce33b",
+  "articles": 99,
+  "recitals": 173
+ },
+ "cs": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "ces",
+  "sha256": "a1c44265819df1d14a265b29e283715cd10e07889d03ab371d6c3b3678fc6bca",
+  "articles": 99,
+  "recitals": 173
+ },
+ "da": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "dan",
+  "sha256": "cbf446006e33d94d93659c4f9f24b3dcfb1415ffb6cf6391de1c09945f95749f",
+  "articles": 99,
+  "recitals": 173
+ },
+ "de": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "deu",
+  "sha256": "219040a03cea829785c9f9752dcab9bfcee7b3c012092f5da8567640a816116d",
+  "articles": 99,
+  "recitals": 173
+ },
+ "et": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "est",
+  "sha256": "bddb41e1155171ceb8a84659502ca6b463a623440495077d4b4a79015ef49650",
+  "articles": 99,
+  "recitals": 173
+ },
+ "el": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "ell",
+  "sha256": "daf6524b188bba0e7c20c05d1f1afdf8ebe3cb9d511833c559014adb7a7fc78c",
+  "articles": 99,
+  "recitals": 173
+ },
+ "en": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "eng",
+  "sha256": "962539af03738bf552319ff4ce42d69e5f95a576307c4dfed7bf87e81b646b9d",
+  "articles": 99,
+  "recitals": 173
+ },
+ "fr": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "fra",
+  "sha256": "27a2248cf0cf7c79a3ec7eae30b6e871817230d9f577632fed915181642144c2",
+  "articles": 99,
+  "recitals": 173
+ },
+ "ga": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "gle",
+  "sha256": "7913fb84724c7b0d4d3cc55204232bcf45fec7118bfe7c12e323574e080a1c39",
+  "articles": 99,
+  "recitals": 173
+ },
+ "hr": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "hrv",
+  "sha256": "a6a852388d0060534bae521e8449ee7cabfe2738e93f240afd4c6c6217808805",
+  "articles": 99,
+  "recitals": 173
+ },
+ "it": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "ita",
+  "sha256": "52dbf00e8092bbff225158d1ce09ed3e4a6d2712f2bb9d5c6bfdf1d1b61b9f0a",
+  "articles": 99,
+  "recitals": 173
+ },
+ "lv": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "lav",
+  "sha256": "ee20f9f40103d67771ca3bbe480036576d813db93d940239547b436e2c93d6ab",
+  "articles": 99,
+  "recitals": 173
+ },
+ "lt": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "lit",
+  "sha256": "34dab912a30940daf11b8f74ff1e045344c485d50c0b1158e563848112a68492",
+  "articles": 99,
+  "recitals": 173
+ },
+ "hu": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "hun",
+  "sha256": "e0ab0287e7c9331481bff28c0406fa4b616a55f849864d3b36f70acf6818e28b",
+  "articles": 99,
+  "recitals": 173
+ },
+ "mt": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "mlt",
+  "sha256": "905b18fdf30f8f26618b6cd75261f515f344d1d5cfcce74ef7e55c8483000538",
+  "articles": 99,
+  "recitals": 173
+ },
+ "nl": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "nld",
+  "sha256": "47da4f0697695d87067c6a2ed58659768adce12b0657da9efc51c3a8a305f37d",
+  "articles": 99,
+  "recitals": 173
+ },
+ "pl": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "pol",
+  "sha256": "4b44ea95933447cc42eb0c0bae62d27bda5855732ee929692b2e241775c78b2d",
+  "articles": 99,
+  "recitals": 173
+ },
+ "pt": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "por",
+  "sha256": "0ebcc5c12d3d3cc61c680cd75415c813fbbb1326e392d277a91f84ce37989470",
+  "articles": 99,
+  "recitals": 173
+ },
+ "ro": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "ron",
+  "sha256": "bb84c6c725284518799070f4efb7278ea976d101d110baee51548cfd0d4b534c",
+  "articles": 99,
+  "recitals": 173
+ },
+ "sk": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "slk",
+  "sha256": "8bfbd4a3e83c85c63c04c1f7ce87b4b85fd5f1bb2265d181494f3c1c1609f398",
+  "articles": 99,
+  "recitals": 173
+ },
+ "sl": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "slv",
+  "sha256": "f658fc9155bedf31fdee18c6478bc16e6403c635c1a422068b5030668629e866",
+  "articles": 99,
+  "recitals": 173
+ },
+ "fi": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "fin",
+  "sha256": "00f162b79add20099d7552bcf73d6d3ee656112ca2c6f66f76db6cb58dbfd576",
+  "articles": 99,
+  "recitals": 173
+ },
+ "sv": {
+  "source": "https://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+  "acceptLanguage": "swe",
+  "sha256": "b02b4aaea8d94fb47f8a602ab3cd0bbd2316727ea7e5642be6e081f2df1e6138",
+  "articles": 99,
+  "recitals": 173
+ }
+}

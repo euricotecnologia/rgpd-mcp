@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+	<title>DSG | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/webjars/font-awesome/4.6.3/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+<!-- Matomo Tag Manager -->
+<script>
+	var _mtm = window._mtm = window._mtm || [];
+	_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	g.async=true; g.src='https://llv.opsone-analytics.ch/js/container_pToD5MNE.js'; s.parentNode.insertBefore(g,s);
+</script>
+<!-- End Matomo Tag Manager -->
+
+</head>
+<body id="page">
+    <div class="header-and-nav">
+      	<header>
+        	<div class="header-logo">
+       	    	<a href="http://www.llv.li" target="_blank">
+               		<img class="logo" alt="Logo der Liechtensteinischen Landesverwaltung" src="/images/logo.png" />
+         	   	</a>
+         	</div>
+          	<div class="header-text">
+           		<h1>
+               		<a href="/">Lilex</a>
+           		</h1>
+          		<a href="http://www.llv.li/#/1662/publikation-von-rechtsvorschriften" target="_blank">Rechtsdienst der Regierung (RDR)</a>
+        	</div>
+    	</header>
+	   	<nav class="primary blau">
+        <ul class="konso">
+            <li class="konso active">
+                <a href="/konso">Konsolidiertes Recht</a>
+            </li>
+            <li class="chrono">
+                <a href="/chrono">Landesgesetzblatt</a>
+            </li>
+<!-- 
+            <li class="gebsys" th:classappend="${navigation} eq 'gebsys' ? 'active'">
+                Gebietssystematik
+            </li>
+-->
+        </ul>
+    </nav>
+    </div>
+    <a class="menu-toggle konso" href="#">&#8801;</a>    	
+    <div class="sidebar-and-content">  
+        <div class="sidebar"> <nav class="secondary">
+        <ul>
+            <li class="active">
+                <a class="nav-item" href="/konso/suche">Suche</a>
+                <form class="search-form konso" method="get" action="/konso/suche">
+        <fieldset>
+            <legend>Abfrage dem Typ der Textsuche im konsolidierten Recht: Volltext, Titel, Abkürzung</legend>
+            <label for="search_text">Textsuche</label>
+            <input id="search_text" type="text" name="search_text" placeholder="z.B. Verfassung Fürst oder &quot;25 Abgeordneten&quot;" value="" />
+            <input id="search_loc_text" type="radio" name="search_loc" value="text" checked="checked" />
+            <label for="search_loc_text">Volltext</label>
+            <input id="search_loc_titel" type="radio" name="search_loc" value="titel" />
+            <label for="search_loc_titel">Titel</label>
+            <input id="search_loc_abk_list" type="radio" name="search_loc" value="abk_list" />
+            <label for="search_loc_abk_list">Abkürzung</label>
+        </fieldset>
+        <fieldset>
+            <legend>Abfrage der LR-Nr im konsolidierten Recht</legend>
+            <label for="lrnr">LR-Nr</label>
+            <input id="lrnr" type="text" name="lrnr" placeholder="z.B. 101" value="" />
+        </fieldset>
+        <fieldset>
+            <legend>Abfrage der LGBl-Nr im konsolidierten Recht</legend>
+            <label for="lgblid_von">LGBl-Nr</label>
+            <input id="lgblid_von" type="text" name="lgblid_von" placeholder="z.B. 2017.001" value="" />
+        </fieldset>
+        <fieldset>
+            <legend>Abfrage der Fassung im konsolidierten Recht</legend>
+            <label for="observe_date">Fassung vom</label>
+            <input id="observe_date" type="text" name="observe_date" placeholder="z.B. 01.01.2017" value="01.11.2026" />
+        </fieldset>
+        <fieldset class="buttons">
+            <legend>Abschicken oder zurücksetzen der Suche im konsolidierten Recht</legend>
+            <a class="btn default" href="/konso/suche">Zurücksetzen</a>
+            <button class="btn konso" type="submit">Suchen</button>
+        </fieldset>
+    <input type="hidden" name="as_sfid" value="AAAAAAXEFpx-TNbMX-xGi7-lj9HvEq_d_RMQaCOIpjGgsZaj2Pf1QCuSwE4hepg19Yv1xSXBeLkBKFu-Rfi_9FfeSqnYLBuutNNh4NV0GYwrFb2wR23kBFidp-_yH0oocThqP3XJCfp-ADWgAiKIkC-jUnXJKh1IUAwo27aIEcuk_nUNuA==" /><input type="hidden" name="as_fid" value="b80afff139b2da2ac931631bb3988871de00443d" /></form>
+            </li>
+            <li class="hidden-for-mobile-portrait">
+                <a class="nav-item hidden-for-mobile-portrait" href="/konso/gebietssystematik">Gebietssystematik</a>
+                
+            </li>
+            <li>
+                <a class="nav-item" href="/konso/neueste-konso">Neueste Fassungen</a>
+            </li>
+            <li>
+                <a class="nav-item" href="/konso/letzte-aufhebungen">Letzte Aufhebungen</a>
+            </li>
+            <li>
+                <a class="nav-item" href="/konso/systematisches-register">Systematisches Register</a>
+            </li>
+            <li>
+                <a class="nav-item" href="/konso/textausgaben">Ausgewählte Erlasse</a>
+            </li>
+        </ul>
+    </nav></div>
+        <div class="content">
+        <h2 class="law-title grau">Datenschutzgesetz (DSG) vom 4. Oktober 2018</h2>
+        <table class="table lgbl grau">
+            <caption hidden="hidden">LGBl Daten</caption>
+            <thead>
+                <tr>
+                    <th class="column one hidden-for-mobile-portrait">LGBl-Nr</th>
+                    <th class="column one hidden-for-mobile-portrait hidden-for-tablet-portrait">LR-Nr</th>
+                    <th class="column two">Fassung <a class="btn pdf image" target="_blank" href="/konso/pdf/2018272000?version=4">
+                           <img class="pdf-logo" alt="PDF Logo" src="/images/pdf.png" />
+                        </a></th>
+<!-- 
+                    <th class="column one"></th>
+-->
+                    <td class="column one verlinkung">
+        				<a target="_blank" href="https://www.gerichtsentscheidungen.li/dynamic_bridge.aspx?lrnr=235.1">Judikatur
+						</a>        
+                    </td>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="hidden-for-mobile-portrait">
+                        <a href="/chrono/2018272000" target="_blank">2018.272</a>
+                    </td>
+                    <td class="hidden-for-mobile-portrait hidden-for-tablet-portrait">
+                        <a href="/konso/gebietssystematik?lrstart=235.1" target="_blank">235.1</a>
+                    </td>
+                    <td>
+                        <form class="form" method="get">
+        				  <fieldset id="versionSelect" class="versionselect">
+                            <legend hidden="hidden">Select LGBl Version</legend>
+        					<input type="hidden" name="search_text" value="" />
+                            <input type="hidden" name="search_loc" value="" />
+                            <input type="hidden" name="lrnr" value="" />
+                            <input type="hidden" name="lgblid_von" value="" />
+                            <input type="hidden" name="lgblid_bis" value="" />
+                            <input type="hidden" name="observe_date" value="" />
+                            <input type="hidden" name="sort_col" value="" />
+                            <input type="hidden" name="sort_dir" value="" />
+                            <input type="submit" hidden="hidden" value="Submit" />
+                            <select name="version" onchange="submit()" title="Select Version">
+                                <option selected="selected" value="4">01.04.2026</option>
+                                <option value="3">01.02.2025 - 31.03.2026</option>
+                                <option value="2">01.01.2021 - 31.01.2025</option>
+                                <option value="1">01.01.2019 - 31.12.2020</option>
+                            </select>
+                          </fieldset>
+                        <input type="hidden" name="as_sfid" value="AAAAAAVQYLQryQO78n2Vd8yvaG5ZhwrHsAPgS2CL7neG4M-f6e7kWCUDPfangjUZFJcnFssHlAJsJqM59MbvgIBAgGnTqeHBeDZjKrkjK1YQd6u6J_GGTEXLm5ZqYRNCYyz50Iav5VBU8AuEDYJB5DBawbFYOMqhBzzBuyanVVfrEstSCw==" /><input type="hidden" name="as_fid" value="5bb6e404b5982c119c66e55a3ce1bf9b5f5efc37" /></form>
+                    </td>
+<!--
+                    <td><a class="btn pdf image" th:target="_blank"
+                           th:href="@{/konso/pdf/{lgblId}(lgblId = ${to.lgblId}, version = ${to.version})}">
+                           <img class="pdf-logo" alt="PDF Logo" th:src="@{/images/pdf.png}" />
+                        </a>
+                    </td>
+-->
+                    <td class="verlinkung">
+                     	<a target="_blank" href="/konso/2018272000/meta?version=4&amp;search_text=&amp;search_loc=&amp;lrnr=&amp;lgblid_von=&amp;observe_date=">LGBl/Materialien</a>
+                     	
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+     
+		<div class="law-text">           
+        	
+			<div class="ios-scroll-wrapper lines0">   
+				<iframe class="iframe" onload="setPositionInIframe()" title="'LGBl:' + ${to.lgblId}" src="/konso/html/2018272000?version=4&amp;search_text=&amp;search_loc=">
+				</iframe>       	
+			</div>
+		</div>
+	</div>
+    </div>
+    
+    <footer class="footer">
+        <div class="display desktop-display">D </div>
+        <div class="display tablet-display">T </div>
+        <div class="display mobile-display">M </div>
+        <div class="display desktop-landscape-display">DL</div>              
+        <div class="display tablet-landscape-display">TL</div>              
+        <div class="display mobile-landscape-display">ML</div>              
+        <a href="/impressum">Impressum</a> und <a href="/datenschutz">Datenschutzerklärung</a>
+    </footer>
+    
+    <script type="text/javascript" src="/webjars/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.floatThead.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <!-- 
+    <script type="text/javascript" th:src="@{/js/iframeResizer.min.js}"></script>
+    <script type="text/javascript" th:src="@{/js/jquery.sticky.js}"></script>
+    <script type="text/javascript" th:src="@{/js/sorttable.js}"></script>
+    -->
+</body>
+</html>
+

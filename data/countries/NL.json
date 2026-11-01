@@ -1,0 +1,141 @@
+{
+ "code": "NL",
+ "name": {
+  "en": "Netherlands",
+  "pt": "Países Baixos",
+  "es": "Países Bajos",
+  "fr": "Pays-Bas",
+  "de": "Niederlande",
+  "it": "Paesi Bassi",
+  "nl": "Nederland"
+ },
+ "region": "EU",
+ "languages": [
+  "nl"
+ ],
+ "authority": {
+  "name": "Autoriteit Persoonsgegevens",
+  "url": "https://autoriteitpersoonsgegevens.nl/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "idpc.org.mt/ idpc.info@idpc.org.mt +356 2328 7100 +356 2328 7198 Mr Reno Borg Netherlands Autoriteit Persoonsgegevens Hoge Nieuwstraat 8P.O. Box 93374 2509 AJ Den Haag/The Hague Netherlands https://autoritei"
+  }
+ },
+ "laws": [
+  {
+   "id": "uavg",
+   "role": "implementation",
+   "title": "Uitvoeringswet Algemene verordening gegevensbescherming (Wet van 16 mei 2018)",
+   "language": "nl",
+   "url": "https://wetten.overheid.nl/BWBR0040940/",
+   "number": "BWBR0040940",
+   "date": "2018-05-16",
+   "status": "verified",
+   "evidence": {
+    "url": "https://wetten.overheid.nl/BWBR0040940/",
+    "retrievedAt": "2026-11-01",
+    "sha256": "23a10dd5fcc29ca48713cf16cfc0df5f503861df5fe5064fffa0228056f34a62",
+    "language": "nl",
+    "excerpt": "egeling af Sla de regeling op Origineel opschrift en aanhef Wet van 16 mei 2018, houdende regels ter uitvoering van Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en betreffende het vrije verkeer van di"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "geen afwijking in UAVG; art. 5 UAVG gaat uit van 16 jaar (art. 8 AVG)",
+  "lawId": "uavg",
+  "evidence": {
+   "url": "https://wetten.overheid.nl/BWBR0040940/",
+   "retrievedAt": "2026-11-01",
+   "sha256": "23a10dd5fcc29ca48713cf16cfc0df5f503861df5fe5064fffa0228056f34a62",
+   "language": "nl",
+   "excerpt": "bedoeld in artikel 4, onderdeel elf, van de verordening en de betrokkene heeft de leeftijd van zestien jaren nog niet bereikt, is in plaats van toestemming van de betrokkene, de toestemming van zijn wettelijk vertegenwoordiger vereist. 2 Indien de betrokkene onder curatele is gesteld, dan wel ten behoeve van de betrokkene een bewind of mentorschap is ingesteld, geldt voor iedere toe"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "Artikel 30",
+    "lawId": "uavg",
+    "topic": "Uitzonderingen op het verbod gegevens over gezondheid te verwerken",
+    "status": "verified",
+    "evidence": {
+     "url": "https://wetten.overheid.nl/BWBR0040940/",
+     "retrievedAt": "2026-11-01",
+     "sha256": "23a10dd5fcc29ca48713cf16cfc0df5f503861df5fe5064fffa0228056f34a62",
+     "language": "nl",
+     "excerpt": "zake biometrische gegevens Artikel 30 Uitzonderingen inzake gegevens over gezondheid Artikel 30a Uitzonderingen inzake gegevens over de gezondheid – overdracht van dossiers door hulpverleners Artikel 30b Uitzonderingen inzake gegevens over de gezondheid – overdracht van dossiers door anderen dan hulpverleners Paragraaf 3.2 Persoonsgegevens va"
+    }
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "bw7-wgbo",
+   "title": "Burgerlijk Wetboek Boek 7, titel 7, afdeling 5 — Overeenkomst inzake geneeskundige behandeling (art. 7:446 e.v.)",
+   "language": "nl",
+   "url": "https://wetten.overheid.nl/BWBR0005290/",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Artikel 7:448 lid 1 BW",
+     "topic": "Informatieplicht van de hulpverlener",
+     "status": "verified",
+     "evidence": {
+      "url": "https://wetten.overheid.nl/BWBR0005290/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2988439249cbf74ecacd7c643125734a79792f11d07414931411f38568cc3118",
+      "language": "nl",
+      "excerpt": "Artikel 448 1 De hulpverlener licht de patiënt op duidelijke wijze in, die past bij zijn bevattingsvermogen, en overlegt tijdig met de patiënt over het voorgenomen onderzoek en de voorgestelde behandeling en over de ontwikkelingen omtrent het onderzoek, de behandeling en de gezondheidstoestand van de patiënt. De hulpverlener li"
+     }
+    },
+    {
+     "article": "Artikel 7:450 lid 1 BW",
+     "topic": "Toestemming van de patiënt",
+     "status": "verified",
+     "evidence": {
+      "url": "https://wetten.overheid.nl/BWBR0005290/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2988439249cbf74ecacd7c643125734a79792f11d07414931411f38568cc3118",
+      "language": "nl",
+      "excerpt": "Artikel 450 1 Voor verrichtingen ter uitvoering van een behandelingsovereenkomst is de toestemming van de patiënt vereist. 2 Indien de patiënt minderjarig is en de leeftijd van twaalf maar nog niet die van zestien jaren heeft bereikt, is tevens de toestemming van de ouders die het gezag over hem uitoefenen of van zijn voogd vereist. De verrichting kan evenwel zonder de toestemmi"
+     }
+    },
+    {
+     "article": "Artikel 7:454 lid 1 BW",
+     "topic": "Patiëntendossier",
+     "status": "verified",
+     "evidence": {
+      "url": "https://wetten.overheid.nl/BWBR0005290/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2988439249cbf74ecacd7c643125734a79792f11d07414931411f38568cc3118",
+      "language": "nl",
+      "excerpt": "Artikel 454 1 De hulpverlener richt een dossier in met betrekking tot de behandeling van de patiënt. Hij houdt in het dossier aantekening van de gegevens omtrent de gezondheid van de patiënt en de te diens aanzien uitgevoerde verrichtingen en neemt andere gegevens daarin op, een en ander voor zover dit voor een goede hulpverlening aan de patiënt noodzakelij"
+     }
+    },
+    {
+     "article": "Artikel 7:457 lid 1 BW",
+     "topic": "Vertrouwelijkheid: geen inlichtingen aan anderen zonder toestemming van de patiënt",
+     "status": "verified",
+     "evidence": {
+      "url": "https://wetten.overheid.nl/BWBR0005290/",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2988439249cbf74ecacd7c643125734a79792f11d07414931411f38568cc3118",
+      "language": "nl",
+      "excerpt": "Artikel 457 1 Onverminderd het in artikel 448 lid 4, tweede volzin , bepaalde draagt de hulpverlener zorg, dat aan anderen dan de patiënt geen inlichtingen over de patiënt dan wel inzage in of afschrift van de gegevens uit het dossier worden verstrekt dan met toestemming van de patiënt. Indien verstrekking plaatsvindt, geschiedt deze slechts voor zover daardoor de persoonlijke levenssfeer van een ander niet word"
+     }
+    }
+   ],
+   "number": "BWBR0005290",
+   "note": "Wetten.nl (Overheid.nl), Boek 7 BW na raadpleging; a versão exibida é a vigente à data da leitura."
+  }
+ ]
+}

@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang='el' >
+<head>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="facebook-domain-verification" content="x8iry318e898msgkncrzobv86474pv" />
+
+<!-- Performance Optimization - should be before scripts -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="dns-prefetch" href="https://cdn.cookie-script.com">
+
+<!-- Cookie Consent -->
+<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/aae1861b6f386edd01a058f232e0f451.js"></script>
+
+<script type="text/plain" data-cookiescript="accepted" data-cookiecategory="performance" async src="https://www.googletagmanager.com/gtag/js?id=G-Y6MKMK2C1W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Y6MKMK2C1W');
+</script>
+
+
+
+<title>Taxheaven</title>
+
+<link rel="alternate" type="application/rss+xml" title="Νέα ειδήσεις" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_new.xml" />
+<link rel="alternate" type="application/rss+xml" title="Πρόσφατες Αποφάσεις" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_law.xml" />
+<link rel="alternate" type="application/rss+xml" title="Πρόσφατοι νόμοι" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_lawl.xml" />
+<link rel="alternate" type="application/rss+xml" title="Προθεσμίες μηνός" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_dat.xml" />
+<link rel="alternate" type="application/rss+xml" title="Αρθρα μελέτες" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_art.xml" />
+<link rel="alternate" type="application/rss+xml" title="Κοινότητα λογιστών" href="https://www.taxheaven.gr/bibliothiki/soft/xml/soft_forum.xml" />
+
+
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="https://www.taxheaven.gr/favicon.ico">
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="https://www.taxheaven.gr/assets/front/css/style.css?v=18" rel="stylesheet" type="text/css" media="all">
+<link href="https://www.taxheaven.gr/assets/front/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/dockmodal/css/jquery.dockmodal.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CRoboto+Condensed:700%7CRoboto:300,400,400i,500,700" rel="stylesheet">
+<link href="https://www.taxheaven.gr/assets/front/css/footable.standalone.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/my/css/main.css?v=13" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/pandektis/pandektis.css?v=1" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/css/my.bootstraptable.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/css/jquery-ui-datepicker.css" rel="stylesheet" type="text/css">
+
+<link href="https://www.taxheaven.gr/assets/front/live/laws.css?v=7" rel="stylesheet" type="text/css">
+<link href="https://www.taxheaven.gr/assets/front/live/circulars.css?v=11" rel="stylesheet" type="text/css">
+
+<!-- END: STYLESHEET -->
+
+<!-- WEB PUSH (Modules/WebPush) -->
+<script>
+window.THWP_BOOT = {"v":"1.0-1793207340","s":"0","u":"0","os":{"appId":"41a45761-a327-42f4-9f55-ae73cf6fc7c1","autoResubscribe":true,"allowLocalhostAsSecureOrigin":true,"welcomeNotification":{"title":"✅ Taxheaven.gr","message":"Θα λαμβάνετε πλέον ειδοποιήσεις για φορολογικές εξελίξεις και σημαντικές αλλαγές στη νομοθεσία."},"promptOptions":{"slidedown":{"prompts":[{"type":"push","autoPrompt":true,"delay":{"pageViews":2,"timeDelay":5},"text":{"actionMessage":"Θέλετε να ενημερώνεστε άμεσα για τις σημαντικότερες φορολογικές εξελίξεις και αλλαγές στη νομοθεσία;","acceptButton":"Ναι, θέλω!","cancelButton":"Όχι, ευχαριστώ"}}]}},"notifyButton":{"enable":false},"safari_web_id":"web.onesignal.auto.4e6ae055-7872-4c1f-b42a-6c60bed16bbe"}};
+(function (w, d) {
+  var B = w.THWP_BOOT, K = 'thwp.cfg', now = Date.now();
+  function oneSignal() {
+    if (!B.os) return;
+    w.OneSignal = w.OneSignal || [];
+    var s = d.createElement('script'); s.src = 'https://cdn.onesignal.com/sdks/OneSignalSDK.js'; s.async = true; d.head.appendChild(s);
+    w.OneSignal.push(function () { w.OneSignal.init(B.os); });
+  }
+  function ours(c) {
+    w.THWP_CFG = c;
+    var l = d.createElement('link'); l.rel = 'stylesheet'; l.href = '/assets/front/webpush/webpush.css?v=' + encodeURIComponent(B.v); d.head.appendChild(l);
+    var s = d.createElement('script'); s.src = '/assets/front/webpush/webpush.js?v=' + encodeURIComponent(B.v); s.async = true; d.head.appendChild(s);
+  }
+  function go(c) { if (c && c.active && c.key) ours(c); else oneSignal(); }
+  var c = null;
+  try { var x = JSON.parse(w.localStorage.getItem(K) || 'null'); if (x && x.e > now && x.u === B.u && x.v === B.v && x.s === B.s) c = x.c; } catch (e) { }
+  if (c) { go(c); return; }
+  if (!w.fetch) { oneSignal(); return; }
+  fetch('/webpush/config.json', { credentials: 'same-origin', cache: 'no-cache', headers: { 'Accept': 'application/json' } })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (j) { try { w.localStorage.setItem(K, JSON.stringify({ e: now + 6e5, u: B.u, v: B.v, s: B.s, c: j })); } catch (e) { } go(j); })
+    .catch(function () { oneSignal(); });
+})(window, document);
+</script>
+
+
+
+
+<script type="text/plain" data-cookiescript="accepted" data-cookiecategory="performance">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "7bln1i2s8s");
+</script>
+
+
+
+
+</head>
+
+<body>
+<div class="wrapper">
+<span id="top"></span>
+	<!-- Header Starts -->
+    <header> 
+        <div class="header_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 logo">
+                        <a href="https://www.taxheaven.gr"><img src="https://www.taxheaven.gr/assets/front/images/logo.png" alt="Taxheaven"></a>
+                    </div>
+                    <div class="col-sm-10 h_social_box_wrapper">
+                        <div class="h_social_box pull-right">
+                            <div class="h_social">
+                                <ul>
+                                	<!-- @todo RSS page -->
+                                    <li><a href="https://www.instagram.com/taxheaven.gr/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.facebook.com/pages/TAXHEAVEN/174870583069?v=wall"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/Taxheaven"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/taxheaven-tax-78827424/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/user/TheTaxheaven"><img class='lazyload' width='34' height='24' style='position:relative;top:-3px;' data-src="https://www.taxheaven.gr/assets/front/my/images/youtube_social_icon_white.png" alt="Youtube"></a></li>
+                                    <li><a href="https://www.taxheaven.gr/rss"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                            		                        <div class="recording_link" id="login_step">
+                                    <a id='login-tab' data-toggle="modal" data-target="#login_register_box">Είσοδος</a>
+	                            </div>
+                                <div class="recording_link" id="register_step">
+                                    <a id='register-tab' data-toggle="modal" data-target="#login_register_box">Εγγραφή</a>
+                                </div>
+	                                                </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mobile_hbar">
+            <span class="mobilemenu_btn">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <span class="back_menu_btn">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="header_nav_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-16">
+                        <div class="h_search" id="search_step">
+                            <span class="seach_box"><i class="fa fa-search" aria-hidden="true"></i></span>
+                        </div>
+
+                        <div class="nav_search_wrapper">
+    <nav class="main_nav">
+        <span class="mm_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <ul>
+            
+            <li>
+                <a id="mega1_step" href="#">Πανδέκτης</a>
+                <div class="mega_menu mega_pandektis" id="mega1">
+    <div class="pdk-grid">
+
+        
+        <div class="pdk-col">
+            <section class="pdk-sec" id="mega1_article1_step">
+                <h4 class="pdk-h">Ευρετήρια θεμάτων / αποφάσεων</h4>
+                <ul class="pdk-list">
+                    <li><a target="_blank" href="https://www.taxheaven.gr/anaskopisi">Ανασκόπηση μηνός</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/pols">Φορολογικές αποφάσεις ανά έτος</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/dikastikes">Αποφάσεις δικαστηρίων ανά έτος</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/nomothesia">Φορολογικό αρχείο κόμβου</a></li>
+                </ul>
+            </section>
+            <section class="pdk-sec">
+                <h4 class="pdk-h">Νομοθεσία / νομολογία</h4>
+                <ul class="pdk-list">
+                    <li><a target="_blank" href="https://www.taxheaven.gr/pinnedlaws">Κωδικοποιημένοι νόμοι</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/slots">Αποφάσεις ΣΛΟΤ</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/ded">Αποφάσεις ΔΕΔ</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/ias">ΔΛΠ - Δ.Π.Χ.Α. - Ε.Δ.Π.Χ.Α.</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/simb">Συμβάσεις αποφυγής διπλής φορολογίας</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/circulars/search/companycats">Αναζήτηση αποφ. ανά επάγγελμα</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/circulars/search/themecats">Θεματική αναζήτηση</a></li>
+                </ul>
+            </section>
+        </div>
+
+        
+        <div class="pdk-col">
+            <section class="pdk-sec">
+                <h4 class="pdk-h">Χρήσιμα</h4>
+                <ul class="pdk-list">
+                    <li><a target="_blank" href="https://www.taxheaven.gr/klimakes">Κλίμακες φορολ. εισοδήματος</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/log-sxedio">Λογιστικό σχέδιο</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/log-sxedioelp">Λογιστικό σχέδιο ΕΛΠ</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/newsletters">Newsletter κόμβου</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/vats">Ισοτιμίες ΦΠΑ</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/rentrates">Αναπροσαρμογή μισθωμάτων</a></li>
+                    <li><a target="_blank" href="https://www.taxheaven.gr/dictionary">Λεξικό οικονομικών όρων</a></li>
+                </ul>
+            </section>
+            <section class="pdk-sec">
+                <h4 class="pdk-h">Κωδικοί</h4>
+                <ul class="pdk-list">
+                    <li><a href="https://www.taxheaven.gr/codes/kad2026">Νέοι ΚΑΔ</a></li>
+                    <li><a href="https://www.taxheaven.gr/codes/kad">Παλαιοί ΚΑΔ</a></li>
+                    <li><a href="https://www.taxheaven.gr/codes/taric">TARIC</a></li>
+                </ul>
+            </section>
+        </div>
+
+        
+        <div class="pdk-col pdk-col--years">
+            <section class="pdk-sec pdk-sec--years">
+                <div class="pdk-years-head">
+                    <h4 class="pdk-h">Φορολογικές δηλώσεις</h4>
+                    <span class="pdk-hint">επιλέξτε έτος</span>
+                </div>
+
+                <div class="pdk-chips" role="tablist" aria-label="Φορολογικό έτος">
+                                            <button type="button"
+                                class="pdk-chip is-active"
+                                role="tab"
+                                id="pdk-chip-2025"
+                                aria-selected="true"
+                                aria-controls="pdk-year-2025"
+                                tabindex="0"
+                                data-year="2025">2025</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2024"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2024"
+                                tabindex="-1"
+                                data-year="2024">2024</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2023"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2023"
+                                tabindex="-1"
+                                data-year="2023">2023</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2022"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2022"
+                                tabindex="-1"
+                                data-year="2022">2022</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2021"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2021"
+                                tabindex="-1"
+                                data-year="2021">2021</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2020"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2020"
+                                tabindex="-1"
+                                data-year="2020">2020</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2019"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2019"
+                                tabindex="-1"
+                                data-year="2019">2019</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2018"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2018"
+                                tabindex="-1"
+                                data-year="2018">2018</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2017"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2017"
+                                tabindex="-1"
+                                data-year="2017">2017</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2016"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2016"
+                                tabindex="-1"
+                                data-year="2016">2016</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2015"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2015"
+                                tabindex="-1"
+                                data-year="2015">2015</button>
+                                            <button type="button"
+                                class="pdk-chip"
+                                role="tab"
+                                id="pdk-chip-2014"
+                                aria-selected="false"
+                                aria-controls="pdk-year-2014"
+                                tabindex="-1"
+                                data-year="2014">2014</button>
+                                    </div>
+
+                                    <div class="pdk-year is-active"
+                         id="pdk-year-2025"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2025"
+                         >
+                        <div class="pdk-year-title">Φορολογικό έτος 2025</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/odigos/2026">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2025</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2026">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2025</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2024"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2024"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2024</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2025">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2024</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2025">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2024</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2023"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2023"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2023</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2024">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2023</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2024">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2023</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2022"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2022"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2022</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2023">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2022</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2023">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2022</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2021"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2021"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2021</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2022">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2021</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2022">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2021</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2020"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2020"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2020</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2021">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2020</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2021">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2020</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2019"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2019"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2019</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/taxguide/2020">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2019</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/widgets/tax2020">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2019</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2018"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2018"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2018</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.tax2019.gr/">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2018</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/tag/223/forologikes-dhlwseis-2019">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2018</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2017"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2017"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2017</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.tax2018.gr/">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2017</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/tag/217/forologikes-dhlwseis-2018">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2017</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2016"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2016"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2016</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/dil2017">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2016</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/tag/191/forologikes-dhlwseis-2017">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Όλες οι πληροφορίες για τις φορολογικές δηλώσεις 2016</span>
+                            </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2015"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2015"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2015</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/dil2016">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2015</span>
+                        </a>
+                                            </div>
+                                    <div class="pdk-year"
+                         id="pdk-year-2014"
+                         role="tabpanel"
+                         aria-labelledby="pdk-chip-2014"
+                          hidden >
+                        <div class="pdk-year-title">Φορολογικό έτος 2014</div>
+                        <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/dil2015">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span>Οδηγός δηλώσεων φορολογικού έτους 2014</span>
+                        </a>
+                                                    <a target="_blank" class="pdk-ylink" href="https://www.taxheaven.gr/tag/149/forologikes-dhlwseis-2014">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                <span>Αποφάσεις για την υποβολή φορολογικών δηλώσεων 2014</span>
+                            </a>
+                                            </div>
+                
+                <div class="pdk-foot">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <span>Αρχείο δηλώσεων 2014 έως σήμερα</span>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</div>
+
+            </li>
+
+            
+            <li>
+                <a target="_blank" href="https://www.taxheaven.gr/taxheavenproducts.html">Προϊόντα κόμβου</a>
+            </li>
+
+
+
+            
+                                                <li>
+                        <a id="nav1_step" href="https://www.taxheaven.gr/terms" >
+                            Όροι χρήσης
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav2_step" href="https://www.taxheaven.gr/calendar" >
+                            Ημερολόγιο
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav3_step" href="https://www.taxheaven.gr/nomothesia" >
+                            Φορολογικό αρχείο
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav4_step" href="https://www.taxheaven.gr/forum" style='background-color: #ffc004;'>
+                            Επιλυσις
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav5_step" href="https://www.taxheaven.gr/labordoc" >
+                            Συλλογικές Συμβάσεις
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav6_step" href="https://www.taxheaven.gr/store" >
+                            e-shop
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav7_step" href="https://www.taxheaven.gr/webinars" >
+                            Webinars
+                                                            <span id='webinarCounter'>1</span>
+                                                    </a>
+
+                                            </li>
+                                    <li>
+                        <a id="nav8_step" href="https://www.taxheaven.gr/acforum" >
+                            Forum
+                                                    </a>
+
+                                            </li>
+                                    </ul>
+        <div class="clear"></div>
+    </nav>
+
+    <div class="search_box_bar">
+        <div class="search_header">
+            <form action="https://www.taxheaven.gr/search" method="get">
+                <input type="search" class="h_searchinput" name="keyword" placeholder="Αναζήτηση στον κόμβο">
+                <button class="mob_hsearchbtn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="seach_links">
+            <ul>
+                <li>
+                    <input type="text" placeholder="Live αναζήτηση αποφάσεων" id="liveSearchCirculars">
+                </li>
+                <li>
+                    <input type="text" placeholder="Live αναζήτηση νόμων" id="liveSearchLaws">
+                </li>
+                <li>
+                    <a href="https://www.taxheaven.gr/circulars/search/themecats">Θεματική αναζήτηση</a>
+                </li>
+                <li>
+                    <a href="https://www.taxheaven.gr/circulars/search/companycats">Αναζήτηση ανά επάγγελμα</a>
+                    <!-- <button>Αναζήτηση ανά επάγγελμα</button> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+                        
+                        <div class="headline_links">
+                            <a href="https://www.taxheaven.gr/protoselida">Πρωτοσέλιδα</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id='liveSearchResults'>
+                        <h2>Αποτελέσματα live αναζήτησης</h2>
+                        <div class="inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="tablet_social"></div> -->
+    </header>	
+    <!-- Header ends -->
+
+	    <style>
+ #myVideo {
+display:block;
+width: 100%;
+}
+
+
+</style>
+
+<main class="container inner_page error_page">
+
+
+    <div class="row">
+        <section class="col-lg-6 col-md-7 col-sm-9 error_block">
+            <div class="main_title">
+                <h1>Λάθος</h1>
+            </div>
+            <div class="error_highlight">
+                <h2> The route law/4624/2019/21 could not be found.</h2>
+                <p>Η σελίδα / υπηρεσία που ζητήσατε δεν βρέθηκε. Μπορείτε να δοκιμάσετε αργότερα.</p>
+                            </div>
+            <div class="error_number">
+                <strong>404</strong>
+            </div>
+        </section>
+        <section class="col-lg-10 col-md-9 col-sm-7 category_links_wrapper" >
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="https://www.taxheaven.gr/assets/error_page_video_x264.mp4" type="video/mp4">
+  <source src="https://www.taxheaven.gr/assets/error_page_video_VP8.webm" type="video/webm">
+</video>
+
+        </section>
+
+    </div>
+</main>
+
+                
+    
+    <!-- footer starts -->
+    <footer class="ft-footer">
+
+        
+        <div class="ft-container">
+            <div class="ft-newsletter">
+                <div class="ft-newsletter-inner">
+                    <div class="ft-nl-left">
+                        <div class="ft-nl-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="ft-nl-text">
+                            <h4>Newsletter κόμβου</h4>
+                            <p>Ενημερωθείτε πρώτοι για φορολογικές εξελίξεις και αλλαγές στη νομοθεσία</p>
+                        </div>
+                    </div>
+                    <a href="https://www.taxheaven.gr/newsletters" class="ft-nl-btn">Εγγραφή <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="ft-container">
+            <div class="ft-grid-section">
+                <div class="ft-grid">
+
+                    
+                    <div class="ft-col-brand">
+                        <div class="ft-logo">
+                            <a href="https://www.taxheaven.gr"><img src="https://www.taxheaven.gr/assets/front/images/logofooter.png" alt="Taxheaven footer logo"></a>
+                        </div>
+                        <p class="ft-brand-desc">
+                            Η φορολογική-λογιστική πύλη ενημέρωσης taxheaven.gr είναι ιδιοκτησία της εταιρείας Taxheaven Α.Ε.
+                        </p>
+                        <a href="https://www.taxheaven.gr/widgetcreator" class="ft-widget-link" id="widget_step">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                            <span>Προσθέστε ειδήσεις &amp; αποφάσεις του κόμβου στην ιστοσελίδα σας</span>
+                        </a>
+                    </div>
+
+                    
+                    <div class="col-sm-3 fl_section fl_section2">
+        <div class="footer_links smheight">
+            <h4>Χρήσιμες πληροφορίες</h4>
+            <ul>
+                                    <li><a href="https://www.taxheaven.gr/anaskopisi">Ανασκόπηση συνολικών θεμάτων ανα μήνα</a></li>
+                                    <li><a href="https://www.taxheaven.gr/slots">Αποφάσεις ΣΛΟΤ</a></li>
+                                    <li><a href="https://www.taxheaven.gr/log-sxedio">Λογιστικό σχέδιο</a></li>
+                                    <li><a href="https://www.taxheaven.gr/ias">Δ.Λ.Π. - Δ.Π.Χ.Α.</a></li>
+                                    <li><a href="https://www.taxheaven.gr/klimakes">Κλίμακες φορολογίας εισοδήματος</a></li>
+                            </ul>
+        </div>
+    </div>
+
+        
+    <div class="col-sm-3 fl_section fl_section3">
+        <div class="footer_links smheight">
+            <h4>Προϊόντα κόμβου</h4>
+            <ul>
+                                    <li><a href="https://www.taxheaven.gr/newsin/">Συνδρομητική Υπηρεσία Αρχείου Νόμων, Αποφάσεων</a></li>
+                                    <li><a href="https://www.taxheaven.gr/taxwebinars">Συνδρομητική Υπηρεσία Διαδικτυακών Σεμιναρίων (webinars)</a></li>
+                                    <li><a href="https://www.taxheaven.gr/epilisis/">Υπηρεσία Απάντησης Προσωπικών Ερωτημάτων Επίλυσις</a></li>
+                                    <li><a href="https://www.taxheaven.gr/fullpack/">Tax Heaven Full Pack</a></li>
+                            </ul>
+        </div>
+    </div>
+
+        
+    <div class="col-sm-3 fl_section fl_section4">
+        <div class="footer_links smheight">
+            <h4>Χρήσιμες σελίδες κόμβου</h4>
+            <ul>
+                                    <li><a href="https://www.taxheaven.gr/calendar">Ημερολόγιο υποχρεώσεων</a></li>
+                                    <li><a href="https://www.taxheaven.gr/newsletters">Εγγραφή στο newsletter του κόμβου</a></li>
+                                    <li><a href="https://www.taxheaven.gr/labordoc">Συλλογικές συμβάσεις εργασίας</a></li>
+                                    <li><a href="https://www.taxheaven.gr/seminars">Σεμινάρια τρίτων</a></li>
+                                    <li><a href="https://www.taxheaven.gr/webinars">Webinars κόμβου</a></li>
+                                    <li><a href="https://www.taxheaven.gr/store">E-shop</a></li>
+                            </ul>
+        </div>
+    </div>
+
+        
+
+
+                    
+                    <div class="ft-col-contact">
+    <h5 class="ft-section-title">Επικοινωνία</h5>
+    <div class="ft-contact-card">
+        <img style="display: none" src="https://www.taxheaven.gr/assets/front/images/logo03.jpg" alt="Taxheaven" class="photo"/>
+        <p class="ft-contact-name fn org">Taxheaven Α.Ε.</p>
+        <ul class="ft-contact-list">
+            <li class="tel"><i class="fa fa-file-text-o" aria-hidden="true"></i> ΑΦΜ 998811352</li>
+            <li class="tel"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:210-6773722">210-6773722</a></li>
+            <li class="tel"><i class="fa fa-fax" aria-hidden="true"></i> 210-6754182</li>
+            <li class="adr"><i class="fa fa-map-marker" aria-hidden="true"></i> <span class="street-address">Αποστολοπούλου 64</span>, <span class="locality">Κ. Χαλάνδρι</span></li>
+            <li class="adr"><i class="fa fa-building-o" aria-hidden="true"></i> <span class="street-address">Αρ. ΓΕΜΗ</span> <span class="locality">0007717001000</span></li>
+        </ul>
+        <a id="contact_step" class="ft-contact-btn hidden-xs" data-toggle="modal" data-target="#contact_form">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Στείλτε μας e-mail
+        </a>
+        <a class="ft-contact-btn visible-xs mob_contact_btn">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Στείλτε μας e-mail
+        </a>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="modal fade" id="contact_form" tabindex="-1" role="dialog" aria-labelledby="contact_form">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Επικοινωνία</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <button type="button" class="close mbtn" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="https://www.taxheaven.gr/contact" id="contactForm">
+                            <input type="hidden" name="_token" value="YFNdHniFtby0pENrApGDqkqYSrqGjYsIRIGw53Gg" autocomplete="off">
+                            <div class="contact_form_box">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="fcontact_name" id="fcontact_name" placeholder="Το όνομά σας*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="fcontact_email" id="fcontact_email" placeholder="Το email σας*">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" name="fcontact_message" placeholder="Μήνυμα"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Lf66tISAAAAAMHutymeQaahL-z6cIv5jnQlP1B1"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" id="fcontact_submit" class="btn btn-md btn-info" value="Αποστολή">
+                                </div>
+                                <div class="form-group success_message">Το μήνυμα στάλθηκε με επιτυχία!</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="ft-bottom">
+    <div class="ft-container">
+        <div class="ft-bottom-inner">
+            <span class="ft-copyright">Taxheaven &copy; 2026 — Με επιφύλαξη παντός δικαιώματος</span>
+            <div class="ft-social">
+                <span class="ft-social-label">Ακολουθήστε μας</span>
+                <a href="https://www.instagram.com/taxheaven.gr/" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/pages/TAXHEAVEN/174870583069?v=wall" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/Taxheaven" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/taxheaven-tax-78827424/" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/user/TheTaxheaven" title="YouTube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.taxheaven.gr/rss" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </footer>
+
+    <!-- footer ends -->
+
+    <a href="#top" class="backtotop scroll"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</div>
+<!-- wrapper ends -->
+
+                 <div class="modal fade" id="login_register_box" tabindex="-1" role="dialog" aria-labelledby="login_register_box">
+                      <div class="modal-dialog modal-md" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <div class="login_register_tab">
+                              <ul class="nav-tabs" role="tablist">
+                                <li role="presentation" id='registerTab'><a href="#register" aria-controls="register" role="tab" data-toggle="tab">Εγγραφή</a></li>
+                                <li role="presentation" id='loginTab'><a href="#login" aria-controls="login" role="tab" data-toggle="tab">Login</a></li>
+                                <li role="presentation" id='resetPwTab'><a href="#reset_pw" aria-controls="reset_pw" role="tab" data-toggle="tab">Reset Password</a></li>
+                              </ul>  
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane" id="register">
+                                        <form action="https://www.taxheaven.gr/register" method="post">
+                                            <input type="hidden" name="_token" value="YFNdHniFtby0pENrApGDqkqYSrqGjYsIRIGw53Gg" autocomplete="off">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="username" id="username" data-validate-url="https://www.taxheaven.gr/users/validate/username" placeholder="Όνομα χρήστη">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="email" id='email' data-validate-url="https://www.taxheaven.gr/users/validate/email" placeholder="Email">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" name="confirm_email" id='confirm_email' placeholder="Επιβαβαίωση Email">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" name="password" id='password' placeholder="Κωδικός">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" name="confirm_password" id='confirm_password' placeholder="Επιβεβαίωση Κωδικού">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="vat" id='vat' data-validate-url="https://www.taxheaven.gr/users/validate/vat" placeholder="Α.Φ.Μ.">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="phone" id='phone' placeholder="Τηλέφωνο">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="full_name" id='full_name' placeholder="Ονοματεπώνυμο">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="profession" id='profession' placeholder="Επάγγελμα">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="address" id='address' placeholder="Διεύθυνση">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="city" id='city' placeholder="Πόλη">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group submit_box">
+                                                <a target='_blank' href="https://www.taxheaven.gr/terms">Ανάγνωση όρων</a>
+                                                <div class="agree">
+                                                    <input id="agree" class="css-checkbox" name="agree" value='1' type="checkbox">
+                                                    <label class="css-label" for="agree">Συμφωνώ</label>
+                                                </div>
+                                                <input type="submit" class="btn btn-md btn-info" value="Εγγραφή">
+                                                <div class="clear"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="login" >
+                                        <form action="https://www.taxheaven.gr/login" method="post">
+                                                                                    	<input type="hidden" name="_token" value="YFNdHniFtby0pENrApGDqkqYSrqGjYsIRIGw53Gg" autocomplete="off">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="email" placeholder="Email">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" name="password" placeholder="Κωδικός">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            
+                                            <div class="form-group submit_box">
+                                                <div class="agree">
+                                                    <input id="ks" class="css-checkbox" name="persistent" value='1' type="checkbox">
+                                                    <label class="css-label" for="ks">Keep me signed in</label>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <a target='_blank' href="https://www.taxheaven.gr/terms">Ανάγνωση όρων</a>
+                                                <div class="agree">
+                                                    <input id="login-agree" class="css-checkbox" name="agree" value='1' type="checkbox">
+                                                    <label class="css-label" for="login-agree">Συμφωνώ</label>
+                                                </div>
+                                                <input type="submit" class="btn btn-md btn-info" value="Login">
+                                                <div class="clear"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="reset_pw">
+                                        <form action="https://www.taxheaven.gr/forgotpassword" method="post">
+                                            <input type="hidden" name="_token" value="YFNdHniFtby0pENrApGDqkqYSrqGjYsIRIGw53Gg" autocomplete="off">
+                                            <h5>Συμπλήρωση email για αποστολή νέου κωδικού</h5>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" name="email" placeholder="Email">
+                                                <span class="ok">Ok!</span>
+                                                <span class="error"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                            </div>
+                                            <div class="form-group p loginsubmit_box">
+                                                <input type="submit" class="btn btn-md btn-info" value="Αποστολή νέου κωδικού!">
+                                                <div class="clear"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+<!-- SET: SCRIPTS -->
+<script type='text/javascript'>
+    var baseUrl = "https://www.taxheaven.gr";
+    var csrfToken = "YFNdHniFtby0pENrApGDqkqYSrqGjYsIRIGw53Gg";
+</script>
+
+<script src="https://www.taxheaven.gr/assets/front/js/jquery-1.9.1.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery.easing.1.3.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery.dotdotdot.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery.matchHeight-min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/slick.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery.hoverIntent.minified.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery.fancybox.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/jquery-ui.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?hl=el" async defer></script>
+<script src="https://www.taxheaven.gr/assets/dockmodal/js/jquery.dockmodal.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/bootstrap.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/bootstrap-select.min.js"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/main.js?v=21"></script>
+<script src="https://www.taxheaven.gr/assets/front/my/js/main.js?v=20"></script>
+<script src="https://www.taxheaven.gr/assets/front/pandektis/pandektis.js?v=1"></script>
+<script src="https://www.taxheaven.gr/assets/front/js/footable.js"></script>
+<!-- Live search modules -->
+<script src="https://www.taxheaven.gr/assets/front/live/circulars.js?v=13"></script>
+<script src="https://www.taxheaven.gr/assets/front/live/laws.js?v=6"></script>
+<script src="https://www.taxheaven.gr/assets/front/live/livesearch.js?v=7"></script>
+
+<script type='text/javascript'>
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig.loadHidden = false;
+</script>
+<script type="text/javascript" src="https://www.taxheaven.gr/assets/front/my/lazysizes.min.js"></script>
+
+<script>
+    $( '.recording_link a' ).on( 'click', function() {
+        var id = $( this ).attr( 'id' );
+
+        if( id == 'login-tab' )
+        {
+            $( '#registerTab' ).removeClass( 'active' );
+            $( '#register' ).removeClass( 'active' );
+            $( '#loginTab' ).addClass( 'active' );
+            $( '#login' ).addClass( 'active' );
+        }
+        else if( id == 'register-tab' )
+        {
+            $( '#loginTab' ).removeClass( 'active' );
+            $( '#login' ).removeClass( 'active' );
+            $( '#registerTab' ).addClass( 'active' );
+            $( '#register' ).addClass( 'active' );
+        }
+    } );
+</script>
+
+<script type="text/javascript">
+    function expireUCPVideo( videoId, daysToExpire )
+    {
+        var expires;
+        var date = new Date();
+        date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toGMTString();
+        document.cookie = 'surpressWebinarUCPVid-' + videoId + '=1' + expires + "; path=/";
+    }
+</script>
+
+
+
+</body>
+</html>

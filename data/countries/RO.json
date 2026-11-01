@@ -1,0 +1,59 @@
+{
+ "code": "RO",
+ "name": {
+  "en": "Romania",
+  "pt": "Roménia",
+  "es": "Rumanía",
+  "fr": "Roumanie",
+  "de": "Rumänien",
+  "it": "Romania",
+  "nl": "Roemenië",
+  "ro": "România"
+ },
+ "region": "EU",
+ "languages": [
+  "ro"
+ ],
+ "authority": {
+  "name": "The National Supervisory Authority for Personal Data Processing",
+  "url": "http://www.dataprotection.ro/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " geral@cnpd.pt +351 21 392 84 00 +351 21 397 68 32 Prof. Paula MEIRA LOURENÇO Romania The National Supervisory Authority for Personal Data Processing B-dul Magheru 28-30 Sector 1 010336 BUCUREŞTI Romania http://www.dataprotection.ro/ anspd"
+  }
+ },
+ "laws": [
+  {
+   "id": "l190-2018",
+   "role": "implementation",
+   "title": "Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679",
+   "language": "ro",
+   "url": "https://www.dataprotection.ro/servlet/ViewDocument?id=1520",
+   "number": "Legea nr. 190/2018",
+   "date": "2018-07-18",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.dataprotection.ro/servlet/ViewDocument?id=1520",
+    "retrievedAt": "2026-11-01",
+    "sha256": "0e81e843f515e2c0fc2e3bbbcc5ff02aaa9428d9565c6017a42ef8c67b98a6d1",
+    "language": "ro",
+    "excerpt": "LEGE nr. 190 din 18 iulie 2018 privind msuri de punere �n aplicare a Regulamentului (UE) 2016/679 al Parlamentului European i al Consiliului din 27 aprilie 2016 privind protecia persoanelor fizice �n ceea ce privete prelucrarea datelor cu caracter personal i privind libera circulaie a aces"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "A Lege 190/2018 nao contem regra sobre consentimento de criancas (verificado por ausencia no texto integral); aplica-se o art. 8(1) RGPD: 16 anos",
+  "lawId": "l190-2018"
+ },
+ "notes": [
+  "Texto lido do PDF publicado pela ANSPDCP (autoridade); conversao por pdftotext com perda de diacriticos."
+ ],
+ "lastReviewed": "2026-11-01"
+}

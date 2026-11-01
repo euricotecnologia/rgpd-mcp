@@ -1,0 +1,103 @@
+{
+ "code": "LU",
+ "name": {
+  "en": "Luxembourg",
+  "pt": "Luxemburgo",
+  "es": "Luxemburgo",
+  "fr": "Luxembourg",
+  "de": "Luxemburg",
+  "it": "Lussemburgo",
+  "nl": "Luxemburg"
+ },
+ "region": "EU",
+ "languages": [
+  "fr",
+  "de"
+ ],
+ "authority": {
+  "name": "Commission Nationale pour la Protection des Données",
+  "url": "http://www.cnpd.lu/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "a@ada.lt +370 5 271 2804, +370 5 279 1445 +370 5 261 9494 Ms Dijana Šinkūnienė Luxembourg Commission Nationale pour la Protection des Données 15, Boulevard du Jazz 4370 Belvaux Luxembourg http://www.cnpd.lu/ info@cnpd.lu +352 2610 "
+  }
+ },
+ "laws": [
+  {
+   "id": "loi2018-08-01",
+   "role": "implementation",
+   "title": "Loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et mise en oeuvre du règlement (UE) 2016/679",
+   "language": "fr",
+   "url": "https://legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo",
+   "number": "Mémorial A n° 686 (ELI a686)",
+   "date": "2018-08-01",
+   "status": "verified",
+   "evidence": {
+    "url": "https://legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo",
+    "retrievedAt": "2026-11-01",
+    "sha256": "ba6c6d5dbcb743e3e6cc39c1e07661d89a3b7f760c0923c054ee6e922769899b",
+    "language": "fr",
+    "excerpt": "lu/eli/etat/leg/loi/2018/08/01/a686/jo - lido em 2026-11-01 Loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et mise en oeuvre du règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre Art. 1er. (1) Tout traitement de données"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "A lei (arts. 1 a 77, lida no Legilux) nao contem as palavras mineur/enfant/consentement; aplica-se o art. 8(1) RGPD: 16 anos",
+  "lawId": "loi2018-08-01",
+  "evidence": {
+   "url": "https://legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo",
+   "retrievedAt": "2026-11-01",
+   "sha256": "ba6c6d5dbcb743e3e6cc39c1e07661d89a3b7f760c0923c054ee6e922769899b",
+   "language": "fr",
+   "excerpt": "et du Conseil du 27 avril 2016 relatif à la protection des VERIFICACAO DE AUSENCIA (executada no navegador sobre o texto integral renderizado: 52387 caracteres, artigos 1 a 77): nenhuma ocorrencia de \"mineur\", \"enfant\" ou \"consentement\"; o texto cita o reglement (UE) 2016/679. Esta verificacao nao e reproduzivel pelo build (texto integral n"
+  }
+ },
+ "notes": [
+  "Ausencia verificada no navegador; o texto integral nao foi guardado, por isso o build nao a reproduz. Confirmar com o texto oficial."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "loi-2014-07-24-patient",
+   "title": "Loi du 24 juillet 2014 relative aux droits et obligations du patient",
+   "language": "fr",
+   "url": "https://legilux.public.lu/eli/etat/leg/loi/2014/07/24/n2/jo",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Art. 15 (1)",
+     "topic": "Droit à un dossier patient soigneusement tenu à jour",
+     "status": "verified",
+     "evidence": {
+      "url": "https://legilux.public.lu/eli/etat/leg/loi/2014/07/24/n2/jo",
+      "retrievedAt": "2026-11-01",
+      "sha256": "6a066105ca8c7dbe7e3b4d3e7d47b84d9e5302b551ef3f4369649fca1ffc6dd8",
+      "language": "fr",
+      "excerpt": "Art. 15. Droit à un dossier patient soigneusement tenu à jour (1)Le patient a droit, de la part du prestataire de soins de santé, à un dossier patient soigneusement tenu à jour. Le dossier patient retrace, de façon chronologique et fidèle, l'état de santé du patient et son évolution au cours de la prise en charge. Il renseigne toute informat"
+     }
+    },
+    {
+     "article": "Art. 18 (1)",
+     "topic": "Confidentialité et secret professionnel",
+     "status": "verified",
+     "evidence": {
+      "url": "https://legilux.public.lu/eli/etat/leg/loi/2014/07/24/n2/jo",
+      "retrievedAt": "2026-11-01",
+      "sha256": "6a066105ca8c7dbe7e3b4d3e7d47b84d9e5302b551ef3f4369649fca1ffc6dd8",
+      "language": "fr",
+      "excerpt": "Art. 18. Confidentialité et secret professionnel (1)Par dérogation à l'article 458 du Code pénal, le professionnel de santé donne aux proches du patient, après avoir recueilli son consentement, des informations indispensables pour leur permettre d'intervenir dans son intérêt."
+     }
+    }
+   ],
+   "number": "Loi du 24 juillet 2014",
+   "note": "Texto do Journal officiel (2014); a versão consolidada (eli/.../n1) não foi lida. O consentimento para cuidados aparece em outros artigos desta lei (informação: art. 8), não registados."
+  }
+ ]
+}

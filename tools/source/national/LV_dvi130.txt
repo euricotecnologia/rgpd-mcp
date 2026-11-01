@@ -1,0 +1,570 @@
+      Rekomendācija
+
+«Bērnu datu aizsardzība skolās»
+
+               Rīga
+Ievads                                                          kas. Tādēļ īpaša uzmanība ir jāpievērš bērnu informē-
+                                                                šanai, lai pēc iespējas novērstu riskus un nelikumīgas
+Bērnam ir tiesības brīvi izteikt savas domas; šīs tiesības      personas datu apstrādes iespējas.
+ietver brīvību meklēt, saņemt un nodot jebkāda veida
+informāciju un idejas neatkarīgi no robežām mutvār-             Visās darbībās attiecībā uz bērniem neatkarīgi no tā,
+dos, rakstveidā vai drukātā veidā, mākslas darbu veidā          vai tās veic valsts iestādes vai privātiestādes, kas no-
+vai ar citu līdzekļu palīdzību pēc bērna izvēles.1              darbojas ar sociālās nodrošināšanas jautājumiem,
+                                                                tiesas, administratīvie vai likumdošanas orgāni, uzma-
+Neviens bērns nedrīkst būt patvaļīgas vai nelikumī-             nība pirmām kārtām tiek veltīta tam, lai vislabāk no-
+gas iejaukšanās viņa tiesību realizēšanā uz personis-           drošinātu bērna intereses.4 Šāds princips attiecināms
+ko dzīvi, ģimenes dzīvi, dzīvojamo telpu neaizskara-            arī uz bērnu datu aizsardzības nodrošināšanu skolās.
+mību vai korespondences noslēpumu vai viņa goda
+un reputācijas nelikumīga apdraudējuma objekts.2
+
+Bērna tiesības un brīvības valsts nodrošina visiem              Palielinoties informācijas apjomam, kas ir skolu rīcī-         Rekomendācija ir informatīvs materiāls, tai ir ietei-     Rekomendācija ir izstrādāta, ņemot vērā Eiropas Par-
+bērniem bez jebkādas diskriminācijas — neatkarīgi no            bā, kā arī (īpaši ņemot vērā arī bērnu aktīvo informā-         kuma raksturs, un tās mērķauditorija ir vecāki, peda-     lamenta un Padomes 1995. gada 24. oktobra Direk-
+bērna, viņa vecāku, aizbildņu, ģimenes locekļu rases,           cijas tehnoloģiju izmantošanu), aizvien vairāk uzma-           gogi un izglītības iestāžu darbinieki, kā arī skolēni un  tīvas 95/46/EK par personu aizsardzību attiecībā uz
+tautības, dzimuma, valodas, partijas piederības, poli-          nības jāpievērš normatīvajiem aktiem personas datu             pašvaldību pārstāvji, kuru kompetencē ietilpst bērnu      personas datu apstrādi un šādu datu brīvu apriti 29.
+tiskās un reliģiskās pārliecības, nacionālās, etniskās vai      aizsardzības jomā, un jo īpaši – diviem aspektiem:             datu apstrādes skolās, un ārpusskolas interešu centru     panta datu aizsardzības darba grupas apstiprināto
+sociālās izcelsmes, dzīvesvietas valstī, mantiskā un ve-        fiziskas personas tiesības un pienākumi.                       pārstāvji. Tomēr rekomendācija varētu būt noderīga        viedokli Nr.1/2008 (WP 147) „Bērnu personas datu
+selības stāvokļa, dzimšanas vai citiem apstākļiem.3                                                                            ikvienam interesentam, piemēram, dažādu pakalpo-          aizsardzība”5, kā arī, ņemot vērā Datu valsts inspek-
+                                                                Fizisko personu datu aizsardzības likums nosaka                jumu sniedzējiem, kuri pakalpojuma sniegšanai veic        cijas un Eiropas Savienības dalībvalstu iestāžu, kuras
+Bērnu tiesību aizsardzība, tajā skaitā tiesības uz pri-         principus kā vākt, apstrādāt, glabāt personas datus.           bērnu personas datu apstrādi vai sagatavo informa-        uzrauga personas datu aizsardzību, pieredzi.
+vātumu un personas datu aizsardzību, nosaka dažādi                                                                             tīvus materiālus bērniem, vai arī sniedz cita veida pa-
+normatīvie akti. Tomēr, salīdzinājumā ar pieauguša-             Saistībā ar iepriekš minēto šī rekomendācija ir sa-            kalpojumus, kuru mērķauditorija, iespējams, ir bērni.     5 Dokumentu skatīt Eiropas Komisijas Tiesiskuma, brīvības un drošības
+jiem, bērni ir īpašā situācijā – ne visas savas tiesības        gatavota ar mēŗķi aktualizēt personas datu aiz-                                                                              ģenerāldirektorāta interneta mājas lapā: http://ec.europa.eu/justice/
+(arī savas kā datu subjekta tiesības) viņi līdz 18 gadu         sardzības jautājumu skolās un sniegt atbildes uz                                                                             data-protection/article-29/documentation/opinion-recommenda-
+vecuma sasniegšanai var izmantot nepastarpināti (t.i.,          jautājumiem, kas attiecas uz bērnu personas datu                                                                             tion/index_en.htm#h2-5.
+bez vecāku vai pilnvarotas personas starpniecības).             aizsardzību skolās, īpaši respektējot bērnu tiesības
+Bērni ne vienmēr ir arī pietiekami informēti par savām          attiecībā uz privātumu.
+tiesībām, spēj izvērtēt savu rīcību un paredzēt tās se-
+                                                                4 ANO Konvencija par bērnu tiesībām, 3. panta pirmais punkts.
+1 ANO Konvencija par bērnu tiesībām, 13. panta pirmais punkts.
+
+2 ANO Konvencija par bērnu tiesībām, 16. panta pirmais punkts.
+
+3 Bērnu tiesību aizsardzības likuma 3. panta otrā daļa.
+
+                                                                                                                                                                                                                                                                    1
+   Definīcijas                                            personiskām vai mājas un ģimenes vajadzībām, pie           nu, reģistrēšanu, ievadīšanu, glabāšanu, sakārtošanu,       gadījumos reģistrēt personas datu apstrādi Datu
+                                                          nosacījuma, ka personas dati netiek izpaust­i treša-       pārveidošanu, izmantošanu, nodošanu, pārraidīšanu           valsts inspekcijā (turpmāk – inspekcija).
+   Fizisko personu datu aizsardzības likums (turpmāk-     jām personām. Piemēram, elektroniskās piezīmju             un izpaušanu, bloķēšanu vai dzēšanu. Piemēram,
+   likums) attiecas uz visu veidu personas datu apstrādi  grāmatiņas, adrešu grāmatas, ģimenes foto albūmi,          skolēnu un skolas darbinieku personas lietu veido-          Pārzinis var uzticēt personas datu apstrādi personas
+   un jebkuru fizisko vai juridisko personu, ja:          ģimeņu mājas lapas ar ierobežotu pieeju.                   šana, dažādas informācijas ievade skolu informācijas        datu operatoram, noslēdzot rakstveida līgumu. Per-
+                                                                                                                     sistēmās, utt.                                              sonas datu operators var apstrādāt personas datus
+    pārzinis ir reģistrēts Latvijas Republikā;           Gadījumā, kad personas dati (piemēram, fotogrāfi-                                                                      tikai, lai izpildītu līgumu, un tikai saskaņā ar pārziņa
+                                                          jas) tiek ievietotas tiešsaistes sociālajā tīklā,iepriekš  Personas dati – jebkāda informācija, kas attie-             norādījumiem. Piemēram, ja skolas interneta mājas
+    datu apstrāde tiek veikta ārpus Latvijas Republi-    minētais izņēmums neattiecas, jo personas dati                                                                         lapu uztur ārpakalpojumu sniedzējs, tad likuma iz-
+   kas robežām teritorijās, kas pieder Latvijas Republi-  tiek nodoti trešām personām – sociālā tīkla portāla        cas uz identificētu vai identificējamu fizisko personu.     pratnē tas ir personas datu operators.
+   kai saskaņā ar starptautiskajiem līgumiem;             uzturētājam un lietotājiem).                               Piemēram, vārds, uzvārds, personas kods, telefona
+                                                                                                                     numurs, fotogrāfijas, pirkstu nospiedumi, dzīvesvie-        Personas datu aizsardzības
+    Latvijas Republikā atrodas aprīkojums, kas tiek      Tāpat likums neattiecas uz juridisko personu datiem,       tas adrese, dzimums, vecums, personas raksturojums,         principi
+   izmantots personas datu apstrādei, izņemot gadī-       piemēram, juridisko personu nosaukumiem, izņemot           atzīmes. Ne vienmēr šāda informācija ir tieši sasais-
+   jumus, kad aprīkojums tiek izmantots tikai personas    gadījumus, kad tie ietver fizisku personu vārdus.          tīta ar personas vārdu, uzvārdu, bet gan var tikt sais-     Skolu rīcībā esošie personas dati, kas tiek apstrādāti,
+   datu pārraidei caur Latvijas Republikas teritoriju.                                                               tīta ar personu, lai identificētu un uzzinātu personas      lai izpildītu skolu funkcijas, ir jāaizsargā, jo tā ir daļa
+   Fizisko personu datu aizsardzības likums neattiecas    Personas datu apstrāde – jebkuras ar per-                  paradumus. Sīkāk skatīt Datu valsts inspekcijas reko-       no personu privātuma un tās izpaušana var aizskart
+   uz personas datu apstrādi, ko fiziskās personas veic                                                              menādcijā „Personas datu definīcija”.                       datu subjektu tiesības (attiecīgi – gan skolēnu un
+                                                          sonas datiem veiktas darbības, ieskaitot datu vākša-                                                                   viņu vecāku, gan skolotāju tiesības).
+                                                                                                                     Datu subjekts – fiziska persona, kuru var tie-
+                                                                                                                                                                                 Informācijas aprites loma skolā ir svarīga bērnu tie-
+                                                                                                                     ši vai netieši identificēt un kuras personas dati tiek      sību aizsardzības nodrošināšanai, kā arī informācijas
+                                                                                                                     apstrādāti. Piemēram, skolēni, skolēnu vecāki, sko-         apmaiņa ar vecākiem ir būtiska izglītības procesa
+                                                                                                                     lotāji.                                                     nodrošināšanai. Tādēļ svarīgi to īstenot, ievērojot
+                                                                                                                                                                                 personas datu aizsardzības prasības. Tomēr, personas
+                                                                                                                     Pārzinis – fiziska vai juridiska persona, valsts vai        datu aizsardzību nevajadzētu uzskatīt par šķērsli in-
+                                                                                                                                                                                 formācijas apmaiņai, bet gan par noteikumu ietvaru,
+                                                                                                                     pašvaldību institūcija, kura nosaka personas datu           lai tiktu nodota tāda informācija, kas nepieciešama
+                                                                                                                     apstrādes (vākšanas, reģistrācijas, pārveidošanas,          konkrētajā situācijā konkrētiem indivīdiem (piemē-
+                                                                                                                     u.c.) mērķus un apstrādes līdzekļus, kā arī atbild          ram, ja to nosaka normatīvie akti).
+                                                                                                                     par personas datu apstrādi saskaņā ar likumu. Pār-
+                                                                                                                     zinis, piemēram, var būt konkrēta pašvaldība, kā arī        Likums nosaka personas datu apstrādes nosacījumus
+                                                                                                                     skola, ja tai kā juridiskai personai ir tiesībspēja un rī-  un noteikumus. Likums arī nosaka to personu tiesī-
+                                                                                                                     cībspēja.                                                   bas, kuru dati tiek apstrādāti.
+
+                                                                                                                     Pārzinim ir pienākums nodrošināt personas datu
+                                                                                                                     aizsardzības principu ieviešanu, pēc pieprasījuma
+                                                                                                                     informēt personas par to pieejas tiesībām personas
+                                                                                                                     datiem, tiesībām tos labot, kā arī likumā noteiktos
+
+2                                                                                                                                                                                                                                             3
+Skolu pienākums ir nodrošināt personas datu aizsar-      vadītājs (atkarībā no tā, vai pārzinis ir skola vai paš-
+dzību, un šajā kontekstā svarīgs ir caurskatāmības un    valdība) atbild par šādu mērķu noteikšanu (izņemot,
+personu (skolēnu, darbinieku) uzticēšanās aspekts. Pār-  kad datu apstrādes mērķis noteikts ārējos normatī-
+zinim ir jānodrošina, lai katram personas datu veidam    vajos aktos), to ieviešanu un izpildes kontroli. Piemē-
+būtu nepārprotams un skaidrs apstrādes mērķis, lai       ram, skolēnu dati nevar tikt izmantoti komerciāliem
+būtu skaidri noteikts, kādos gadījumos personas dati     vai politiskiem mērķiem, ja vien nav iegūta atbilstoša
+var tikt nodoti citām personām un iestādēm, kā arī jā-   piekrišana personas datu izmantošanai iepriekš mi-
+nodrošina, ka personas dati ir drošībā un aizsargāti.    nētajiem mērķiem.
+
+Personas datu apstrādei ir jātbilst šādiem personas      Proporcionalitātes princips                                       Piemēram, jānodrošina, ka katram lietotājam, kurš ierobežota piekļuve dokumentiem, apsardze, signa-
+datu apstrādes labās pakses principiem:
+                                                         Drīkst apstrādāt tikai tādus personas datus, kas ne-              piekļūst personas datiem, ir individuāla parole, kas tiek lizācija;
+ Dati tiek apstrādāti godīgi un likumīgi.               pieciešami noteikta mērķa sasniegšanai. Piemēram,
+                                                         pieprasīt informāciju par skolēna vecāku ienāku-                  regulāri mainīta, un ir precīzi noteikts, kādiem datiem
+ Datu apstrāde tiek veikta konkrētiem mērķiem           miem nav atbilstoši, jo tas nav saistīts ar mērķa sa-
+un tikai saskaņā ar tiem.                                sniegšanu – skolas funkciju izpildi.                              konkrētam lietotājam (darbiniekam, vecākiem, skolē-  informācijas tehnoloģijām un datiem – rezer-
+
+ Dati ir adekvāti (ne pārmērīgi).                       Personas datu apstrādes ilgums                                    niem, palīgpersonālam) ir nepieciešams piekļūt.          ves kopijas, uzstādīta antivīrusa programmatūra,
+
+ Dati ir precīzi.                                       Datu apstrādes ilgumam jābūt saistītam ar noteiktu                                                                         regulāri tiek mainīta parole, kas sastāv ne mazāk kā
+                                                         personas datu apstrādes mērķi. Piemēram, informā-
+ Dati netiek glabāti ilgāk kā nepieciešams.             cija, kas tiek apstrādāta saistībā ar eksāmeniem, var             Ir jānodrošina, lai personas datus nebūtu iespējams no 8 simboliem.
+                                                         tikt apstrādāta tikai tik ilgi, kamēr tas ir nepieciešams
+ Dati tiek apstrādāti saskaņā ar datu subjektu          saistībā ar eksāmena norisi. Personas datiem, kas tiek
+tiesībām.                                                arhivēti, ir jābūt nošķirtiem no citiem personas da-
+                                                         tiem. Piemēram, atsevišķā datu nesējā.
+ Dati ir drošībā.
+
+ Dati netiek pārsūtīti uz citām organizācijām,                                                                            sagrozīt, bojāt un lai tiem nepiekļūtu nepilnvarotas
+iestādēm vai ārvalstīm bez drošas un adekvātas
+aizsardzības.                                            Personas datu drošība                                             personas. Piemēram, ārpakalpojumu sniedzēju gadīju- Drošības pasākumiem ir jābūt atbilstošiem apstrādāja-
+
+Personas datu apstrādes mērķa                            Pārzinim ir jānodrošina personas datu drošība skolā,              mos līgumos ir jānosaka to atbildība par datu drošību. miem personas datu veidiem un to riskiem. Piemēram,
+noteikšana                                               t.i., tam ir pienākums nodrošināt datu konfidenciali-
+                                                         tāti un nodrošināt, lai dati nelikumīgi nenokļūtu tre-                                                                     jābūt augstam autentifikācijas (lietotāja identitātes
+                                                         šo personu rīcībā.
+                                                                                                                           Pārzinim ir arī jānodrošina, lai tiktu ieviesti atbilstoši pārbaude) līmenim attiecībā uz piekļūšanu testu (jeb
+
+                                                                                                                           drošības pasākumi un līdzekļi, t.i., gan loģiskie, gan pārbaudījumu, ieskaišu, eksāmenu) rezultātiem, sen-
+
+                                                                                                                           fiziskie drošības līdzekļi.                              sitīvus personas datus (t.i. personas datus, kas norāda
+
+                                                                                                                                                                                    personas rasi, etnisko izcelsmi, reliģisko, filozofisko un
+
+             Personas datus var apstrādāt tikai likumīgam un Tāpat ir jānodrošina, ka personas datiem var piekļūt          Piemēram:                                                politisko pārliecību, dalību arodbiedrībās, kā arī sniedz
+             iepriekš noteiktam mērķim, kas nepieciešams sko- tikai tam pilnvaroti darbinieki, ja to darba pienā-
+             las funkciju izpildei. Skolas direktors vai pašvaldības kumi ir saistīti ar noteikto personas datu apstrādi.                                                           informāciju par personas veselību vai seksuālo dzīvi) var
+
+4                                                                                                                           telpām – atbilstoši ugunsdrošības pasākumi,            nosūtīt pa internetu, ja ir nodrošināta datu šifrēšana.
+
+                                                                                                                                                                                                                                                5
+   Datu subjektu tiesību ievērošana                         un kārtību datu subjektam piekļūt saviem personas          personām pārzinis ir nodevis datus par konkrēto kārtību, saskaņojot ar vecākiem, kā par notikumiem
+                                                            datiem, izdarīt labojumus tajos, kā arī – vai perso-
+   a) Datu subjektu informēšana                             nas datu sniegšana ir obligāta vai brīvprātīga. Šādu       datu subjektu.                                         skolā tiek informēti masu saziņas līdzekļi.
+                                                            informāciju, piemēram, var sniegt gan izmantojot
+   Datu subjekts – fiziskā persona, kuru var tieši vai ne-  atsevišķas veidlapas, gan ievietojot informāciju ies-      Pārzinim ir pienākums sniegt atbildi datu subjektam    Datu valsts inspekcijas
+   tieši identificēt. Piemēram, skolēni, skolēnu vecāki,    tādes interneta mājas lapā, kā arī nosūtot vēstules        uz tā informācijas pieprasījumu mēneša laikā no at-    loma datu aizsardzībā
+   skolu darbinieki.                                        personām, kuru dati tiek apstrādāti.                       tiecīgā pieprasījuma saņemšanas dienas. Nesaņemot
+                                                                                                                       šādu informāciju, datu subjektam ir tiesības vērsties  Datu valsts inspekcija ir valsts pārvaldes iestāde, kas
+   Pirms personas datu ievākšanas datu subjekti ir jāin-    b) Datu subjektu pieejas tiesības un                       Datu valsts inspekcijā ar sūdzību.                     veic personas datu aizsardzības uzraudzību. Tā dar-
+   formē par datu apstrādes mērķi, pārzini un par per-      datu labošana                                                                                                     bojas neatkarīgi un patstāvīgi, izpildot normatīvajos
+   sonas datu operatoru, ja tāds ir. Piemēram, izman-                                                                  Skolēnu datu izpaušana                                 aktos noteiktās funkcijas, pieņem lēmumus un izdod
+   tojot anketas personas datu ievākšanai, vienlaicīgi ir   Jebkurš datu subjekts vai viņa pārstāvis (skolēns,         trešajām personām                                      administratīvos aktus saskaņā ar likumu.
+   jāsniedz informācija (mutiski, vai tai jābūt iekļautai   skolēna vecāki, kas pārstāv skolēnu, skolotāji, skolas
+   anketā) par to, kas ir pārzinis minētajai datu apstrā-   darbinieki) var pieprasīt jebkuru informāciju par sevi     Izpaužot skolēnu personas datus trešajām personām,     Datu valsts inspekcijas funkcijas un
+   dei (atbildīgais par datu apstrādi), kas ir personas     (datu subjektu), kas ir iestādes rīcībā (ja likums tieši   būtu ieteicams ievērot, ka pieprasījumam iegūt per-    tiesības
+   datu operators un kāds ir personas datu apstrādes        neaizliedz to sniegt), kā arī viņam ir tiesības pieprasīt  sonas datus ir jābūt noformulētam rakstveida iesnie-
+   mērķis, t.i., kādam nolūkam dati tiek vākti.             datus labot vai dzēst, ja tie ir nepilnīgi, novecojuši,
+                                                            nepatiesi, pretlikumīgi iegūti, vai arī vairs nav nepie-   gumā, vai iesniegumam jābūt parakstītam ar drošu  Kontrolēt personas datu apstrādes atbilstību Fi-
+   Vēlams vienlaicīgi arī informēt datu subjektu par ie-    ciešami vākšanas mērķim. Turklāt datu subjektam ir
+   spējamiem personas datu saņēmējiem, par iespējām         tiesības saņemt informāciju par to, kurām trešajām         elektronisko parakstu. Piemēram, ja datus pieprasa zisko personu datu aizsardzības likumam. Inspekcija
+
+                                                                                                                       policija, tiesa, arī tad nepieciešams saņemt rakstvei- veic arī pirmsreģistrācijas pārbaudes atsevišķās riska
+
+                                                                                                                       da informācijas pieprasījumu, lai varētu identificēt jomās, saņemot personas datu apstrādes reģistrāci-
+
+                                                                                                                       informācijas pieprasītāju un izvērtēt, kādā apjomā jas iesniegumus.
+
+                                                                                                                       informācija ir sniedzama. Neskaidrību gadījumā ie-
+
+                                                                                                                       spējams zvanīt Datu valsts inspekcijai vai nosūtīt  Sūdzību izskatīšana. Inspekcija saņem sūdzības
+
+                                                                                                                       elektroniskā pasta vēstuli uz e-pasta adresi info@ no jebkuras personas par iespējamiem datu apstrādes
+
+                                                                                                                       dvi.gov.lv.                                            aizsardzības pārkāpumiem. Inspekcija var pieprasīt
+
+                                                                                                                                                                              datu bloķēšanu, kļūdainu vai nelikumīgi iegūtu datu
+
+                                                                                                                       Ja speciālie normatīvie akti neparedz tiesības treša- izdzēšanu vai iznīcināšanu, noteikt pastāvīgu vai
+
+                                                                                                                       jām personām iegūt personas datus, bet trešā per- pagaidu aizliegumu datu apstrādei, kā arī, ja saskata
+
+                                                                                                                       sona lūdz informāciju par skolēnu, tad varat jautāt noziedzīga nodarījuma (Krimināllikuma 145. pants)
+
+                                                                                                                       vecākiem, vai viņi piekrīt, ka jūs izpaužat personas pazīmes, nosūtīt informāciju prokuratūrai.
+
+                                                                                                                       datus par skolēnu vai viņa vecākiem. Piemēram, fut-
+
+                                                                                                                       bola klubs varētu vēlēties noskaidrot skolas talantī-  Inspekcija veic personas datu apstrādes pārbau-
+
+                                                                                                                       gākos futbolistus, lai izskatītu iespēju uzaicināt viņus des uz vietas. Inspekcijai ir tiesības brīvi apmeklēt
+
+                                                                                                                       spēlēt savā futbola klubā. Šādā gadījumā personas jebkuras nedzīvojamās telpas, kurās notiek personas
+
+                                                                                                                       datu nodošanai klubam nepieciešama konkrēto datu apstrāde, un pārziņa pārstāvja klātbūtnē veikt
+
+                                                                                                                       skolēnu vecāku piekrišana. Iesakām skolām atrunāt nepieciešamo pārbaudi vai citus pasākumus, lai
+
+6                                                                                                                                                                                                                                      7
+   noteiktu personas datu apstrādes procesa atbilstību Piemēram, ir pieļaujams apstrādāt personas kodus
+
+   likumam. Inspekcijas darbinieki var pieprasīt rakstvei- skolēnu lietās, lai identificētu noteiktu skolēnu. Sa-
+
+   da vai mutvārdu paskaidrojumus no jebkuras fiziskās vukārt, ir vērtējams, vai personas kods ir nepiecie-
+
+   vai juridiskās personas, kas saistīta ar personas datu šams, veicot kādu aptauju vai anketēšanu skolās, kā
+
+   apstrādi; pieprasīt uzrādīt dokumentus un sniegt citu arī lai reģistrētu skolēnu skolas bibliotēkā kā lasītāju.
+
+   informāciju, kas attiecas uz pārbaudāmo personas         Personas fotogrāfija
+   datu apstrādi, kā arī pieprasīt jebkuras personas datu
+   apstrādes iekārtas vai informācijas nesēja pārbaudi
+
+   un noteikt ekspertīzi pārbaudāmo jautājumu izpētei. Fotogrāfijas mūsdienās ir kļuvušas par neatņemamu
+
+                                                            ikdienas dzīves sastāvdaļu, turklāt tās tiek iegūtas, ne
+
+    Tiesības piemērot sankcijas. Likumā noteiktajā         tikai fotografējot ar fotoaparātu, bet arī ar mobila-
+
+   kārtībā Inspekcijai ir tiesības uzlikt administratīvos jiem telefoniem, viedtālruņiem, planšetdatoriem un
+
+   sodus par pārkāpumiem personas datu apstrādē             citām ierīcēm, kā arī tās tiek izmantotas, saglabājot
+
+   (brīdinājums, naudas sods līdz desmit tūkstoš latiem, fotoattēlus digitālā formātā un publiskojot tos vir-
+
+   konfiscējot pārkāpuma priekšmetus un izdarīšanas tuālajā vidē.
+
+   rīkus vai bez konfiskācijas), pieprasīt datu bloķēšanu,
+
+   kļūdainu vai nelikumīgi iegūtu datu izdzēšanu vai Personas vai personu grupas fotogrāfiju izmantoša-                tificēt, nepieciešams saņemt viņu atļauju šo fotogrā-
+                                                                                                                       fiju publicēšanai. Tas attiecināms arī uz klases foto-
+   iznīcināšanu, noteikt pastāvīgu vai pagaidu aizliegu- na ir arī vispārēja prakse skolās. Piemēram, fotogrā-         grāfijām – nepieciešams saņemt vecāku piekrišanu,       Kas jāievēro fotografējot skolā?
+                                                                                                                       pirms tiek organizēta klases fotografēšana.
+   mu datu apstrādei.                                       fijas tiek izmantotas, pievienojot tās skolēnu doku-                                                               Ir jābūt vienošanās ar personu, kas tiek fotografēta.
+                                                                                                                       Kā arī skolai līgumā ar fotogrāfēšanas pakalpojumu      Piemēram, skola izstrādā iekšējo kārtību par fotogra-
+                                                            mentiem, publicējot skolu informatīvajos materiālos,       sniedzēju nepieciešams atrunāt to, ka bērnu fotog-      fēšanu un/vai filmēšanu skolā, kur iekļauj arī kārtību,
+                                                                                                                       rāfijas netiks izmantotas citam mērķim, kā tikai tam,   kādā vecāki tiek informēti, kad bērni var tikt skolā fo-
+   Praktiskās rekomendācijas                                skolu avīzēs, interneta mājas lapās, vai izvietojot        kādēļ tās tiek uzņemtas.                                tografēti, kā un kad vecāki var pret to iebilst, kā un
+   attiecībā uz personas datu                               publiski skolas telpās. Informāciju tehnoloģijas pie-                                                              kur fotogrāfijas var tikt publiskotas.
+                                                            dāvā aizvien jaunas iespējas, taču tas nozīmē, ka gan
+                                                            pedagogiem, gan vecākiem, gan arī skolēniem ir jā-
+
+   apstrādi skolās                                          apzinās riski, kas saistīti ar šīm iespējām, kā arī jābūt
+                                                            informētiem, kā aizsargāt savas tiesības un neaiz-
+
+   Personas koda apstrāde                                   skart citu personu tiesības uz privātumu gan attie-        Kāpēc jāaizsargā personas fotogrāfija? Likums neaizliedz vecākiem fotografēt skolā dažādus
+                                                            cībā uz fotografēšanu, gan fotogrāfiju publiskošanu.
+                                                            Turklāt nepieciešams atcerēties, ka draudus nerada                                                                         pasākumus, piemēram, Ziemassvētku pasākumus vai
+                                                                                                                       Personas attēls ir uzskatāms par personības rakstu- sporta dienas, bet fotogrāfijas nevar tikt publiskotas.
+   Personas kodu drīkst apstrādāt (jeb izmantot), ja:       informāciju tehnoloģijas pašas par sevi, bet gan tas,      rīgu pazīmi, tas ir privātās dzīves konfidencialitātes
+                                                                                                                       elements, un tam jābūt aizsargātam, ņemot vērā Personu fotografēšanai un fotogrāfiju izplatīšanai
+                                                            kā indivīdi tās izmanto.                                   personu tiesības uz to, ka viņu privātā dzīve tiek res- ir jānotiek saskaņā ar personas tiesībām uz savu
+                                                                                                                       pektēta. Fotogrāfijas izmantošanai ir jābūt stingri attēlu. Jebkurš var iebilst pret sava attēla izmanto-
+    ir datu subjekta piekrišana;                                                                                      noteiktai, jebkuram datu subjektam attiecībā uz viņa šanu jebkādā formā (izmantošanu skolas intranetā,
+                                                                                                                       fotogrāfiju ir ekskluzīvas tiesības uz tās izplatīšanu, internetā, utt.).
+                                                            Tādēļ izglītošanas jautājums par dažādiem personas         kā arī persona var iebilst pret fotogrāfijas izmantoša-
+                                                                                                                       nu vai izplatīšanu bez tās piekrišanas.
+    personas koda apstrāde ir nepieciešama, lai            datu aizsardzības aspektiem ir ļoti būtisks.
+                                                                                                                                                                                                                                                                                                        9
+   sasniegtu noteiktu personas datu apstrādes mērķi;
+
+                                                            Attiecībā uz katru konkrēto fotogrāfiju, kurā redzams
+
+    ir saņemta Inspekcijas atļauja.                        kāds indivīds vai indivīdu grupa, ko ir iespējams iden-
+
+8
+                                                            Vai fotogrāfija ir uzskatāma par pozitīvu infor-       pieejas parolēm jābūt droši veidotām, piemēram,           izpildei, un tikai pašam skolēnam vai viņa likumīgam
+                                                           māciju un vai to vēlēsimies redzēt publiski arī pēc 10   tām jāsastāv ne mazāk kā no 8 simboliem, tās nevar        pārstāvim (piemēram, vecākiem).
+                                                           gadiem?                                                  tikt glabātas tiešā tekstā, utt. Tāpat sistēmas lietotā-
+                                                                                                                    jiem jābūt zinošiem par sistēmas konfidencialitātes       Statistikas dati un citi pētījumi
+                                                            Vai es vēlētos, lai šāda fotogrāfija tiktu publisko-   jautājumiem.
+                                                           ta arī par mani?                                                                                                   Lielākajā daļā gadījumu statistikas datu iegūšanai
+                                                                                                                     Nepieciešams informēt lietotājus par to tiesībām        personas dati nav nepieciešami.
+                                                            Vai konkrētā fotogrāfija parāda skolu/ klasi/          saskaņā ar Fizisko personu datu aizsardzības likumu.
+                                                           bērnu pozitīvā gaisotnē?                                 Informācijai par portāla drošu lietošanu ir jābūt         Pētījumos bieži tiek izmantoti dažādi skolēnu perso-
+                                                                                                                    pieejamai attiecīgajā pakalpojuma sniedzēja inter-        nas dati, kas iegūti no vairāk vai mazāk detalizētām
+                                                            Ko teiktu konkrētais bērns, ieraugot publiskotu        neta mājas lapā, kā arī jābūt pieejamai tajā brīdī,       aptaujas anketām. Šo datu (jo īpaši sensitīvo per-
+                                                                                                                    kad tiek veidots lietotāja konts. Katram lietotājam ir    sonas datu) vākšanai ir jāsaņem likumīgo pārstāvju
+                                                           savu fotoattēlu?                                         jābūt pieejai tikai tiem datiem, kuri ir nepieciešami,    atļauja, un pārstāvji ir jāinformē par pētījuma nolūku
+                                                                                                                    lai izpildītu savus darba/amata pienākumus skolā.         un datu saņēmējiem. Turklāt, ja iespējams, pētījumi ir
+    Skolas pienākums ir nodrošināt nepieciešamo pie-                                                                Katram datu subjektam ir tiesības piekļūt saviem          jāizstrādā bez bērnu identitātes atklāšanas.
+                                                                                                                    datiem, tos labot, pieprasīt dzēst saskaņā ar Fizisko
+    krišanu fotogrāfiju izmantošanai. Piemēram, ja tiek  Bērna draugu vai skolotāju fotogrāfijas var tikt          personu datu aizsardzības likumu.                         Biometrijas datu izmantošana
+
+    plānots, ka skolas pasākuma laikā tiks veikta fotogra- publicētas (piemēram, ievietotas tiešsaistes sociālo
+
+    fēšana, lai sniegtu informāciju par iestādes darbu, un tīklu portālos, publicētas blogos) tikai tad, ja perso-
+
+    pēc tam fotogrāfijas tiks izvietotas skolas avīzē, in- na, kura redzama fotogrāfijā, neiebilst.
+
+    ternetā u.c., inspekcija iesaka lūgt skolēnu vecākiem  Skolēnu datu apstrāde izmantojot                         Lietotāja datora kontrole                                 Biometrijas datu apstrāde ietver sevī dažādu informā-
+    atļauju viņu bērnu fotogrāfiju izvietošanai publiski,  internetu                                                                                                          cijas tehnoloģiju lietošanu, ar kuru palīdzību var tikt
+    izmantojot, piemēram, noteiktas veidlapas. Inspekci-                                                            Lai nodrošinātu tīkla un/vai tehnisko resursu (pie-       identificēta persona, izmantojot personas fiziskos, bio-
+    ja atgādina, ka personām ir tiesības piekļūt saviem                                                             mēram, datora) drošību, ir jāievieš to lietošanas kon-    loģiskos vai paradumu rādītājus (sejas vai rokas kon-
+                                                                                                                    trole. Šāda kontrole ir tiesiska, ja ir nodrošināts tās   tūras vai forma, acs tīklenes attēls, pirkstu un delnu
+    datiem (t.sk. savām fotogrāfijām), pieprasīt tos dzēst Gandrīz katrai skolai ir izveidota interneta mājas       caurspīdīgums, informējot par to lietotājus. Ir skaidri   pēdas nospiedumi, DNS, utt.) Biometrijas dati ir perso-
+                                                                                                                    jānosaka abu pušu (skolas un lietotāju) pienākumi,        nas dati, jo tie identificē personu. Biometrijas dati pa-
+    vai iznīcināt. Šāds situācijas risinājums attiecināms lapa, kurā tiek atspoguļoti svarīgākie skolas dzīves      informējot par kontroles nosacījumiem un sankcijām        matā tiek lietoti, lai nodrošinātu telpu pieejas drošību.
+                                                                                                                    pret lietotājiem, ja tie neievēro lietošanas noteiku-
+    arī uz žurnālistu izteiktu vēlmi skolā filmēt.         notikumi, skolēnu sasniegumi un cita aktuālā infor-      mus. Šie noteikumi īpaši ir jāņem vērā attiecībā uz       Tā kā pastāv potenciāli draudi saistībā ar minēto rā-
+                                                                                                                    skolas darbinieku darba elektronisko pastu un inter-      dītāju apstrādi, kuri ir unikāli katrai personai, un daži
+                                                           mācija. Turklāt ikviens var ievietot skolā uzņemtu       neta lietošanu darba vietā.                               (pirkstu nospiedumi, DNS, u.c.) var tikt ievākti, per-
+                                                                                                                                                                              sonai to nezinot, tad šādu datu apstrāde ir jāreģistrē
+    Pirms bērnu fotogrāfiju publiskošanas, ieteicams fotogrāfiju internetā, t.sk. tiešsaistes sociālajos tīklos.    Mācību novērtējuma izpaušana                              Datu valsts inspekcijā.
+
+    katram rast atbildes uz šādiem jautājumiem:
+
+                                                           Pastāv arī vairāki portāli vai sistēmas, kas nodrošina,
+
+     Kāds ir iemesls konkrētās fotogrāfijas publisko- ka skolēna datiem var piekļūt, izmantojot internetu,
+
+    šanai? Ko ar konkrētās fotogrāfijas publiskošanu ir piemēram, portāls E-klase.
+
+    mēģināts pateikt?
+
+                                                            Šajā gadījumā atsevišķa uzmanība ir jāpievērš
+
+     Vai vēlamies, lai apskatot fotogrāfiju, arī citas    tieši tehniskajiem drošības jautājumiem. Piemēram,
+
+    personas par to uzzina vai viņiem par to būtu nepie- ir jānodrošina, ka katrs lietotājs var piekļūt tikai tiem  Skolām ir jānodrošina, lai katra skolēna novērtējums Attiecībā uz šo datu apstrādi, ir jābūt ieviestiem īpa-
+                                                                                                                    (arī dažādas piezīmes attiecībā uz skolēna mācību šiem drošības pasākumiem attiecībā uz kopēju datu
+    ciešams uzzināt?                                       datiem, kas attiecas uz viņu vai ir saistīti ar viņa     procesu) būtu pieejams tikai tiem skolas darbinie- bāzi, kurā tiek apstrādāti biometrijas dati, vai arī at-
+                                                                                                                    kiem, kuriem tas ir nepieciešams darba pienākumu tiecībā uz ierīci, kurā glabājas dati.
+                                                           amata (darba) pienākumiem. Skolēns, skolēna vecāki
+                                                                                                                                                                                                                                                                                                    11
+                                                           nedrīkst piekļūt datiem par citiem skolēniem. Tāpat
+
+10
+    Ieviešot skolās biometrijas datu apstrādi, ir jāveic ris-  • vai nepastāv citi efektīvi līdzekļi vai veidi paredzēto
+    ku izvērtēšana, izvērtējot nepieciešamību izmantot         mērķu sasniegšanai, neizmantojot videonovērošanas
+    personu biometrijas datus, lai sasniegtu paredzēto         ierīces (t.i., izmantojot labākas kvalitātes durvis, īpa-
+    mērķi, utt. Detalizētāku informāciju par biometrijas       ši aizsargātus stiklus, dažādas slēdzeņu sistēmas un
+    datu apstrādes ieviešanu skatīt nodaļā par videono-        kustības detektorus vai citus sensorus īpašuma vai
+    vērošanu skolās.                                           personu vitāli svarīgu interešu aizsardzībai, utt.);
+
+    Videonovērošana skolās                                     • vai nepieciešams saglabāt ierakstus no videono-
+                                                               vērošanas iekārtām, vai veikt videonovērošanu reālā
+
+    Videonovērošana pārsvarā tiek izmantota, lai nodro- laika režīmā;
+
+    šinātu aizsardzību pret ļaunprātīgu rīcību vai nozie-
+
+    dzīgiem nodarījumiem. Videonovērošanas veikšana • vai veikt ierakstus pastāvīgi, vai tikai, ja iestājas
+
+    ietekmē personas brīvības (piemēram, brīvību nākt kāds noteikts kritērijs;
+
+    un iet). Līdz ar to ir nepieciešams ieviest atbilstošus
+
+    personas datu aizsardzības noteikumus.                     • vai ir iespējams sasniegt mērķi, veicot tikai noteik-    jāņem vērā, kad tiek novērtēta videonovērošanas      var piekļūt videonovērošanas attēliem, kā arī jāno-
+
+                                                               tas telpas daļas novērošanu;                               proporcionalitāte.                                   saka šo personu tiesības un jānodrošina atbilstoša
+
+    Pirms videonovērošanas kameru uzstādīšanas ir jā-                                                                                                                          apmācība. Turklāt ir jānosaka attēlu uzglabāšanas
+
+    veic risku izvērtēšana, ņemot vērā dažādu iespējamo • vai uzstādīt mobilu videonovērošanas ierīci vai                 Piemēram – iespējams, ka videonovērošanas sistē- laiks un noteiktas procedūras, kas reglamentē pie-
+
+    incidentu raksturu, kas notiek skolas teritorijā. Tas pastāvīgi filmējošu;                                            ma būs nelikumīga, ja tā tiks izvietota telpās, kur jā- ejas tiesības attēliem.
+
+    palīdzēs identificēt alternatīvus risinājuma veidus, lai                                                              pieļauj personu privātums (tualetes, dušas, apģērbu
+
+    sasniegtu mērķus, iespējams, neizmantojot videono- • vai videonovērošanas ierīces filmēšanas perimetrs                maiņas telpas, skolas medicīniskās aprūpes kabinets). • Piekļuve attēliem ir ierobežotam noteiktu perso-
+
+    vērošanu. Piemēram, drošu iekļūšanu skolā var no- būs nemainīgs, vai tas automātiski mainīsies, vai to                                                                     nu lokam
+
+    drošināt, izmantojot magnētiskās kartes, un attiecīgi varēs mainīt manuāli;                                           • Pienākums informēt                                 Attēliem var piekļūt tikai tās personas, kuras tam ir
+
+    nav nepieciešams ieviest biometrijas datu apstrādi                                                                    Nav pieļaujama jebkāda novērošana bez personu        speciāli pilnvarotas un kurām ir atbilstoši pienākumi
+
+    iekļūšanai skolā.                                          • vai attēlu varēs palielināt, cik liela būs optikas iz-   (skolotāju, skolēnu, darbinieku un apmeklētāju)      (piemēram, drošības struktūrvienības vadītājam,
+
+                                                               šķirtspēja, kas darīs iespējamu saskatīt sīkākās attēla    informēšanas.                                        atbildīgajai personai par drošību skolās). Šīm perso-
+
+     Pirms videonovērošanas iekārtu uzstādīšanas              detaļas, vai arī tiks iegūts daudz vispārīgāks attēls.                                                          nām ir jābūt apmācītām un jāpārzina videonovēro-
+
+    pašvaldībai vai skolas administrācijai ir jāizvērtē:                                                                  Jebkura persona, kas tiek filmēta vai var tikt filmēta, šanas kārtība un tās datu aizsardzība.
+
+                                                                Proporcionalitātes princips. Ja videonovērošanas         ir skaidrā un saprotamā veidā jāinformē par video-
+
+    • plānotie ieguvumi, uzstādot minētās ierīces – vai ieviešana atbilst sasniedzamajiem drošības mērķiem                novērošanu, piemēram, izvietojot brīdinājuma zīmes • Videonovērošanas attēlu uzglabāšanas laiks
+
+    šie ieguvumi ir būtiskāki par iespējamo negatīvo           (telpu piekļūšanas kontrole), tas vienlaicīgi nevar        pie ieejas telpās vai teritorijā, tajās attiecīgi norādot, Ierakstu uzglabāšanas ilgums nevar pārsniegt
+
+    efektu uz personām (skolēniem, viņu vecākiem,              būt par pamatu, lai novērotu noteiktus darbinie-           kas ir atbildīgs par videonovērošanas veikšanu un ar dažas dienas un ieraksti ir jāiznīcina pēc šī perioda,
+
+    skolātājiem, u.c.);                                        kus vai noteiktas personu grupas, kuru novērošana          kādu mērķi videonovērošana tiek veikta.              izņemot gadījumus, ja tiek veikta izmeklēšana vai
+
+                                                               nav nepieciešama drošības mērķiem. Videokameru                                                                  saņemts tiesībaizsardzības iestāžu rakstisks informā-
+
+    • vai videonovērošanas ierīču izmantošana tiešām skaits, izvietojums, novērošanas perimetrs, kameru                   • Atbilstošu dokumentu izstrāde                      cijas pieprasījums. Šim periodam jebkurā gadījumā
+
+    ir nepieciešama, un vai tā ir efektīva mērķa sasnieg- funkcijas un kameru darbības periodiskums, vai                  Ir vēlams iestādes dokumentos skaidri identificēt    nevajadzētu pārsniegt mēnesi.
+
+    šanai;                                                     novērojamo personu pienākumi ir visi tie faktori, kas      videonovērošanas mērķus un kārtību, kādā personas
+
+12                                                                                                                                                                                                                                     13
+    • Jāievēro noteiktas formalitātes pirms videono-          informācija tiek vākta, ir jābūt informētām par datu Izvietojot blogā godu un cieņu aizskarošu informāci-
+
+    vērošanas ieviešanas                                      vākšanas mērķi, un – pēc pieprasījuma – par datu sa- ju, vai informāciju, kuru saskaņā ar likumu ir aizliegts
+
+    Videonovērošana (ja tās rezultātā tiek saglabāti          ņēmējiem un piekļuves tiesībām, tiesībām labot da- izplatīt (piemēram, rasistiska rakstura), skolotājs vai
+
+    ieraksti) nevar tikt uzsākta pirms tās reģistrēšanas      tus un tiesībām prasīt dzēst datus.                      skolēns var tikt saukts pie administratīvās vai krimi-
+
+    Datu valsts inspekcijā, turklāt reģistrācija ir jāveic    Skolu blogi (emuāri)                                     nālatbildības. Nepilngadīgajam var tikt piemērota
+    pārzinim, kas ne vienmēr ir pati skola.                                                                            administratīvā vai kriminālatbildība no 14 gadu ve-
+                                                              Šajā gadījumā ar vārdu „blogs” tiek saprastas perso-     cuma.
+    Skolu mājas lapu veidošana internetā                      nu veidotas tīmekļa vietnes, kā žurnāls vai personisku
+                                                              interešu prezentācija (piemēram, par sportu, kultūru,    Sava privātuma aizsardzība internetā
+    Skolu interneta mājas lapas ir kļuvušas par daļu no
+
+    skolas ikdienas dzīves. Tā kā mājas lapa ir izvietota     ideju apmaiņa, u.c.).                                    Ir jāapzinās, ka internetā visas darbības, ieskaitot
+
+    internetā, tad tā ir pieejama publiski. Īpaši nepiecie-                                                            informācijas meklēšanas ierīču izmantošanu, atstāj
+
+    šams izvērtēt riskus, izveidojot interneta vai intraneta  Blogs nav vietne, kur persona var jebko izvietot/ „pēdas”. Līdz ar to ir neiespējami pilnībā dzēst infor-
+
+    mājas lapas, izmantojot mākoņdatošanas pakalpoju-         publiskot, neievērojot likuma noteikumus. Ir jāievēro māciju, jo nav iespējams zināt, kā rīcībā informācija
+
+    mus, jo pārzinis ir atbildīgs par visu veikto personas    konkrēti noteikumi un citu personu tiesības. Līdz ar ir nonākusi (piemēram, kura persona informāciju ir
+
+    datu apstrādi, neskatoties uz to, kādas tehnoloģijas      to katram blogerim ir jāapzinās, ko var darīt un ko nē.
+
+    jeb rīki tiek izmantoti personas datu apstrādei, kā arī
+
+    par šo tehnoloģiju vai rīku izvēli.                       Vecāki ir atbildīgi par savu bērnu publikācijām. Pie-
+
+                                                              ļaujams, ka vecāki dod atļauju saviem nepilngadīga-
+
+    Informācijas meklētāju rīki kļūst aizvien efektīvāki,     jiem (līdz 18 gadu vecumam) bērniem veidot savu
+
+    tādējādi palielinot risku aizskart personu privātumu.     blogu.
+
+    Izmantojot personas vārdu, ir iespēja izveidot perso-
+
+    nas „virtuālo” biogrāfiju, piemēram, iegūstot infor-      Civillikuma 177. pants nosaka, ka rūpes par bērnu no-
+
+    māciju par skolēna dalību ārpusskolas pasākumos un        zīmē viņa aprūpi, uzraudzību un tiesības noteikt viņa
+
+    dalību citās sabiedriskās aktivitātēs.                    dzīvesvietu. Savukārt bērna uzraudzība nozīmē rūpes
+
+                                                              par bērna paša drošību un trešās personas apdrau-
+
+    Līdz ar to, interneta mājas lapu veidošanā un uzturē-     dējuma novēršanu. Vienlaicīgi nepilngadīgajam var
+
+    šanā ir jāievēro personas datu aizsardzības prasības.     tikt piemērota administratīvā vai kriminālatbildība
+
+    Personas dati var tikt izvietoti mājas lapā tikai saska-  no 14 gadu vecuma, ja tas nelikumīgi apstrādā per-
+
+    ņā ar Fizisko personu datu aizsardzības likumā no-        sonas datus. Piemēram, praksē tas nozīmē, ka vecāki
+
+    teikto. Tāpat var tikt sodītas darbības, kuru rezultātā   atbild, ja to nepilngadīgais bērns bez atļaujas izvieto
+
+    mājas lapā tiek izplatīta godu un cieņu aizskaroša vai    citu personu attēlus internetā. Ja tiek konstatēts, ka
+
+    rasistiska informācija.                                   nepilngadīgais nelikumīgi veicis datu apstrādi, tad, ja
+
+                                                              personai nodarīts kaitējums vai radīti zaudējumi, tai
+
+    Lai vāktu personas datus (piemēram, pieteiktos ak-        ir tiesības saņemt atbilstīgu atlīdzinājumu. Minētās
+
+    tuālākās informācijas saņemšanai, kas tiek publicēta      atlīdzināšanas pienākums ir nepilngadīgā (līdz 18
+
+    skolas interneta mājas lapā), personām, no kurām          gadu vecumam) vecākiem.
+
+14                                                                                                                                                                             15
+                                                                                                                        Likums nosaka, ka personas datiem jābūt saglabā-              Internetā pieejamās informācijas apjoms par
+                                                                                                                        tiem pēc iespējas īsāku laika periodu attiecībā uz           jums, pirmkārt, ir atkarīgs no tā, cik daudz jūs pats
+                                                                                                                        datu glabāšanas mērķa sasniegšanu. Datu saglabā-             to tur publicējat. Esot sociālajos tīklos, jābūt mod-
+                                                                                                                        šanas ilguma kontekstā ir jāpastāv „tiesībām tikt aiz-       ram: sniedziet par sevi pēc iespējas mazāk informā-
+                                                                                                                        mirstam”. Ko nozīmē „tiesības tikt aizmirstam”? Cil-         cijas vai tik maz, cik maz ir pieļaujams.
+                                                                                                                        vēka smadzenēm piemīt spēja aizmirst informāciju,
+                                                                                                                        ko tās ir ieguvušas. Bet tas neattiecas uz datoru un          Pirms sākat lietot noteiktu sociālo tīklu, iepazīs-
+                                                                                                                        internetu. It īpaši „tiesībām tikt aizmirstam” interne-      tieties ar noteikumiem, kā varat ietekmēt sava profi-
+                                                                                                                        ta vidē ir svarīga nozīme. Protams, interneta vidē tas       la informāciju. Kā arī noskaidrojiet, kurš ir konkrētais
+                                                                                                                        ir nosacīti. Līdz ar to vislabākais veids aizsargāt sevi ir  sociālā tīkla portāla uzturētājs, ar kuru varēsiet
+                                                                                                                        pievērst uzmanību tam, kas tiek publicēts internetā.         sazināties problēmjautājumos. Veidojot savu profilu
+                                                                                                                        Praksē tas ir grūti, jo piemēram, sociālie tīkli aizvien     sociālajā tīklā, ierobežojiet tam piekļuvi, bet ja jums
+                                                                                                                        vairāk atklāj informāciju par personu, personai nezi-
+    saglabājusi savā datorā). Aplūkojot interneta mājas      gos. Internetā ir pieejami arī videorullīši, kur bieži ir  not, kas ir piekļuvis šādai informācijai, kādiem mēr-
+    lapas, tiek saglabāta informācija, ko pieļauj lietotāja  ievietota informācija, personai to nezinot.                ķiem un cik ilgi par viņu tiek saglabāta informācija.
+    dators: tas atstāj lietotāja datora „pēdas”.                                                                        Šāda informācija tiek izmantota aizvien ātrāk un
+                                                             Tāpat bērni bieži ir arī ideāls mērķis/avots, lai negod-   ātrāk, lielākā apjomā, un ir potenciāli pieejama visā
+    Tāpat katra darbība, ko veic, izmantojot interneta       prātīgi iegūtu informāciju par viņiem un viņu ģime-        pasaulē. Neviens nevar kontrolēt informāciju, kas ir
+    meklēšanas rīkus, tiek saglabāta: lietotāja datora IP    nēm. Informācijas apmaiņas ātrums, interaktivitāte         izvietota internetā. Tāpēc ir svarīgi ievērot piesardzī-
+    adrese, informācija, kas ir sīkdatnē (cookies), meklē-   un pat spēļu elementa klātesamība padara bērnus            bu, publicējot internetā informāciju. Internetā „pē-
+    šanas atslēgas vārdi un saite, kas izmantota, lai at-    par ideālu mērķi, lai iegūtu daudz vairāk un precīzā-      das” saglabājas ļoti ilgi un tāda datu apstrāde ir kā
+    vērtu atrasto mājas lapu. Tādējādi meklēšanas ierīču     ku informāciju.                                            „laika deglis”, piemēram, darbā iekārtošanās procesā,
+    uzturētāji precīzi zina lietotāja interneta lietošanas                                                              kas var ietekmēt indivīda dzīvi arī vairākus gadus pēc
+    paradumus.                                               Attiecībā uz iepriekš minēto likums nosaka, ka perso-      informācijas publiskošanas internetā.
+                                                             nas dati ir informācija, kas attiecas uz identificētu vai
+    Līdz ar to internetā ir pieejams liels informācijas ap-  identificējamu fizisko personu, piemēram, personas         Ņemot vērā minēto, ir 10 ieteikumi savu personas
+    joms par personu paradumiem – personu politiskie         vārds, uzvārds, personas fotogrāfija, mobilā telefona      datu aizsardzībai internetā.
+    uzskati, informācija par personu seksuālo dzīvi, in-     numurs, IP adrese, ko zina jūsu interneta pakalpoju-
+    formācija par personu attiecībām – ir pieejama blo-      mu sniedzējs, utt.                                          Pirms publicējiet, padomājiet!
+
+                                                                                                                         Uzdodiet tos pašus jautājumus, ko jūs, iespējams,
+                                                                                                                        jautātu „reālajā dzīvē”, izpaužot informāciju par
+                                                                                                                        sevi. Piemēram, vai es vēlos, lai manas fotogrāfijas
+                                                                                                                        ar draugiem būtu pieejamas maniem vecākiem vai
+                                                                                                                        skolotājiem, kā arī visiem interneta lietotājiem?
+
+16                                                                                                                                                                                                                                             17
+    jau ir savs profils, tad atcerieties, ka jāierobežo to    Nepadariet pieejamas savas paroles un neizvē-
+    personu loks, kas var redzēt informāciju par jums        lieties ļoti vienkāršas paroles (piemēram, dzimša-
+    (jūsu ievietoto tekstu, fotogrāfijas, video sociālajā    nas datums vai ģimenes locekļu vārdi). Izvēlieties
+    tīklā). Iestatījumi pieļauj ierobežot piekļūšanu jūsu    dažādas paroles dažādām mājas lapām. Atcerieties
+    personas datiem noteiktam personu (t.i., visu jūsu       izslēgt datoru vai aizvērt savu profilu, kad vairs
+    draugu vai tikai dažu draugu) lokam. Piemēram, ie-       nestrādājat ar datoru.
+    robežojiet, ka meklēšanas ierīces indeksēs (izmantos)
+    jūsu profilā esošo informāciju, līdz ar to jūs varēsiet  Personas datu apstrādes
+    kontrolēt savu informāciju un, ja vēlēsieties, to arī    reģistrācija Datu valsts
+    dzēst.                                                   inspekcijā
+
+     Kontrolējiet savas darbības blogā, dažādos foru-
+    mos: Facebook, Twitter u.c.
+
+     Nepublicējiet fotogrāfijas. Piemēram, apdomājiet       Skolām, veicot skolēnu (audzēkņu) un pedagogu
+    – ja jūs šodien dariet pieejamas savas fotogrāfijas      personas datu (t.i., skolēnu lietas, sekmju žurnāli,
+    saviem draugiem, kas notiks, ja rīt kāds no viņiem       pedagogu uzskaite) apstrādi, saskaņā ar Izglītības
+    vairs nebūs jūsu draugs un izplatīs visiem jūsu          likumu nav jāreģistrē personas datu apstrāde Datu
+    fotogrāfijas.                                            valsts inspekcijā. Ņemot vērā likuma „Par pašvaldī-
+                                                             bām” 5. panta otro daļu (pašvaldība atbild par tās
+     Nepubliskojiet internetā informāciju, kas var          izveidoto institūciju darbību, ja likumos nav noteikts
+    ietekmēt un aizskart citas personas. Nedariet citām      citādi), 7. panta otro daļu (likuma „Par pašvaldībām”
+    personām to, ko nevēlaties, lai citas personas nodara    15. pantā paredzēto autonomo funkciju izpildi or-
+    jums.                                                    ganizē un par to atbild pašvaldības) un 15. panta 4.
+                                                             punktu, kas nosaka pašvaldībām funkciju – gādāt
+     Regulāri pārbaudiet, kas par jums ir publicēts in-     par iedzīvotāju izglītību, personas datu apstrādes
+    ternetā. Piemēram, ierakstot savu vārdu meklēšanas       reģistrācija Datu valsts inspekcijā ir jāveic pašvaldī-
+    ierīcēs, jūs varat uzzināt, kāda informācija par jums    bām, norādot vispārējās izglītības iestādes kā perso-
+    ir pieejama. Jūs varat prasīt mājas lapas uzturē-        nas datu apstrādes vietas.
+    tājam, lai informācija par jums tiktu dzēsta, kā arī
+    lai tiktu dzēsta informācija, kas ir tikusi saglabāta
+    meklēšanas ierīcē.
+
+     Ja iespējams, lietojiet pseidonīmus, kas jūs ne-
+    identificē.
+
+18                                                                                                                    19
+    Kur iegūt vairāk                                           Personas datu apstrāde tiešsaistes sociālajos                         Datu valsts inspekcija
+    informācijas?                                             tīklos;                                                                      Tālr. 67223131
+
+    Kā redzams no šajā rekomendācijā aprakstītajām tē-         Datu apstrāde videonovērošanas jomā.                                 Blaumaņa iela 11/13-15,
+    mām, personas datu aizsardzība skolās var būt sa-                                                                                       Rīga, LV-1011
+    režģīts uzdevums, kam nepieciešams gan laiks, gan         Esi drošs (www.esidross.lv)
+    finanšu līdzekļi, gan speciālista padoms. Bet šie pa-                                                                        e-pasta adrese: info@dvi.gov.lv
+    sākumi ir ļoti būtiski, lai jūs veiktu personas datu ap-  Šī mājaslapa ir paredzēta ikvienam, kas rūpējas par                          www.dvi.gov.lv
+    strādi atbilstoši normatīvo aktu prasībām.                sava datora drošību un savu drošību internetā. Mājas
+                                                              lapu uztur Informācijas tehnoloģiju drošības inci-                       Telefonkonsultācijas
+    Šajā rekomendācijā nav precīzu ieteikumu un gatavu        dentu novēršanas institūcija (CERT.LV) un tajā infor-   katru darba dienu laika posmā no plkst. 13:00-15:00
+    atbilžu, jo katra organizācija personas datu apstrādi     mācijas tehnoloģiju speciālisti no Drošības ekspertu
+    veic atšķirīgi, un tādējādi iespējamās situācijas arī ir  grupas sniedz padomus, dalās pieredzē, kā arī ir ga-                       tālrunis 67223131
+    atšķirīgas.                                               tavi atbildēt uz jautājumiem par jūsu datora drošību
+                                                              un jūsu drošību internetā.
+    Datu valsts inspekcija (www.dvi.gov.lv)
+                                                              Drošs internets
+    Inspekcija sniedz konsultācijas personas datu aizsar-     (www.drossinternets.lv)
+    dzības jautājumos. Vairāk varat uzzināt Inspekcijas
+    mājaslapā. Turpat atradīsit arī informatīvus materiā-     Informācijas resurss, par kura saturu atbild Latvijas
+    lus, rekomendācijas un skaidrojumus par datu aizsar-      Interneta asociācija. Šeit varat atrast gan ieteikumus
+    dzības un drošības tēmām, kā arī normatīvos aktus         bērniem, jauniešiem un pieaugušajiem interneta dro-
+    – Fizisko personu datu aizsardzības likumu un uz tā       šai lietošanai, gan arī nozares pētījumus un aptaujas.
+    pamata izdotos Ministru kabineta noteikumus.
+                                                              Bērnu tiesību aizsardzība
+    Iesakām iepazīties ar šādām rekomendācijām:               (www.bti.gov.lv)
+
+     Personas datu definīcija;                               Valsts bērnu tiesību aizsardzības inspekcija uzrauga
+                                                              un kontrolē normatīvo aktu ievērošanu bērnu tiesī-
+     Personas datu aizsardzība darba vietās;                 bu aizsardzības jomā. Šīs institūcijas interneta mājas
+                                                              lapā pieejama informācija par dažādiem bērnu tiesī-
+     Personas datu apstrādes drošība;                        bu aizsardzības aspketiem, tajā skaitā arī e-konsultā-
+                                                              cijas bērniem un jauniešiem.
+
+20
+

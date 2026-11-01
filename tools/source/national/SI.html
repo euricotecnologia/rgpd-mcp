@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="sl" data-critters-container>
+
+<head>
+  <meta charset="utf-8">
+  <title>PisRS - Pravno informacijski sistem</title>
+
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <meta http-equiv="Content-Security-Policy" content>
+
+  <script>
+    (function () {
+      try {
+        /* Script for fixing url routes with special characters */
+        const url = new URL(window.location.href);
+        const originalPath = url.pathname;
+
+        const parts = originalPath.split('/');
+        let fixed = false;
+
+        const encodedParts = parts.map(part => {
+          const needsEncoding = /[()]/.test(part);
+          if (needsEncoding) {
+            fixed = true;
+            return part.replace(/\(/g, '%28').replace(/\)/g, '%29');
+          }
+          return part;
+        });
+
+        if (fixed) {
+          const fixedPath = encodedParts.join('/');
+          const newUrl = fixedPath + (url.search || '') + (url.hash || '');
+          console.log('Redirecting to encoded URL:', newUrl);
+          window.location.replace(newUrl);
+        }
+      } catch (e) {
+        console.error('URL fix failed:', e);
+      }
+    })();
+  </script>
+
+
+
+<style>@charset "UTF-8";body{font-size:.938rem;color:#333;font-family:Republika,Arial,sans-serif}a{color:#3e7c94}a:visited{color:#529dba}@font-face{font-family:Republika;src:url(republika-regular-webfont.51964f52ee84c768.woff);font-weight:400;font-style:normal}@font-face{font-family:Republika;src:url(republika-bold-webfont.24a75221964e3b6d.woff);font-weight:700;font-style:normal}@font-face{font-family:Republika;src:url(republika-regular-webfont.51964f52ee84c768.woff);font-weight:400;font-style:normal}@font-face{font-family:Republika;src:url(republika-bold-webfont.24a75221964e3b6d.woff);font-weight:700;font-style:normal}:root{--kendo-color-app-surface:#ffffff;--kendo-color-on-app-surface:#212529;--kendo-color-subtle:#596169;--kendo-color-surface:#f8f9fa;--kendo-color-surface-alt:#ffffff;--kendo-color-border:rgba(33, 37, 41, .13);--kendo-color-border-alt:rgba(33, 37, 41, .2);--kendo-color-base-subtle:#e9ecef;--kendo-color-base-subtle-hover:#dee2e6;--kendo-color-base-subtle-active:#ced4da;--kendo-color-base:#dee2e6;--kendo-color-base-hover:#ced4da;--kendo-color-base-active:#bdc4cb;--kendo-color-base-emphasis:rgba(33, 37, 41, .34);--kendo-color-base-on-subtle:#212529;--kendo-color-on-base:#212529;--kendo-color-base-on-surface:#212529;--kendo-color-primary-subtle:#cfe2ff;--kendo-color-primary-subtle-hover:#b6d4fe;--kendo-color-primary-subtle-active:#9ec5fe;--kendo-color-primary:#3e7c94;--kendo-color-primary-hover:#1b495a;--kendo-color-primary-active:#0a58ca;--kendo-color-primary-emphasis:rgba(13, 110, 253, .4);--kendo-color-primary-on-subtle:#052c65;--kendo-color-on-primary:#ffffff;--kendo-color-primary-on-surface:#3e7c94;--kendo-color-secondary-subtle:#dee2e6;--kendo-color-secondary-subtle-hover:#ced4da;--kendo-color-secondary-subtle-active:#bdc4cb;--kendo-color-secondary:#6c757d;--kendo-color-secondary-hover:#596169;--kendo-color-secondary-active:#495057;--kendo-color-secondary-emphasis:rgba(108, 117, 125, .4);--kendo-color-secondary-on-subtle:#2B2F32;--kendo-color-on-secondary:#ffffff;--kendo-color-secondary-on-surface:#6c757d;--kendo-color-tertiary-subtle:#e2d9f3;--kendo-color-tertiary-subtle-hover:#d3c5ec;--kendo-color-tertiary-subtle-active:#c5b3e6;--kendo-color-tertiary:#6f42c1;--kendo-color-tertiary-hover:#59359a;--kendo-color-tertiary-active:#4e2f89;--kendo-color-tertiary-emphasis:rgba(111, 66, 193, .4);--kendo-color-tertiary-on-subtle:#432874;--kendo-color-on-tertiary:#ffffff;--kendo-color-tertiary-on-surface:#6f42c1;--kendo-color-info-subtle:#cff4fc;--kendo-color-info-subtle-hover:#b7eefa;--kendo-color-info-subtle-active:#9eeaf9;--kendo-color-info:#0dcaf0;--kendo-color-info-hover:#3dd5f3;--kendo-color-info-active:#6edff6;--kendo-color-info-emphasis:rgba(13, 202, 240, .4);--kendo-color-info-on-subtle:#055160;--kendo-color-on-info:#000000;--kendo-color-info-on-surface:#0dcaf0;--kendo-color-success-subtle:#d1e7dd;--kendo-color-success-subtle-hover:#badbcc;--kendo-color-success-subtle-active:#a3cfbb;--kendo-color-success:#198754;--kendo-color-success-hover:#146C43;--kendo-color-success-active:#0F5132;--kendo-color-success-emphasis:rgba(25, 135, 84, .4);--kendo-color-success-on-subtle:#0A3622;--kendo-color-on-success:#ffffff;--kendo-color-success-on-surface:#198754;--kendo-color-warning-subtle:#fff3cd;--kendo-color-warning-subtle-hover:#ffecb5;--kendo-color-warning-subtle-active:#ffe69c;--kendo-color-warning:#ffc107;--kendo-color-warning-hover:#ffcd39;--kendo-color-warning-active:#ffda6a;--kendo-color-warning-emphasis:rgba(255, 193, 7, .4);--kendo-color-warning-on-subtle:#664d03;--kendo-color-on-warning:#000000;--kendo-color-warning-on-surface:#ffc107;--kendo-color-error-subtle:#f8d7da;--kendo-color-error-subtle-hover:#f5c2c7;--kendo-color-error-subtle-active:#f1aeb5;--kendo-color-error:#dc3545;--kendo-color-error-hover:#b02a37;--kendo-color-error-active:#9a2530;--kendo-color-error-emphasis:rgba(220, 53, 69, .4);--kendo-color-error-on-subtle:#58151c;--kendo-color-on-error:#ffffff;--kendo-color-error-on-surface:#dc3545;--kendo-color-light-subtle:#ffffff;--kendo-color-light-subtle-hover:#f8f9fa;--kendo-color-light-subtle-active:#e9ecef;--kendo-color-light:#f8f9fa;--kendo-color-light-hover:#e9ecef;--kendo-color-light-active:#dee2e6;--kendo-color-light-emphasis:rgba(33, 37, 41, .1);--kendo-color-light-on-subtle:#495057;--kendo-color-on-light:#000000;--kendo-color-light-on-surface:#f8f9fa;--kendo-color-dark-subtle:#495057;--kendo-color-dark-subtle-hover:#596169;--kendo-color-dark-subtle-active:#6c757d;--kendo-color-dark:#212529;--kendo-color-dark-hover:#343a40;--kendo-color-dark-active:#495057;--kendo-color-dark-emphasis:rgba(33, 37, 41, .4);--kendo-color-dark-on-subtle:#ffffff;--kendo-color-on-dark:#ffffff;--kendo-color-dark-on-surface:#212529;--kendo-color-inverse-subtle:#495057;--kendo-color-inverse-subtle-hover:#596169;--kendo-color-inverse-subtle-active:#6c757d;--kendo-color-inverse:#212529;--kendo-color-inverse-hover:#343a40;--kendo-color-inverse-active:#495057;--kendo-color-inverse-emphasis:rgba(33, 37, 41, .4);--kendo-color-inverse-on-subtle:#ffffff;--kendo-color-on-inverse:#ffffff;--kendo-color-inverse-on-surface:#212529;--kendo-color-series-a:#0c64e4;--kendo-color-series-a-bold:#084298;--kendo-color-series-a-bolder:#052c65;--kendo-color-series-a-subtle:#3d8bfd;--kendo-color-series-a-subtler:#86b6fe;--kendo-color-series-b:#6f42c1;--kendo-color-series-b-bold:#4e2f89;--kendo-color-series-b-bolder:#36215f;--kendo-color-series-b-subtle:#8c68cd;--kendo-color-series-b-subtler:#b9a3e1;--kendo-color-series-c:#20c997;--kendo-color-series-c-bold:#13795b;--kendo-color-series-c-bolder:#0d503c;--kendo-color-series-c-subtle:#79dfc1;--kendo-color-series-c-subtler:#c1f0e2;--kendo-color-series-d:#198754;--kendo-color-series-d-bold:#0F5132;--kendo-color-series-d-bolder:#0A3622;--kendo-color-series-d-subtle:#479F76;--kendo-color-series-d-subtler:#8cc3aa;--kendo-color-series-e:#dc3545;--kendo-color-series-e-bold:#9a2530;--kendo-color-series-e-bolder:#6e1b23;--kendo-color-series-e-subtle:#e35d6a;--kendo-color-series-e-subtler:#f1aeb5;--kendo-color-series-f:#ffc107;--kendo-color-series-f-bold:#b38705;--kendo-color-series-f-bolder:#806104;--kendo-color-series-f-subtle:#ffcd39;--kendo-color-series-f-subtler:#ffe083}script{display:none!important}:root{--kendo-elevation-1:0px 1px 2px rgba(0, 0, 0, .038);--kendo-elevation-2:0px 2px 7px rgba(0, 0, 0, .075);--kendo-elevation-3:0px 4px 10px rgba(0, 0, 0, .1);--kendo-elevation-4:0px 6px 13px rgba(0, 0, 0, .125);--kendo-elevation-5:0px 8px 16px 0px rgba(0, 0, 0, .15);--kendo-elevation-6:0px 11px 24px 0px rgba(0, 0, 0, .159);--kendo-elevation-7:0px 14px 36px 0px rgba(0, 0, 0, .168);--kendo-elevation-8:0px 16px 48px 0px rgba(0, 0, 0, .176);--kendo-elevation-9:0px 18px 60px 0px rgba(0, 0, 0, .185)}:root{--kendo-font-family:"Republika";--kendo-font-size:.938rem;--kendo-line-height:1.5;--kendo-font-weight:400;--kendo-letter-spacing: ;--kendo-font-size-xs:.7035rem;--kendo-font-size-sm:.82075rem;--kendo-font-size-md:.938rem;--kendo-font-size-lg:1.1725rem;--kendo-font-size-xl:1.407rem;--kendo-line-height-xs:1;--kendo-line-height-sm:1.25;--kendo-line-height-md:1.5;--kendo-line-height-lg:2;--kendo-font-weight-light:300;--kendo-font-weight-normal:400;--kendo-font-weight-medium:500;--kendo-font-weight-semibold:600;--kendo-font-weight-bold:700;--kendo-letter-spacing-tightest:-.15px;--kendo-letter-spacing-tighter:-.1px;--kendo-letter-spacing-tight:-.5px;--kendo-letter-spacing-normal:0px;--kendo-letter-spacing-wide:.5px;--kendo-letter-spacing-wider:.1px;--kendo-letter-spacing-widest:.15px;--kendo-font-family-sans-serif:system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;--kendo-font-family-monospace:SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace}:root{--kendo-spacing-0:0px;--kendo-spacing-1px:1px;--kendo-spacing-0\.5:.125rem;--kendo-spacing-1:.25rem;--kendo-spacing-1\.5:.375rem;--kendo-spacing-2:.5rem;--kendo-spacing-2\.5:.625rem;--kendo-spacing-3:.75rem;--kendo-spacing-3\.5:.875rem;--kendo-spacing-4:1rem;--kendo-spacing-4\.5:1.125rem;--kendo-spacing-5:1.25rem;--kendo-spacing-5\.5:1.375rem;--kendo-spacing-6:1.5rem;--kendo-spacing-6\.5:1.625rem;--kendo-spacing-7:1.75rem;--kendo-spacing-7\.5:1.875rem;--kendo-spacing-8:2rem;--kendo-spacing-9:2.25rem;--kendo-spacing-10:2.5rem;--kendo-spacing-11:2.75rem;--kendo-spacing-12:3rem;--kendo-spacing-13:3.25rem;--kendo-spacing-14:3.5rem;--kendo-spacing-15:3.75rem;--kendo-spacing-16:4rem;--kendo-spacing-17:4.25rem;--kendo-spacing-18:4.5rem;--kendo-spacing-19:4.75rem;--kendo-spacing-20:5rem;--kendo-spacing-21:5.25rem;--kendo-spacing-22:5.5rem;--kendo-spacing-23:5.75rem;--kendo-spacing-24:6rem;--kendo-spacing-25:7rem;--kendo-spacing-26:8rem;--kendo-spacing-27:9rem;--kendo-spacing-28:10rem;--kendo-spacing-29:11rem;--kendo-spacing-30:12rem}:root{--kendo-border-radius-none:0px;--kendo-border-radius-xs:.125rem;--kendo-border-radius-sm:.25rem;--kendo-border-radius-md:4px;--kendo-border-radius-lg:.5rem;--kendo-border-radius-xl:.75rem;--kendo-border-radius-xxl:1rem;--kendo-border-radius-xxxl:2rem;--kendo-border-radius-full:50rem}body{box-sizing:border-box;margin:0;background-color:#bbb;-webkit-print-color-adjust:exact}@media print{body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}</style><link rel="stylesheet" href="styles.0c34e7d06309c2f0.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.0c34e7d06309c2f0.css"></noscript></head>
+<script>
+  const po = new PerformanceObserver((list) => {
+    for (const entry of list.getEntriesByName('first-contentful-paint')) {
+      po.disconnect();
+    }
+  });
+  po.observe({
+    type: 'paint',
+    buffered: true
+  });
+
+</script>
+
+<body>
+  <app-root></app-root>
+
+  <script>
+    (function () {
+      var s = document.createElement("script");
+      s.setAttribute("data-account", "loybgo6yH0");
+      s.setAttribute("src", "https://cdn.userway.org/widget.js");
+      document.body.appendChild(s);
+    })();
+
+  </script><noscript>Omogočite JavaScript da omogočite <a href="https://userway.org">spletno dostopnost</a></noscript>
+
+<script src="runtime.14cc5e74dc8b598c.js" type="module"></script><script src="polyfills.0c4014d23dde5017.js" type="module"></script><script src="scripts.94f011fb13606557.js" defer></script><script src="main.f106054bbb626df3.js" type="module"></script></body>
+
+</html>

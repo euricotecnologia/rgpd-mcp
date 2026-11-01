@@ -1,0 +1,100 @@
+{
+ "code": "CZ",
+ "name": {
+  "en": "Czechia",
+  "pt": "Chéquia",
+  "es": "Chequia",
+  "fr": "Tchéquie",
+  "de": "Tschechien",
+  "it": "Cechia",
+  "nl": "Tsjechië",
+  "cs": "Česko"
+ },
+ "region": "EU",
+ "languages": [
+  "cs"
+ ],
+ "authority": {
+  "name": "Office for Personal Data Protection",
+  "url": "https://uoou.gov.cz/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "ataprotection.gov.cy +357 22 818 456 +357 22 304 565 Ms Maria Christofides Czech Republic Office for Personal Data Protection Pplk. Sochora 27 170 00 Prague 7 Czechia https://uoou.gov.cz/ posta@uoou.gov.cz +420 234 "
+  }
+ },
+ "laws": [
+  {
+   "id": "z110-2019",
+   "role": "implementation",
+   "title": "Zákon č. 110/2019 Sb., o zpracování osobních údajů",
+   "language": "cs",
+   "url": "https://www.zakonyprolidi.cz/cs/2019-110",
+   "number": "110/2019 Sb.",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.zakonyprolidi.cz/cs/2019-110",
+    "retrievedAt": "2026-11-01",
+    "sha256": "02089abb4a0e843864ca3f5234bf9e93773e03faa39a158a8b30b10a385d0e60",
+    "language": "cs",
+    "excerpt": "110/2019 Sb. Zákon o zpracování osobních údajů Vyčkejte chviličku ... Předplatné PLUS Více funkcí, žádné reklamy Webináře a školení Vyznejte se v zákonech! Naši experti Zviditelněte svou praxi! Předplatné PLUS Webináře a školení Naši experti Přihlásit 110/2019 verze 5 Sb"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 15,
+  "status": "verified",
+  "article": "§ 7 zákona č. 110/2019 Sb.",
+  "lawId": "z110-2019",
+  "evidence": {
+   "url": "https://www.zakonyprolidi.cz/cs/2019-110",
+   "retrievedAt": "2026-11-01",
+   "sha256": "02089abb4a0e843864ca3f5234bf9e93773e03faa39a158a8b30b10a385d0e60",
+   "language": "cs",
+   "excerpt": "působilost dítěte pro souhlas se zpracováním osobních údajů Dítě nabývá způsobilosti k udělení souhlasu se zpracováním osobních údajů v souvislosti s nabídkou služeb informační společnosti přímo jemu dovršením patnáctého roku věku. § 8 Informační povinnost pro zpracování osobních údajů upravená zákonem Pokud správce provádí zpracování osobních údajů podle § 5 a je povinen subjektu údajů poskytnout informace podle čl. 13 nebo čl. 14 odst. 1, 2 a 4 nařízení Evropského parlamentu a Rady ("
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "z372-2011",
+   "title": "Zákon č. 372/2011 Sb., o zdravotních službách a podmínkách jejich poskytování",
+   "language": "cs",
+   "url": "https://www.zakonyprolidi.cz/cs/2011-372",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 28 odst. 1",
+     "topic": "Souhlas pacienta (svobodný a informovaný souhlas)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.zakonyprolidi.cz/cs/2011-372",
+      "retrievedAt": "2026-11-01",
+      "sha256": "548f931e6702557a6a74ad458a3d1634d9a27a15c4a98a5c59f0db9620ddef78",
+      "language": "cs",
+      "excerpt": "§ 28 (1) Zdravotní služby lze pacientovi poskytnout pouze s jeho svobodným a informovaným souhlasem, nestanoví-li tento zákon jinak. (2) Pacient má právo na poskytování zdravotních služeb na náležité odborné úrovni. (3) Pacient má při poskytování zdravotních služeb dále právo a) na úctu, důstojné zacházení, na ohleduplnost a respektování soukromí při poskyt"
+     }
+    },
+    {
+     "article": "§ 51 odst. 1",
+     "topic": "Zachování mlčenlivosti v souvislosti se zdravotními službami",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.zakonyprolidi.cz/cs/2011-372",
+      "retrievedAt": "2026-11-01",
+      "sha256": "548f931e6702557a6a74ad458a3d1634d9a27a15c4a98a5c59f0db9620ddef78",
+      "language": "cs",
+      "excerpt": "§ 51 Zachování mlčenlivosti v souvislosti se zdravotními službami (1) Poskytovatel je povinen zachovat mlčenlivost o všech skutečnostech, o kterých se dozvěděl v souvislosti s poskytováním zdravotních služeb. (2) Za porušení povinné mlčenlivosti se nepovažuje a) předávání informací nezbytných pro zajištění návaznosti poskytovaných zdravotních služeb, b) sdělování údajů nebo jiných skutečností,"
+     }
+    }
+   ],
+   "number": "372/2011 Sb.",
+   "note": "Texto lido no portal Zákony pro lidi (não oficial; a publicação oficial é a Sbírka zákonů)."
+  }
+ ]
+}

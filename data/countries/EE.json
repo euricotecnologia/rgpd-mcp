@@ -1,0 +1,103 @@
+{
+ "code": "EE",
+ "name": {
+  "en": "Estonia",
+  "pt": "Estónia",
+  "es": "Estonia",
+  "fr": "Estonie",
+  "de": "Estland",
+  "it": "Estonia",
+  "nl": "Estland",
+  "et": "Eesti"
+ },
+ "region": "EU",
+ "languages": [
+  "et"
+ ],
+ "authority": {
+  "name": "Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon)",
+  "url": "http://www.aki.ee/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "+45 33 1932 00 Ms Cristina Angela GULISANO Estonia Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon) Tatari 39 10134 Tallinn Estonia http://www.aki.ee/ info@aki.ee +372 6828 712 Ms Pille Le"
+  }
+ },
+ "laws": [
+  {
+   "id": "iks",
+   "role": "implementation",
+   "title": "Isikuandmete kaitse seadus",
+   "language": "et",
+   "url": "https://www.riigiteataja.ee/et/akt/104012019011?leiaKehtiv",
+   "number": "RT I, 04.01.2019, 11",
+   "date": "2018-12-12",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.riigiteataja.ee/et/akt/104012019011?leiaKehtiv",
+    "retrievedAt": "2026-11-01",
+    "sha256": "5fe25c43d1b6e7b70e0af0ce56a13a3f60757ace7756808bf827fbd627fe8c8d",
+    "language": "et",
+    "excerpt": "lõpp: hetkel kehtiv | Avaldamismärge: RT I, 30.06.2026, 52 Isikuandmete kaitse seadus Vastu võetud 12.12.2018 RT I, 04.01.2019, 11 jõustumine 15.01.2019 § 8. Lapse isikuandmete töötlemine infoühiskonna teenuste pakkumisel (1) Kui kohaldatakse Euroopa Parlamendi ja nõukogu määruse (EL) 2016/679 artikli 6 lõike 1 punkti a seoses infoühiskonna te"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "§ 8 lg 1 isikuandmete kaitse seadus",
+  "lawId": "iks",
+  "evidence": {
+   "url": "https://www.riigiteataja.ee/et/akt/104012019011?leiaKehtiv",
+   "retrievedAt": "2026-11-01",
+   "sha256": "5fe25c43d1b6e7b70e0af0ce56a13a3f60757ace7756808bf827fbd627fe8c8d",
+   "language": "et",
+   "excerpt": "ele, on lapse isikuandmete töötlemine lubatud ainult juhul, kui laps on vähemalt 13-aastane. (2) Kui laps on noorem kui 13-aastane, on isikuandmete töötlemine lubatud üksnes sellisel juhul ja sellises ulatuses, milleks on nõusoleku andnud lapse seaduslik esindaja."
+  }
+ },
+ "notes": [
+  "Lido no Riigi Teataja renderizado no navegador (versao em vigor, RT I, 30.06.2026, 52); o ficheiro guardado e um extrato (cabecalho + par. 8)."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "vos-tervishoiuteenus",
+   "title": "Võlaõigusseadus (VÕS), 41. peatükk — tervishoiuteenuse osutamise leping (§§ 766 ja 769)",
+   "language": "et",
+   "url": "https://www.riigiteataja.ee/akt/v%C3%B5s?leiaKehtiv",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 766 lg 1",
+     "topic": "Patsiendi teavitamise ja nõusoleku saamise kohustus",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.riigiteataja.ee/akt/v%C3%B5s?leiaKehtiv",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1a847643c193eaec08091815db3bdd13c7ceefb26dd4a64d07ef92166af25c42",
+      "language": "et",
+      "excerpt": "§ 766. Patsiendi teavitamise ja tema nõusoleku saamise kohustus (1) Tervishoiuteenuse osutaja peab patsienti teavitama patsiendi läbivaatamise tulemustest ja terviseseisundist, võimalikest haigustest ja nende kulgemisest, vajaliku tervishoiuteenuse kättesaadavusest, olemusest ja otstarbest, selle osutamisega kaasnevatest ohtudest ja tagajärgedest ning teistest võimalikest ter"
+     }
+    },
+    {
+     "article": "§ 769",
+     "topic": "Dokumenteerimiskohustus (prontuário e acesso do paciente)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.riigiteataja.ee/akt/v%C3%B5s?leiaKehtiv",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1a847643c193eaec08091815db3bdd13c7ceefb26dd4a64d07ef92166af25c42",
+      "language": "et",
+      "excerpt": "§ 769. Dokumenteerimiskohustus Tervishoiuteenuse osutaja peab patsiendile tervishoiuteenuse osutamise nõuetekohaselt dokumenteerima ning vastavaid dokumente säilitama. Patsiendil on õigus nende dokumentidega tutvuda ja saada neist oma kulul ärakirju, kui seadusest ei tulene teisiti."
+     }
+    }
+   ],
+   "number": "RT I, 20.06.2026, 18 (redação)",
+   "note": "Riigi Teataja, redação em vigor de 01.09.2026 a 31.12.2026 (pode haver redação posterior). Lido só o início do § 766; a regra do consentimento está nos números seguintes. A lei de organização dos serviços de saúde não foi lida."
+  }
+ ]
+}

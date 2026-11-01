@@ -1,0 +1,125 @@
+{
+ "code": "BG",
+ "name": {
+  "en": "Bulgaria",
+  "pt": "Bulgária",
+  "es": "Bulgaria",
+  "fr": "Bulgarie",
+  "de": "Bulgarien",
+  "it": "Bulgaria",
+  "nl": "Bulgarije",
+  "bg": "България"
+ },
+ "region": "EU",
+ "languages": [
+  "bg"
+ ],
+ "authority": {
+  "name": "Commission for Personal Data Protection",
+  "url": "https://www.cpdp.bg/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "utoriteit.be contact@apd-gba.be +32 2 274 48 00 +32 2 274 48 35 Mr Koen Gorissen Bulgaria Commission for Personal Data Protection 2, Prof. Tsvetan Lazarov blvd. 1592 Sofia Bulgaria https://www.cpdp.bg/ kzld@cpdp.bg +359"
+  }
+ },
+ "laws": [
+  {
+   "id": "zzld",
+   "role": "implementation",
+   "title": "Закон за защита на личните данни (ЗЗЛД)",
+   "language": "bg",
+   "url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8/",
+   "status": "verified",
+   "evidence": {
+    "url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8/",
+    "retrievedAt": "2026-11-01",
+    "sha256": "2ddba10b10ec33755ec9d64c2f379bbd925de195b33bed611ff778f551f06179",
+    "language": "bg",
+    "excerpt": "Закон за защита на личните данни – КЗЛД Към главното съдържание BG EN FR Република България Комисия за защита на личните данни Начало Институцията Комисия Състав Правомощия История Юбилейна книга по случай 20 години КЗЛД Стратегия на КЗЛД Mисия и визия Стратегия Хоризонт 2022 Стратегията на"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "чл. 25в ЗЗЛД (нов – ДВ, бр. 17 от 2019 г.)",
+  "lawId": "zzld",
+  "evidence": {
+   "url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8/",
+   "retrievedAt": "2026-11-01",
+   "sha256": "2ddba10b10ec33755ec9d64c2f379bbd925de195b33bed611ff778f551f06179",
+   "language": "bg",
+   "excerpt": "17 от 2019 г.) Обработването на данни на субект на данни – лице, ненавършило 14 години, въз основа на съгласие по смисъла на чл. 4, т. 11 от Регламент (ЕС) 2016/679, включително в случаите на пряко предлагане на услуги на информационното общество по смисъла на чл. 1, ал. 3 от Закона за електронната търговия, е законосъобразно само ако съгласието е дадено от упражняващ"
+  }
+ },
+ "notes": [
+  "Texto lido na pagina da autoridade (КЗЛД) com a versao consolidada; a publicacao oficial e o Държавен вестник."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "zakon-za-zdraveto",
+   "title": "Закон за здравето (ДВ, бр. 70 от 2004 г.)",
+   "language": "bg",
+   "url": "https://www.mh.government.bg/upload/12273/Zakon%20za%20zdraveto%2014-10-2024.pdf",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Чл. 86, ал. 1",
+     "topic": "Права на пациента",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.mh.government.bg/upload/12273/Zakon%20za%20zdraveto%2014-10-2024.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "b5c6a56fc9a69b03bc15db022463bd6de73211239d7b1c8b24b436912fc72ef3",
+      "language": "bg",
+      "excerpt": "Чл. 86. (1) Като пациент всеки има право на: 1. зачитане на гражданските, политическите, икономическите, социалните, културните и религиозните му права; 2. грижи от общността, в която живее; 3. достъпна и качествена здравна помощ; 4. повече от едно медицинско становище относно диагнозата, лечението и п"
+     }
+    },
+    {
+     "article": "Чл. 87, ал. 1",
+     "topic": "Информирано съгласие",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.mh.government.bg/upload/12273/Zakon%20za%20zdraveto%2014-10-2024.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "b5c6a56fc9a69b03bc15db022463bd6de73211239d7b1c8b24b436912fc72ef3",
+      "language": "bg",
+      "excerpt": "Чл. 87. (1) Медицинските дейности се осъществяват след изразено информирано съгласие от пациента. Източник: Правно-информационни системи \"Сиела\" 13.06.2024 г. (2) Когато пациентът е непълнолетен или е поставен под ограничено запрещение, за извършване на медицински дейности е необходимо освен неговото информирано съгласие и съгласието на негов родител или"
+     }
+    },
+    {
+     "article": "Чл. 28б",
+     "topic": "Право на достъп до здравната информация и копия от медицинските документи",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.mh.government.bg/upload/12273/Zakon%20za%20zdraveto%2014-10-2024.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "b5c6a56fc9a69b03bc15db022463bd6de73211239d7b1c8b24b436912fc72ef3",
+      "language": "bg",
+      "excerpt": "Чл. 28б. (Нов - ДВ, бр. 41 от 2009 г., в сила от 02.06.2009 г.) (1) Пациентът има право да получи от лечебното заведение здравната информация, отнасяща се до неговото здравословно състояние, включително копия от медицинските си документи. (2) Пациентът има право да упълномощи писмено друго лице да се запознае с медицинските му документи, както и да направи копия от тях. (3) При смърт на пациента не"
+     }
+    },
+    {
+     "article": "Чл. 28в",
+     "topic": "Задължение за неразгласяване на информацията за пациента",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.mh.government.bg/upload/12273/Zakon%20za%20zdraveto%2014-10-2024.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "b5c6a56fc9a69b03bc15db022463bd6de73211239d7b1c8b24b436912fc72ef3",
+      "language": "bg",
+      "excerpt": "Чл. 28в. (Нов - ДВ, бр. 41 от 2009 г., в сила от 02.06.2009 г.) Медицинските специалисти и служители в лечебните заведения нямат право да разгласяват информация за пациента, която е получена при изпълнение на служебните им задължения. Раздел VI. Национална здравноинформационна система (Нов - ДВ, бр. 102 от 2018 г., в сила от 01.01.2019 г.) Чл. 28г. (Нов - ДВ, бр. 102 от 2018 г., в сила от 01.01.2019 г.) (1) Създава се Национална"
+     }
+    }
+   ],
+   "number": "ДВ, бр. 70/2004",
+   "note": "PDF do Ministério da Saúde datado de 14.10.2024 (compilação, não o Държавен вестник): pode haver alterações posteriores."
+  }
+ ]
+}

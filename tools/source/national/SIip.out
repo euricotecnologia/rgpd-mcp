@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang=en>
+<title>Security Check</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<style>
+    body {
+        margin: 0;
+        font: 20px/1.5 sans-serif;
+        text-align: center;
+        background: #fff;
+        color: #000
+    }
+
+    h1 {
+        font-family: ui-sans-serif, system-ui, sans-serif;
+        font-size: 2.6rem;
+        margin-top: 40px;
+        color: #102c53
+    }
+
+    .box {
+        max-width: 768px;
+        margin: 5% auto;
+        padding: 1em;
+        box-sizing: border-box
+    }
+
+    .status,
+    .error,
+    .success {
+        font-size: 16px;
+        margin-top: 20px
+    }
+
+    .status {
+        color: #666
+    }
+
+    .error {
+        display: none;
+        color: #ff5529
+    }
+
+    .success {
+        display: none;
+        color: #00978b
+    }
+
+    .progress-wrap {
+        display: none;
+        margin: 20px auto;
+        max-width: 400px
+    }
+
+    .progress-bar {
+        background: #e0e0e0;
+        border-radius: 4px;
+        height: 8px;
+        overflow: hidden
+    }
+
+    .progress-fill {
+        background: #00b5de;
+        height: 100%;
+        width: 0;
+        transition: width .3s
+    }
+
+    @media(max-width:480px) {
+        body {
+            font-size: 16px
+        }
+
+        .box {
+            margin: 3% 8px;
+            padding: .8em
+        }
+
+        .progress-wrap {
+            max-width: 100%
+        }
+
+        .progress-text {
+            font-size: 12px
+        }
+    }
+</style>
+<div class="box">
+    <h1>Verifying Your Browser</h1>
+    <p>We're performing a brief security check before loading <b id="h"></b>. This helps protect the site from automated
+        traffic and malicious activity.</p>
+    <script>document.getElementById('h').textContent = window.location.hostname</script>
+    <p>You’ll be redirected to the requested page shortly.</p>
+    <div class="status" id="status">Requesting challenge...</div>
+    <div class="progress-wrap" id="progress-wrap">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+    </div>
+    <div class="error" id="error"></div>
+    <div class="success" id="success">Verification successful! Redirecting...</div>
+    <noscript>
+        <p style="color:#d32f2f;font-weight:bold">JavaScript is required for this security challenge.</p>
+    </noscript>
+</div>
+<script src="/wab-cgi/static/pow.js"></script>
+
+</html>
+

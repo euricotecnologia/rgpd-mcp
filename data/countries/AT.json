@@ -1,0 +1,101 @@
+{
+ "code": "AT",
+ "name": {
+  "en": "Austria",
+  "pt": "Áustria",
+  "es": "Austria",
+  "fr": "Autriche",
+  "de": "Österreich",
+  "it": "Austria",
+  "nl": "Oostenrijk"
+ },
+ "region": "EU",
+ "languages": [
+  "de"
+ ],
+ "authority": {
+  "name": "Österreichische Datenschutzbehörde",
+  "url": "http://www.dsb.gv.at/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "ntact information from Malta View contact information from Cyprus Austria Österreichische Datenschutzbehörde Barichgasse 40-42 1030 Wien Austria http://www.dsb.gv.at/ dsb@dsb.gv.at +43 1 52 152-0 Dr"
+  }
+ },
+ "laws": [
+  {
+   "id": "dsg",
+   "role": "implementation",
+   "title": "Datenschutzgesetz (DSG), BGBl. I Nr. 165/1999",
+   "language": "de",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597",
+   "number": "BGBl. I Nr. 165/1999",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10001597",
+    "retrievedAt": "2026-11-01",
+    "sha256": "59fae85a3a7de9ca19ca281751aab6ba10a6803674021bd532d8fb0052932237",
+    "language": "de",
+    "excerpt": "RIS Dokument Kurztitel Datenschutzgesetz Kundmachungsorgan BGBl. I Nr. 165/1999 zuletzt geändert durch BGBl. I Nr. 120/2017 Bundesgesetzblatt Teil eins, Nr. 165 aus 1999, zuletzt geändert durch Bundesgesetzblatt Teil eins, Nr. 120 aus 2017, Typ BG §/Artikel/Anlage Paragraph/Artikel/Anlage Art. 2 § 4 Artikel 2, Paragraph 4 Inkrafttretensd"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "§ 4 Abs. 4 DSG",
+  "lawId": "dsg",
+  "evidence": {
+   "url": "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BrKons&Gesetzesnummer=10001597&Abschnitt.Typ=Paragraph&Abschnitt.Von=4&Abschnitt.Bis=4",
+   "retrievedAt": "2026-11-01",
+   "sha256": "59fae85a3a7de9ca19ca281751aab6ba10a6803674021bd532d8fb0052932237",
+   "language": "de",
+   "excerpt": "rbeitung der personenbezogenen Daten des Kindes rechtmäßig, wenn das Kind das vierzehnte Lebensjahr vollendet hat. Bei einem Angebot von Diensten der Informationsgesellschaft, das einem Kind direkt gemacht wird, ist die Einwilligung gemäß Artikel 6, Litera a, DSGVO zur Verarbeitung der personenbezogenen Daten des Kindes rechtmäßig, wenn das Kind das vierzehn"
+  }
+ },
+ "notes": [
+  "Fonte: API aberta do RIS (Bundeskanzleramt), paragrafo 4 da norma consolidada."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "aerztegesetz-1998",
+   "title": "Ärztegesetz 1998 (ÄrzteG 1998), BGBl. I Nr. 169/1998",
+   "language": "de",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10011138",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 51 Abs. 1 ÄrzteG",
+     "topic": "Dokumentationspflicht und Auskunftserteilung",
+     "status": "verified",
+     "evidence": {
+      "url": "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BrKons&Gesetzesnummer=10011138&Abschnitt.Typ=Paragraph&Abschnitt.Von=51&Abschnitt.Bis=51",
+      "retrievedAt": "2026-11-01",
+      "sha256": "1469cf59dfa9a5614925bf38db7eabf8254b2e082fb040cd277a47a6e06a9895",
+      "language": "de",
+      "excerpt": "Dokumentationspflicht und Auskunftserteilung § 51. (1) Der Arzt ist verpflichtet, Aufzeichnungen über jede zur Beratung oder Behandlung übernommene Person, insbesondere über den Zustand der Person bei Übernahme der Beratung oder Behandlung, die Vorgeschichte einer Erkrankung, die Diagnose, den Krankheitsverlauf sowie über Art und Umfang der beratenden, diagnostischen oder therapeutischen Leistungen einschließli"
+     }
+    },
+    {
+     "article": "§ 54 Abs. 1 ÄrzteG",
+     "topic": "Verschwiegenheitspflicht",
+     "status": "verified",
+     "evidence": {
+      "url": "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BrKons&Gesetzesnummer=10011138&Abschnitt.Typ=Paragraph&Abschnitt.Von=54&Abschnitt.Bis=54",
+      "retrievedAt": "2026-11-01",
+      "sha256": "0546d6ed4bdc5c7983053f27db6406e62a20cd5165797dd35bd15f343a70fb5f",
+      "language": "de",
+      "excerpt": "Verschwiegenheits-, Anzeige- und Meldepflicht § 54. (1) Die Ärztin/der Arzt und ihre/seine Hilfspersonen sind zur Verschwiegenheit über alle ihnen in Ausübung ihres Berufes anvertrauten oder bekannt gewordenen Geheimnisse verpflichtet. (2) Die Verschwiegenheitspflicht besteht nicht, wenn 1. Ziffer eins nach gesetzlichen Vorschriften eine Meldung der Ärztin/des Arztes über den G"
+     }
+    }
+   ],
+   "number": "BGBl. I Nr. 169/1998",
+   "note": "RIS (Bundeskanzleramt). § 51: fassung in Kraft seit 30.07.2026 (BGBl. I Nr. 65/2026); § 54: última versão listada no RIS, em vigor desde 30.10.2019. Os Länder têm leis hospitalares próprias, não verificadas."
+  }
+ ]
+}

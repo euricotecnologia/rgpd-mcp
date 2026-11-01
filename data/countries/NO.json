@@ -1,0 +1,124 @@
+{
+ "code": "NO",
+ "name": {
+  "en": "Norway",
+  "pt": "Noruega",
+  "es": "Noruega",
+  "fr": "Norvège",
+  "de": "Norwegen",
+  "it": "Norvegia",
+  "nl": "Noorwegen",
+  "no": "Norge"
+ },
+ "region": "EEA",
+ "languages": [
+  "no"
+ ],
+ "authority": {
+  "name": "Datatilsynet",
+  "url": "https://www.datatilsynet.no",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " Mr Geert Potjewijd Norway Datatilsynet P.O. Box 458 Sentrum 0150 Oslo Norway https://www.datatilsynet.no postkasse@datatilsynet.no +47 22 39 69 00 Ms Line Coll Poland Urząd Ochrony Danych Osobow"
+  }
+ },
+ "laws": [
+  {
+   "id": "pol2018-38",
+   "role": "implementation",
+   "title": "Lov om behandling av personopplysninger (personopplysningsloven)",
+   "language": "no",
+   "url": "https://lovdata.no/lov/2018-06-15-38",
+   "number": "LOV-2018-06-15-38",
+   "date": "2018-06-15",
+   "status": "verified",
+   "evidence": {
+    "url": "https://lovdata.no/lov/2018-06-15-38",
+    "retrievedAt": "2026-11-01",
+    "sha256": "2f7ada9690e8266fc363bb4bf6565a7784a5ecd4b48f2a120f6b156ec4dd2bb2",
+    "language": "no",
+    "excerpt": "Lov om behandling av personopplysninger (personopplysningsloven) - Kapittel 3. Utfyllende regler om behandling av personopplysninger - Lovdata Til hovedinnhold 🔍 Søketekst Avbryt Logg inn 🔒 Hovedmeny Rettskilder Lover Sentrale forskrifter mv. Lokale forskrifter Norsk Lovtidend Stortingsvedtak EØS-avtalen Norges traktater R"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "§ 5 personopplysningsloven",
+  "lawId": "pol2018-38",
+  "evidence": {
+   "url": "https://lovdata.no/lov/2018-06-15-38/§5",
+   "retrievedAt": "2026-11-01",
+   "sha256": "2f7ada9690e8266fc363bb4bf6565a7784a5ecd4b48f2a120f6b156ec4dd2bb2",
+   "language": "no",
+   "excerpt": "ns samtykke i forbindelse med informasjonssamfunnstjenester Aldersgrensen er 13 år for samtykke etter personvernforordningen artikkel 6 nr. 1 bokstav a i forbindelse med formål som nevnt i personvernforordningen artikkel 8 nr. 1. 🔗 Del paragraf § 6. Behandling av særlige kategorier av personopplysninger i arbeidsforhold Personopplysninger s"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "pasient-og-brukerrettighetsloven",
+   "title": "Lov om pasient- og brukerrettigheter (pasient- og brukerrettighetsloven), LOV-1999-07-02-63",
+   "language": "no",
+   "url": "https://lovdata.no/lov/1999-07-02-63",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 4-1",
+     "topic": "Hovedregel om samtykke",
+     "status": "verified",
+     "evidence": {
+      "url": "https://lovdata.no/lov/1999-07-02-63",
+      "retrievedAt": "2026-11-01",
+      "sha256": "08fc61e6fb0cc2abee7bbc121ac12c784c5cd36429e8a907d37d93a708afe1ac",
+      "language": "no",
+      "excerpt": "§ 4-1. Hovedregel om samtykke Helsehjelp kan bare gis med pasientens samtykke, med mindre det foreligger lovhjemmel eller annet gyldig rettsgrunnlag for å gi helsehjelp uten samtykke. For at samtykket skal være gyldig, må pasienten ha fått nødvendig informasjon om sin helsetilstand og innholdet i helsehjelpen. Pasienten kan trekke sitt"
+     }
+    },
+    {
+     "article": "§ 5-1",
+     "topic": "Rett til innsyn i journal",
+     "status": "verified",
+     "evidence": {
+      "url": "https://lovdata.no/lov/1999-07-02-63",
+      "retrievedAt": "2026-11-01",
+      "sha256": "08fc61e6fb0cc2abee7bbc121ac12c784c5cd36429e8a907d37d93a708afe1ac",
+      "language": "no",
+      "excerpt": "§ 5-1. Rett til innsyn i journal Pasienten og brukeren har rett til innsyn i journalen sin med bilag og har etter særskilt forespørsel rett til kopi, jf. personvernforordningen artikkel 15. Pasienten og brukeren har etter forespørsel rett til en enkel og kortfattet forklaring av faguttrykk eller lignende. Pasienten og brukeren kan nektes innsyn i o"
+     }
+    }
+   ],
+   "number": "LOV-1999-07-02-63",
+   "note": "Lovdata, texto em vigor à data da leitura."
+  },
+  {
+   "id": "helsepersonelloven",
+   "title": "Lov om helsepersonell m.v. (helsepersonelloven), LOV-1999-07-02-64",
+   "language": "no",
+   "url": "https://lovdata.no/lov/1999-07-02-64",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 21",
+     "topic": "Helsepersonells taushetsplikt",
+     "status": "verified",
+     "evidence": {
+      "url": "https://lovdata.no/lov/1999-07-02-64",
+      "retrievedAt": "2026-11-01",
+      "sha256": "0e4a4b1eb0b56e7449f70f38362c0014d3e36a7eb70ecfcca293298823ae91d6",
+      "language": "no",
+      "excerpt": "§ 21. Helsepersonells taushetsplikt Opplysninger om folks legems- eller sykdomsforhold eller andre personlige forhold helsepersonell får vite om i egenskap av å være helsepersonell, er underlagt taushetsplikt. Taushetsplikten innebærer at helsepersonell a. ikke skal tilgjengeliggjøre opplysningene for andre b. skal hindre at andre får adgang el"
+     }
+    }
+   ],
+   "number": "LOV-1999-07-02-64",
+   "note": "Lovdata, texto em vigor à data da leitura. A página indica alterações recentes sobre sigilo (2026), não lidas em detalhe."
+  }
+ ]
+}

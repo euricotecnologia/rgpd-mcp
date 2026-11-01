@@ -1,0 +1,101 @@
+{
+ "code": "HR",
+ "name": {
+  "en": "Croatia",
+  "pt": "Croácia",
+  "es": "Croacia",
+  "fr": "Croatie",
+  "de": "Kroatien",
+  "it": "Croazia",
+  "nl": "Kroatië",
+  "hr": "Hrvatska"
+ },
+ "region": "EU",
+ "languages": [
+  "hr"
+ ],
+ "authority": {
+  "name": "Agencija za zaštitu osobnih podataka (AZOP)",
+  "url": "http://www.azop.hr/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "5 3548 +359 2 915 3525 Mr Borislav Bozhinov Croatia Agencija za zaštitu osobnih podataka (AZOP) Ulica Metela Ožegovića 16 10000 Zagreb Croatia http://www.azop.hr/ azop@azop.hr +385 1 4"
+  }
+ },
+ "laws": [
+  {
+   "id": "zpuouzp",
+   "role": "implementation",
+   "title": "Zakon o provedbi Opće uredbe o zaštiti podataka (NN 42/2018)",
+   "language": "hr",
+   "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2018_05_42_805.html",
+   "number": "NN 42/2018",
+   "date": "2018-05-09",
+   "status": "verified",
+   "evidence": {
+    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2018_05_42_805.html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "64b8fab26d094c454dbfcd0ff85ee96d92f5b2601ac736e023a9d569c00e9160",
+    "language": "hr",
+    "excerpt": "Zakon o provedbi Opće uredbe o zaštiti podataka NN 42/2018 (9.5.2018.), Zakon o provedbi Opće uredbe o zaštiti podataka Hrvatski sabor 805 Na temelju članka 89. Ustava Republike Hrvatske, donosim ODLUKU O PROGLAŠENJU ZAKONA O PROVEDBI OPĆE UREDBE O ZAŠTITI PODATAKA Proglašavam Zakon o provedbi Opće uredbe o zaštiti podataka, koj"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "verified",
+  "article": "čl. 19. st. 1. Zakona o provedbi Opće uredbe o zaštiti podataka",
+  "lawId": "zpuouzp",
+  "evidence": {
+   "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2018_05_42_805.html",
+   "retrievedAt": "2026-11-01",
+   "sha256": "64b8fab26d094c454dbfcd0ff85ee96d92f5b2601ac736e023a9d569c00e9160",
+   "language": "hr",
+   "excerpt": "i s nuđenjem usluga informacijskog društva izravno djetetu, obrada osobnih podataka djeteta zakonita je ako dijete ima najmanje 16 godina. (2) Odredba stavka 1. ovoga članka primjenjuje se na dijete čije je prebivalište u Republici Hrvatskoj. (3) Postupanje suprotno odredbama ovoga članka smatra se kršenjem članka 8. Opće uredbe o zaštiti podataka i podliježe sankcioniranju sukladno članku 83."
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "zzpp-169-2004",
+   "title": "Zakon o zaštiti prava pacijenata (NN 169/2004)",
+   "language": "hr",
+   "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2004_12_169_2953.html",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Članak 6.",
+     "topic": "Pravo na suodlučivanje: obaviještenost, prihvaćanje ili odbijanje postupka",
+     "status": "verified",
+     "evidence": {
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2004_12_169_2953.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "bc2501885cb61772ef21b0e336f10bed1e7b4544a7c0d517583a9cfdbaecacee",
+      "language": "hr",
+      "excerpt": "Članak 6. Pravo na suodlučivanje pacijenta obuhvaća pravo pacijenta na obaviještenost i pravo na prihvaćanje ili odbijanje pojedinoga dijagnostičkog, odnosno terapijskog postupka. Iznimka od prava na suodlučivanje Članak 7. Pacijentovo pravo na suodlučivanje može se iznimno ograničiti samo kada je to opravdano njegovim zdravstvenim stanjem u slučajevima i na način posebno određenim ovim Zakonom. Pravo na obaviještenost Članak 8. Pacij"
+     }
+    },
+    {
+     "article": "Članak 25.",
+     "topic": "Pravo na povjerljivost podataka o zdravlju",
+     "status": "verified",
+     "evidence": {
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2004_12_169_2953.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "bc2501885cb61772ef21b0e336f10bed1e7b4544a7c0d517583a9cfdbaecacee",
+      "language": "hr",
+      "excerpt": "Članak 25. Pacijent ima pravo na povjerljivost podataka koji se odnose na stanje njegova zdravlja sukladno propisima o čuvanju profesionalne tajne i zaštiti osobnih podataka. Pacijent ima pravo dati usmenu ili pisanu izjavu o osobama koje mogu biti obaviještene o njegovu prijmu u stacionarnu zdravstvenu ustanovu kao i o njegovom zdravstvenom stanju. Pacij"
+     }
+    }
+   ],
+   "number": "NN 169/2004",
+   "note": "Texto de 2004 publicado no Narodne novine; a lei foi alterada (NN 37/2008) e há lei posterior sobre dados em saúde (NN 14/2019), não lida."
+  }
+ ]
+}

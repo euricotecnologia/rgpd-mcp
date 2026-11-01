@@ -1,0 +1,115 @@
+{
+ "code": "LV",
+ "name": {
+  "en": "Latvia",
+  "pt": "Letónia",
+  "es": "Letonia",
+  "fr": "Lettonie",
+  "de": "Lettland",
+  "it": "Lettonia",
+  "nl": "Letland",
+  "lv": "Latvija"
+ },
+ "region": "EU",
+ "languages": [
+  "lv"
+ ],
+ "authority": {
+  "name": "Data State Inspectorate",
+  "url": "https://www.dvi.gov.lv/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "reteria.stanzione@gpdp.it +39 06 69677 1 +39 06 69677 785 Prof. Pasquale Stanzione Latvia Data State Inspectorate Elijas Street 17 Riga , LV-1050 Latvia https://www.dvi.gov.lv/ pasts@dvi.gov.lv +371 6722"
+  }
+ },
+ "laws": [
+  {
+   "id": "fpdal",
+   "role": "implementation",
+   "title": "Fizisko personu datu apstrādes likums",
+   "language": "lv",
+   "url": "https://www.vestnesis.lv/op/2018/132.1",
+   "number": "Latvijas Vēstnesis, 4.07.2018., Nr. 132",
+   "date": "2018-06-21",
+   "journal": "Latvijas Vēstnesis, 4.07.2018., Nr. 132",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.vestnesis.lv/op/2018/132.1",
+    "retrievedAt": "2026-11-01",
+    "sha256": "bdfe2417994a6c8dfe0128be3180ba72f10630c708260f1fdd1515332888bf4e",
+    "language": "lv",
+    "excerpt": "mu Izdevuma nosaukumu un datumu Saiti 2018. gada 21. jūnija Fizisko personu datu apstrādes likums. Publicēts oficiālajā izdevumā \"Latvijas Vēstnesis\", 4.07.2018., Nr. 132 https://www.vestnesis.lv/op/2018/132.1 Paraksts pārbaudīts NĀKAMAIS Likums Likteņdārza likums Vēl šajā numurā 04.07.2018., Nr. 132 Īsceļi Izsoles Amatu konkursi Mantojumu ziņas Likumi Ministru kabineta noteikumi PAR DOKUMENTU Izdevējs: Saeima Veids: likums Pi"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "33. pants Fizisko personu datu apstrādes likuma",
+  "lawId": "fpdal",
+  "evidence": {
+   "url": "https://www.vestnesis.lv/op/2018/132.1",
+   "retrievedAt": "2026-11-01",
+   "sha256": "bdfe2417994a6c8dfe0128be3180ba72f10630c708260f1fdd1515332888bf4e",
+   "language": "lv",
+   "excerpt": ", viņa piekrišana ir uzskatāma par pamatu datu apstrādei un viņa datu apstrāde ir likumīga, ja bērns ir vismaz 13 gadus vecs vai ja attiecībā uz bērnu, kurš vēl nav sasniedzis 13 gadu vecumu, piekrišanu ir devis viņa vecāks vai likumiskais aizbildnis. 34. pants. Datu apstrāde krimināltiesību jomā Datu apstrāde sākotnēji neparedzētiem mērķiem krimināltiesību jomā ir pieļaujama: 1) s"
+  }
+ },
+ "notes": [
+  "Texto lido na publicacao oficial de 2018 (Latvijas Vestnesis); nao reflete alteracoes posteriores. O likumi.lv (versao consolidada) esta inacessivel daqui: confirmar o texto em vigor."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "pacientu-tiesibu-likums",
+   "title": "Pacientu tiesību likums",
+   "language": "lv",
+   "url": "https://www.vestnesis.lv/ta/id/203008-pacientu-tiesibu-likums",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "6. pants (1)",
+     "topic": "Piekrišana ārstniecībai vai atteikšanās no tās (informētā piekrišana)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.vestnesis.lv/ta/id/203008-pacientu-tiesibu-likums",
+      "retrievedAt": "2026-11-01",
+      "sha256": "bfe90989cddfae47ef3065b71ffd499a8945de5660350a35ff2122e8ec6e7aa1",
+      "language": "lv",
+      "excerpt": "6.pants. Piekrišana ārstniecībai vai atteikšanās no tās (1) Ārstniecība ir pieļaujama, ja pacients devis tai informēto piekrišanu. Pacientam ir tiesības pirms informētās piekrišanas došanas uzdot jautājumus un saņemt atbildes. (2) Informēto piekrišanu noformē rakstveidā, ja to pieprasa pacients vai ārstējošais ārsts. (3) Ja informētā piekrišana dota rakstveidā, pacients apstiprina to ar"
+     }
+    }
+   ],
+   "number": "Latvijas Vēstnesis (id 203008)",
+   "note": "Texto do Latvijas Vēstnesis (pode não refletir alterações posteriores; a lei foi alterada)."
+  },
+  {
+   "id": "arstniecibas-likums",
+   "title": "Ārstniecības likums",
+   "language": "lv",
+   "url": "https://www.vestnesis.lv/ta/id/44108-arstniecibas-likums",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "50. pants (1)",
+     "topic": "Ziņas par pacientu ir konfidenciālas",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.vestnesis.lv/ta/id/44108-arstniecibas-likums",
+      "retrievedAt": "2026-11-01",
+      "sha256": "5b409dbef5daa13bbfaaacf38d4e50f700b9783e4c10e06607525a731fc02fd1",
+      "language": "lv",
+      "excerpt": "50.pants. (1) Ziņas par pacienta ārstēšanu, slimības diagnozi un prognozi (turpmāk — ziņas par pacientu), kā arī ziņas, ko ārstniecības personas ārstniecības procesā ieguvušas par pacienta un viņa tuvāko radinieku privāto dzīvi, ir konfidenciālas. (2) Ziņas par pacientu var sniegt: 1) citām ārstniecības personām; 2)Veselības un darbspējas ekspertīzes ārstu komis"
+     }
+    }
+   ],
+   "number": "Latvijas Vēstnesis (id 44108)",
+   "note": "Texto do Latvijas Vēstnesis (pode não refletir alterações posteriores)."
+  }
+ ]
+}

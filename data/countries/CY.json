@@ -1,0 +1,100 @@
+{
+ "code": "CY",
+ "name": {
+  "en": "Cyprus",
+  "pt": "Chipre",
+  "es": "Chipre",
+  "fr": "Chypre",
+  "de": "Zypern",
+  "it": "Cipro",
+  "nl": "Cyprus",
+  "el": "Κύπρος"
+ },
+ "region": "EU",
+ "languages": [
+  "el"
+ ],
+ "authority": {
+  "name": "Γραφείο Επιτρόπου Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (Cypriot Data Protection Authority)",
+  "url": "http://www.dataprotection.gov.cy/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " 099 Mr Zdravko Vukić Cyprus Γραφείο Επιτρόπου Προστασίας Δεδομένων Προσωπικού Χαρακτήρα (Cypriot Data Protection Authority) 15, Kypranoros Street1061 NicosiaP.O. Box. 23378 1682 Nicosia Cyprus http://www.dataprot"
+  }
+ },
+ "laws": [
+  {
+   "id": "n125-2018",
+   "role": "implementation",
+   "title": "Ο περί της Προστασίας των Φυσικών Προσώπων Έναντι της Επεξεργασίας των Δεδομένων Προσωπικού Χαρακτήρα και της Ελεύθερης Κυκλοφορίας των Δεδομένων Νόμος του 2018 (125(I)/2018)",
+   "language": "el",
+   "url": "https://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+   "number": "125(I)/2018",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "b2f50cda52a7181da25c722a93929c0dfb9a58ad7f2fa2a423a8ca48289569ff",
+    "language": "el",
+    "excerpt": "Ο περί της Προστασίας των Φυσικών Προσώπων Έναντι της Επεξεργασίας των Δεδομένων Προσωπικού Χαρακτήρα και της Ελεύθερης Κυκλοφορίας των Δεδομένων αυτών Νόμος του 2018 - 125(I)/2018 ΠΑΓΚΥΠΡΙΟΣ ΔΙΚΗΓΟΡΙΚΟΣ ΣΥΛΛΟΓΟΣ CyLaw | Αναφορικά μ'εμάς | Επικοινωνία Κατάλογος Ενοποιημένης Νομοθεσίας Ο περί της Προστασίας των Φυσικών Προσώπων Έναντι της Επεξεργασίας των Δεδο"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "άρθρο 8(1) Ν. 125(I)/2018",
+  "lawId": "n125-2018",
+  "evidence": {
+   "url": "https://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+   "retrievedAt": "2026-11-01",
+   "sha256": "b2f50cda52a7181da25c722a93929c0dfb9a58ad7f2fa2a423a8ca48289569ff",
+   "language": "el",
+   "excerpt": "η επεξεργασία δεδομένων προσωπικού χαρακτήρα είναι σύννομη, εάν το παιδί είναι τουλάχιστον δεκατεσσάρων (14) ετών. (2) Για παιδί ηλικίας κάτω των δεκατεσσάρων (14) ετών, η αναφερόμενη στο εδάφιο (1) επεξεργασία δεδομένων προσωπικού χαρακτήρα είναι σύννομη κατόπιν συγκατάθεσης που παρέχεται ή εγκρίνεται από το πρόσωπο που έχει τη γονική μέριμνα του παιδιού. 125(I)/2018 Επ"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "n1-2005",
+   "title": "Ο περί της Κατοχύρωσης και της Προστασίας των Δικαιωμάτων των Ασθενών Νόμος του 2004 (1(Ι)/2005)",
+   "language": "el",
+   "url": "http://www.cylaw.org/nomoi/enop/non-ind/2005_1_1/full.html",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "άρθρο 11 εδ. 1",
+     "topic": "Φροντίδα υγείας με τη συγκατάθεση του ασθενούς",
+     "status": "verified",
+     "evidence": {
+      "url": "http://www.cylaw.org/nomoi/enop/non-ind/2005_1_1/full.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a6eb6577e3a16404bc80d1cd4c567f03257209df8b55a7e1d77509472f069cdd",
+      "language": "el",
+      "excerpt": "Φροντίδα υγείας με τη συγκατάθεση του ασθενούς. 11.-(1) Προϋπόθεση για την παροχή φροντίδας υγείας είναι η ενημερωμένη συγκατάθεση του ασθενούς που δίδεται ύστερα από ολοκληρωμένη ιατρική πληροφόρηση, που παρέχεται από τον παροχέα υπηρεσιών υγείας στον ασθενή, σε κατάλληλο χρόνο και τόπο και κατά τρόπο καταληπτό από τον ασθενή, ούτως ώστε ο τελευταίος να μπορεί να αντιλαμβάνεται τις πληροφορίες που τ"
+     }
+    },
+    {
+     "article": "άρθρο 15 εδ. 1(α)",
+     "topic": "Εμπιστευτικότητα",
+     "status": "verified",
+     "evidence": {
+      "url": "http://www.cylaw.org/nomoi/enop/non-ind/2005_1_1/full.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a6eb6577e3a16404bc80d1cd4c567f03257209df8b55a7e1d77509472f069cdd",
+      "language": "el",
+      "excerpt": "Εμπιστευτικότητα. 15.-(1) (α) Με την επιφύλαξη των διατάξεων του εδαφίου (2), όλες οι πληροφορίες για την ιατρική κατάσταση του ασθενούς, τη διάγνωση, την πρόγνωση και τη θεραπεία, καθώς και κάθε άλλη πληροφορία προσωπικού χαρακτήρα τηρούνται εμπιστευτικές με βάση τον Κανονισμό (ΕΕ) 2016/679 και τον περί της Προστασίας των Φυσικών Προσώπων Έναντι της Επεξεργασίας των Δεδομένων Προσωπικού Χαρακ"
+     }
+    }
+   ],
+   "number": "1(I)/2005",
+   "note": "Cylaw; a página cita a alteração 54(I)/2025. Lidos só o início dos arts. 11 e 15; arts. 10 (informação) e 18 (arquivos médicos) não lidos."
+  }
+ ]
+}

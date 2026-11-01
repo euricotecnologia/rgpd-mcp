@@ -1,0 +1,102 @@
+{
+ "code": "SI",
+ "name": {
+  "en": "Slovenia",
+  "pt": "Eslovénia",
+  "es": "Eslovenia",
+  "fr": "Slovénie",
+  "de": "Slowenien",
+  "it": "Slovenia",
+  "nl": "Slovenië",
+  "sl": "Slovenija"
+ },
+ "region": "EU",
+ "languages": [
+  "sl"
+ ],
+ "authority": {
+  "name": "Information Commissioner of the Republic of Slovenia",
+  "url": "https://www.ip-rs.si/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "atny.dozor@pdp.gov.sk + 421 2 32 31 32 14 + 421 2 32 31 32 34 Ms. Zuzana Valková Slovenia Information Commissioner of the Republic of Slovenia Dunajska 22 1000 Ljubljana Slovenia https://www.ip-rs.si/ gp.ip@ip-rs.si +386 1 230 9730 "
+  }
+ },
+ "laws": [
+  {
+   "id": "zvop2",
+   "role": "implementation",
+   "title": "Zakon o varstvu osebnih podatkov (ZVOP-2)",
+   "language": "sl",
+   "url": "https://www.ip-rs.si/zakonodaja/zakon-o-varstvu-osebnih-podatkov/",
+   "number": "Uradni list RS, št. 163/22",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.ip-rs.si/zakonodaja/zakon-o-varstvu-osebnih-podatkov/",
+    "retrievedAt": "2026-11-01",
+    "sha256": "31b7d68133e01c6140082a792c075f28a7a92736bd089e09aa047ad86433cfb5",
+    "language": "sl",
+    "excerpt": "a da autoridade com o texto do ZVOP-2) - lido em 2026-11-01 Zakon o varstvu osebnih podatkov (Uradni list RS, št. 163/22; ZVOP-2) 8. člen (privolitev otroka za uporabo storitev informacijske družbe) (1) Privolitev otroka za uporabo storitev informacijske družbe, ki se ponujajo neposredno otrokom oziroma za katere se lahko verjetno domneva, da jih bodo uporabljali otroci, je veljavna, če"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 15,
+  "status": "verified",
+  "article": "8. člen odst. 1 ZVOP-2",
+  "lawId": "zvop2",
+  "evidence": {
+   "url": "https://www.ip-rs.si/zakonodaja/zakon-o-varstvu-osebnih-podatkov/",
+   "retrievedAt": "2026-11-01",
+   "sha256": "31b7d68133e01c6140082a792c075f28a7a92736bd089e09aa047ad86433cfb5",
+   "language": "sl",
+   "excerpt": "se lahko verjetno domneva, da jih bodo uporabljali otroci, je veljavna, če je otrok star 15 let ali več. Če je otrok mlajši od 15 let, je privolitev veljavna le, če jo da ali odobri eden od staršev otroka, njegov skrbnik ali oseba, ki ji je podeljena starševska skrb."
+  }
+ },
+ "notes": [
+  "Texto lido na pagina da autoridade (IP RS) renderizada no navegador; extrato guardado. A publicacao oficial e o Uradni list RS."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "zpacp",
+   "title": "Zakon o pacientovih pravicah (ZPacP), Uradni list RS 15/2008",
+   "language": "sl",
+   "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2008-01-0455",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "26. člen (1)–(2)",
+     "topic": "Privolitev pacienta",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2008-01-0455",
+      "retrievedAt": "2026-11-01",
+      "sha256": "ecc156f25af25995c64752586007944cc81a237246ea3be042137ce8d61ccbb4",
+      "language": "sl",
+      "excerpt": "26. člen (privolitev) (1) Pacient ima pravico do samostojnega odločanja o zdravljenju, pod pogoji, ki jih določa zakon. (2) Pacientu, ki je sposoben odločanja o sebi, brez njegove poprejšnje svobodne in zavestne privolitve na podlagi prejetih pojasnil iz 20. člena tega zakona ni dovoljeno opraviti medicinskega posega oziroma zdravstvene oskrbe"
+     }
+    },
+    {
+     "article": "41. člen (1)",
+     "topic": "Način seznanitve z zdravstveno dokumentacijo (vpogled in prepis)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2008-01-0455",
+      "retrievedAt": "2026-11-01",
+      "sha256": "ecc156f25af25995c64752586007944cc81a237246ea3be042137ce8d61ccbb4",
+      "language": "sl",
+      "excerpt": "41. člen (način seznanitve z zdravstveno dokumentacijo) (1) Pacient ima ob prisotnosti zdravnika ali drugega zdravstvenega delavca oziroma zdravstvenega sodelavca pravico do neoviranega vpogleda in prepisa zdravstvene dokumentacije, ki se nanaša nanj. Fotokopiranje ali drugo reprodukcijo zdravstvene dokumentacije mora zagotoviti izvajalec zdravstvenih st"
+     }
+    }
+   ],
+   "number": "Uradni list RS, št. 15/08",
+   "note": "Texto da publicação original de 2008 no Uradni list; a lei foi alterada em 2017, 2020 e 2022 (versão consolidada no PISRS, não lida)."
+  }
+ ]
+}

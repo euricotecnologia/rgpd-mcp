@@ -1,0 +1,57 @@
+{
+ "code": "MT",
+ "name": {
+  "en": "Malta",
+  "pt": "Malta",
+  "es": "Malta",
+  "fr": "Malte",
+  "de": "Malta",
+  "it": "Malta",
+  "nl": "Malta",
+  "mt": "Malta"
+ },
+ "region": "EU",
+ "languages": [
+  "mt",
+  "en"
+ ],
+ "authority": {
+  "name": "Office of the Information and Data Protection Commissioner",
+  "url": "http://www.idpc.org.mt/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "http://www.cnpd.lu/ info@cnpd.lu +352 2610 60 1 +352 2610 60 6099 Ms Tine A. Larsen Malta Office of the Information and Data Protection Commissioner Second Floor, Airways HouseHigh Street Sliema SLM 1549 Malta http://www.idpc.org.mt/ idpc"
+  }
+ },
+ "laws": [
+  {
+   "id": "cap586",
+   "role": "implementation",
+   "title": "Data Protection Act (Cap. 586)",
+   "language": "en",
+   "url": "https://legislation.mt/eli/cap/586/eng",
+   "number": "Cap. 586",
+   "status": "verified",
+   "evidence": {
+    "url": "https://legislation.mt/eli/cap/586/eng",
+    "retrievedAt": "2026-11-01",
+    "sha256": "d55f117dbc3ffe148ffcba85e051ef58ad8d7bc4541e600fe2a82005dfba9573",
+    "language": "en",
+    "excerpt": "DATA PROTECTION [CAP. 586. 1 CHAPTER 586 DATA PROTECTION ACT AN ACT to repeal and to replace the Data Protection Act, Cap. 440. 28th May, 2018 ACT XX of 2018, as amended by Act XII of 2021 and Legal Notice 212 of 2023. ARRANGEMENT OF THE ACT Part I Preliminary Articles Part II Applicability 1 - 3 Part III Restrictions,"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": null,
+  "status": "unverified",
+  "article": "Cap. 586 delega ao Ministro (legislacao subsidiaria) a fixacao de idade inferior a 16, nunca abaixo de 13 (texto lido); o valor fixado nao foi lido",
+  "lawId": "cap586"
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01"
+}

@@ -1,0 +1,131 @@
+{
+ "code": "FR",
+ "name": {
+  "en": "France",
+  "pt": "França",
+  "es": "Francia",
+  "fr": "France",
+  "de": "Frankreich",
+  "it": "Francia",
+  "nl": "Frankrijk"
+ },
+ "region": "EU",
+ "languages": [
+  "fr"
+ ],
+ "authority": {
+  "name": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+  "url": "http://www.cnil.fr/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " 29 56 66735 Ms Anu Talus France Commission Nationale de l'Informatique et des Libertés - CNIL 3 Place de Fontenoy 75334 TSA 80715 – Paris 07 France http://www.cnil.fr/ https://www.cni"
+  }
+ },
+ "laws": [
+  {
+   "id": "loi78-17",
+   "role": "implementation",
+   "title": "Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés",
+   "language": "fr",
+   "url": "https://www.legifrance.gouv.fr/loda/id/LEGISCTA000037817521",
+   "number": "Loi n° 78-17",
+   "date": "1978-01-06",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.legifrance.gouv.fr/loda/id/LEGISCTA000037817521",
+    "retrievedAt": "2026-11-01",
+    "sha256": "53fd060ec5c93b63dffc746bfb5435d253abd8e15bba9d26c455b6544a3884eb",
+    "language": "fr",
+    "excerpt": "t Libertés La loi Informatique et Libertés 15 novembre 2024 Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Imprimer l’article Partager cette page par courriel Diminuer la taille de la police Augmenter la taille de la police En cas d'incohérence avec le texte officiel publié sur Légifrance (due aux mises à jour), seul ce dernier est à prendre en compte. Sommaire T"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 15,
+  "status": "verified",
+  "article": "art. 45 loi n° 78-17",
+  "lawId": "loi78-17",
+  "evidence": {
+   "url": "https://www.cnil.fr/fr/la-loi-informatique-et-libertes",
+   "retrievedAt": "2026-11-01",
+   "sha256": "53fd060ec5c93b63dffc746bfb5435d253abd8e15bba9d26c455b6544a3884eb",
+   "language": "fr",
+   "excerpt": "de l'article 8 du règlement (UE) 2016/679 du 27 avril 2016, un mineur peut consentir seul à un traitement de données à caractère personnel en ce qui concerne l'offre directe de services de la société de l'information à compter de l'âge de quinze ans. Lorsque le mineur est âgé de moins de quinze ans, le traitement n'est licite que si le consentement est donné conjointement par le mineur concerné et le ou les titulaires de l'autorité parentale à l'égard de ce mineur. Le responsable de traitement rédige en"
+  }
+ },
+ "notes": [
+  "Texto lido na versao integral publicada pela CNIL; a publicacao oficial e o Legifrance (bloqueia acesso automatico)."
+ ],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "Section 3 (arts. 64 et suiv.) loi n° 78-17",
+    "lawId": "loi78-17",
+    "topic": "Traitements de données à caractère personnel dans le domaine de la santé",
+    "status": "verified",
+    "evidence": {
+     "url": "https://www.cnil.fr/fr/la-loi-informatique-et-libertes",
+     "retrievedAt": "2026-11-01",
+     "sha256": "53fd060ec5c93b63dffc746bfb5435d253abd8e15bba9d26c455b6544a3884eb",
+     "language": "fr",
+     "excerpt": "s et libertés des personnes physiques Article 62 Article 63 Section 3 : Traitements de données à caractère personnel dans le domaine de la santé Article 64 Sous-section 1 : Dispositions générales Article 65 Article 66 Article 67 Article 68 Article 69 Article 70 Article 71 Sous-section 2 : Dispositions particulières relatives aux traitements à des fins de recherche, d'étude ou d'évaluation dans le domaine de la s"
+    },
+    "headingOnly": true
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "csp",
+   "title": "Code de la santé publique (articles L1110-4, L1111-7 et L1111-8)",
+   "language": "fr",
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Article L1110-4",
+     "topic": "Respect de la vie privée et secret des informations",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895798",
+      "retrievedAt": "2026-11-01",
+      "sha256": "eaa6dd166a0409768a087a3b5f20f387c06f2261adee68e85aca4b6de0095bb9",
+      "language": "fr",
+      "excerpt": "Article L1110-4 — I.-Toute personne prise en charge par un professionnel de santé, un établissement ou service, un professionnel ou organisme concourant à la prévention ou aux soins dont les conditions d'exercice ou les activités sont régies par le présent code, le service de santé des armées, un professionnel du secteur médico-social ou s"
+     }
+    },
+    {
+     "article": "Article L1111-7",
+     "topic": "Accès de la personne aux informations concernant sa santé",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042685313/2026-11-01",
+      "retrievedAt": "2026-11-01",
+      "sha256": "eaa6dd166a0409768a087a3b5f20f387c06f2261adee68e85aca4b6de0095bb9",
+      "language": "fr",
+      "excerpt": "Article L1111-7 — Toute personne a accès à l'ensemble des informations concernant sa santé détenues, à quelque titre que ce soit, par des professionnels de santé, par des établissements de santé par des centres de santé, par des maisons de naissance, par le service de santé des armées ou par l'Institution nationale des invalides qui sont formalisée"
+     }
+    },
+    {
+     "article": "Article L1111-8",
+     "topic": "Hébergement de données de santé (certificat de conformité HDS, information de la personne, contrat)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049577902",
+      "retrievedAt": "2026-11-01",
+      "sha256": "eaa6dd166a0409768a087a3b5f20f387c06f2261adee68e85aca4b6de0095bb9",
+      "language": "fr",
+      "excerpt": "Article L1111-8 — I.-Toute personne qui héberge des données de santé à caractère personnel recueillies à l'occasion d'activités de prévention, de diagnostic, de soins ou de suivi social et médico-social, pour le compte de personnes physiques ou morales à l'origine de la production ou du recueil de ces données ou pour le compte du patient lui-même,"
+     }
+    }
+   ],
+   "note": "Légifrance, version en vigueur au 1.11.2026 (lida no Chrome do utilizador). Lidos apenas o início de L1110-4 e L1111-7 e o I e II de L1111-8."
+  }
+ ]
+}

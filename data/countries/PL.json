@@ -1,0 +1,118 @@
+{
+ "code": "PL",
+ "name": {
+  "en": "Poland",
+  "pt": "Polónia",
+  "es": "Polonia",
+  "fr": "Pologne",
+  "de": "Polen",
+  "it": "Polonia",
+  "nl": "Polen",
+  "pl": "Polska"
+ },
+ "region": "EU",
+ "languages": [
+  "pl"
+ ],
+ "authority": {
+  "name": "Urząd Ochrony Danych Osobowych (Personal Data Protection Office)",
+  "url": "https://uodo.gov.pl/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "kasse@datatilsynet.no +47 22 39 69 00 Ms Line Coll Poland Urząd Ochrony Danych Osobowych (Personal Data Protection Office) ul. Stanisława Moniuszki 1A 00-014 Warsaw Poland https://uodo.gov.pl/ kancelaria@uodo.go"
+  }
+ },
+ "laws": [
+  {
+   "id": "uodo2018",
+   "role": "implementation",
+   "title": "Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych",
+   "language": "pl",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2018/1000/text.html",
+   "number": "Dz.U. 2018 poz. 1000",
+   "date": "2018-05-10",
+   "status": "verified",
+   "evidence": {
+    "url": "https://api.sejm.gov.pl/eli/acts/DU/2018/1000/text.html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "96507bf01f05265b85460e3dd05ba62fdab44e77c63e1b4ccad523f2072c01a1",
+    "language": "pl",
+    "excerpt": "Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych 1) Niniejsza ustawa służy stosowaniu rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchy"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "A lei lida nao contem regra de idade (verificado por ausencia no texto integral); aplica-se o art. 8(1) RGPD: 16 anos",
+  "lawId": "uodo2018"
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "ustawa-prawa-pacjenta",
+   "title": "Ustawa z dnia 6 listopada 2008 r. o prawach pacjenta i Rzeczniku Praw Pacjenta (Dz.U. 2009 nr 52 poz. 417)",
+   "language": "pl",
+   "url": "https://eli.gov.pl/eli/DU/2009/417/ogl",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Art. 9 ust. 1",
+     "topic": "Prawo do informacji o stanie zdrowia",
+     "status": "verified",
+     "evidence": {
+      "url": "https://eli.gov.pl/api/acts/DU/2009/417/text.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "79cc3ce19ac7452ed01def4970c8a9b2c6ac866c04639076cf3788a51ce3cbb7",
+      "language": "pl",
+      "excerpt": "Art. 9. 1. Pacjent ma prawo do informacji o swoim stanie zdrowia. 2. Pacjent, w tym małoletni, który ukończył 16 lat, lub jego ustawowy przedstawiciel mają prawo do uzyskania od lekarza przystępnej informacji o stanie zdrowia pacjenta, rozpoznaniu, proponowanych oraz możliwych metodach diagnostycznych i leczniczych, dający"
+     }
+    },
+    {
+     "article": "Art. 13",
+     "topic": "Prawo do zachowania w tajemnicy informacji związanych z pacjentem",
+     "status": "verified",
+     "evidence": {
+      "url": "https://eli.gov.pl/api/acts/DU/2009/417/text.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "79cc3ce19ac7452ed01def4970c8a9b2c6ac866c04639076cf3788a51ce3cbb7",
+      "language": "pl",
+      "excerpt": "Art. 13. Pacjent ma prawo do zachowania w tajemnicy przez osoby wykonujące zawód medyczny, w tym udzielające mu świadczeń zdrowotnych, informacji z nim związanych, a uzyskanych w związku z wykonywaniem zawodu medycznego. Art. 14. 1. W celu realizacji prawa, o którym mowa w art. 13, osoby wykonujące zawód medyczny są obowiązane zachować w tajemnicy"
+     }
+    },
+    {
+     "article": "Art. 16",
+     "topic": "Zgoda na udzielenie świadczeń zdrowotnych lub jej odmowa",
+     "status": "verified",
+     "evidence": {
+      "url": "https://eli.gov.pl/api/acts/DU/2009/417/text.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "79cc3ce19ac7452ed01def4970c8a9b2c6ac866c04639076cf3788a51ce3cbb7",
+      "language": "pl",
+      "excerpt": "Art. 16. Pacjent ma prawo do wyrażenia zgody na udzielenie określonych świadczeń zdrowotnych lub odmowy takiej zgody, po uzyskaniu informacji w zakresie określonym w art. 9. Art. 17. 1. Pacjent, w tym małoletni, który ukończył 16 lat, ma prawo do wyrażenia zgody na przeprowadzenie badania lub udzielenie innych świadczeń zdrowotnych przez lekarza. 2. Przedstawiciel ustawowy"
+     }
+    },
+    {
+     "article": "Art. 24 ust. 1",
+     "topic": "Prowadzenie, przechowywanie i udostępnianie dokumentacji medycznej",
+     "status": "verified",
+     "evidence": {
+      "url": "https://eli.gov.pl/api/acts/DU/2009/417/text.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "79cc3ce19ac7452ed01def4970c8a9b2c6ac866c04639076cf3788a51ce3cbb7",
+      "language": "pl",
+      "excerpt": "Art. 24. 1. W celu realizacji prawa, o którym mowa w art. 23 ust. 1, podmiot udzielający świadczeń zdrowotnych jest obowiązany prowadzić, przechowywać i udostępniać dokumentację medyczną w sposób określony w niniejszym rozdziale oraz zapewnić ochronę danych zawartych w tej dokumentacji. 2. Lekarze, pielęgniarki i położne są uprawnieni do uzyskiwania i przetwarzania danych zawartych w dokumentacji medycznej, o których mowa w art. 25. Art. 25."
+     }
+    }
+   ],
+   "number": "Dz.U. 2009 nr 52 poz. 417",
+   "note": "Texto lido em eli.gov.pl (versão do ELI); pode ser a redação publicada e não o texto jednolity de 2024: confirmar a redação consolidada (obwieszczenie de 16.4.2024)."
+  }
+ ]
+}

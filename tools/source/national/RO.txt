@@ -1,0 +1,336 @@
+LEGE nr. 190 din 18 iulie 2018 privind msuri de punere în aplicare a
+Regulamentului (UE) 2016/679 al Parlamentului European i al Consiliului
+din 27 aprilie 2016 privind protecia persoanelor fizice în ceea ce privete
+prelucrarea datelor cu caracter personal i privind libera circulaie a
+acestor date i de abrogare a Directivei 95/46/CE (Regulamentul general
+privind protecia datelor)
+CAPITOLUL I: Dispoziii generale
+Art. 1: Obiectul legii
+Prezenta lege stabilete msurile necesare punerii în aplicare la nivel naional,
+în principal, a prevederilor art. 6 alin. (2), art. 9 alin. (4), art. 37-39, 42, 43,
+art. 83 alin. (7), art. 85 i ale art. 87-89 din Regulamentul (UE) 2016/679 al
+Parlamentului European i al Consiliului din 27 aprilie 2016 privind protecia
+persoanelor fizice în ceea ce privete prelucrarea datelor cu caracter personal
+i libera circulaie a acestor date i de abrogare a Directivei 95/46/CE,
+publicat în Jurnalul Oficial al Uniunii Europene, seria L, nr. 119 din 4 mai
+2016, denumit în continuare Regulamentul general privind protecia datelor.
+Art. 2: Definiii
+(1)În aplicarea Regulamentului general privind protecia datelor i a prezentei
+legi, termenii i expresiile de mai jos se definesc dup cum urmeaz:
+a)autoriti i organisme publice - Camera Deputailor i Senatul,
+Administraia Prezidenial, Guvernul, ministerele, celelalte organe de
+specialitate ale administraiei publice centrale, autoritile i instituiile publice
+autonome, autoritile administraiei publice locale i deja nivel judeean, alte
+autoriti publice, precum i instituiile din subordinea/coordonarea acestora.
+În sensul prezentei legi, sunt asimilate autoritilor/organismelor publice i
+unitile de cult i asociaiile i fundaiile de utilitate public;
+b)numr de identificare naional - numrul prin care se identific o persoan
+fizic în anumite sisteme de eviden i care are aplicabilitate general, cum
+ar fi: codul numeric personal, seria i numrul actului de identitate, numrul
+paaportului, al permisului de conducere, numrul de asigurare social de
+sntate;
+c)plan de remediere - anex la procesul-verbal de constatare i sancionare a
+contraveniei, întocmit în condiiile prevzute la art. 11, prin care Autoritatea
+Naional de Supraveghere a Prelucrrii Datelor cu Caracter Personal,
+denumit în continuare Autoritatea naional de supraveghere, stabilete
+msuri i un termen de remediere;
+d)msur de remediere - soluie dispus de Autoritatea naional de
+supraveghere în planul de remediere în vederea îndeplinirii de ctre
+autoritatea/organismul public a obligaiilor prevzute de lege;
+e)termen de remediere - perioada de timp de cel mult 90 de zile de la data
+comunicrii procesului-verbal de constatare i sancionare a contraveniei, în
+care autoritatea/organismul public are posibilitatea remedierii neregulilor
+constatate i îndeplinirii obligaiilor legale;
+f)îndeplinirea unei sarcini care servete unui interes public - include acele
+activiti ale partidelor politice sau ale organizaiilor cetenilor aparinând
+minoritilor naionale, ale organizaiilor neguvernamentale, care servesc
+realizrii obiectivelor prevzute de dreptul constituional sau de dreptul
+internaional public ori funcionrii sistemului democratic, incluzând
+încurajarea participrii cetenilor în procesul de luare a deciziilor i a
+pregtirii politicilor publice, respectiv promovarea principiilor i valorilor
+democraiei.
+(2)În cuprinsul prezentei legi sunt, de asemenea, aplicabile definiiile
+prevzute la art. 4 din Regulamentul general privind protecia datelor.
+CAPITOLUL II: Reguli speciale privind prelucrarea unor categorii de
+date cu caracter personal
+Art. 3: Prelucrarea datelor genetice, a datelor biometrice sau a
+datelor privind sntatea
+(1)Prelucrarea datelor genetice, biometrice sau a datelor privind sntatea, în
+scopul realizrii unui proces decizional automatizat sau pentru crearea de
+profiluri, este permis cu consimmântul explicit al persoanei vizate sau dac
+prelucrarea este efectuat în temeiul unor dispoziii legale exprese, cu
+instituirea unor msuri corespunztoare pentru protejarea drepturilor,
+libertilor i intereselor legitime ale persoanei vizate.
+(2)Prelucrarea datelor privind sntatea realizat în scopul asigurrii sntii
+publice, astfel cum este definit în Regulamentul (CE) nr. 1.338/2008 al
+Parlamentului European i al Consiliului din 16 decembrie 2008 privind
+statisticile comunitare referitoare la sntatea public, precum i la sntatea
+i sigurana la locul de munc, publicat în Jurnalul Oficial al Uniunii Europene,
+seria L, nr. 354/70 din 31 decembrie 2008, nu se poate efectua ulterior, în
+alte scopuri, de ctre tere entiti.
+Art. 4: Prelucrarea unui numr de identificare naional
+(1)Prelucrarea unui numr de identificare naional, inclusiv prin colectarea sau
+dezvluirea documentelor ce îl conin, se poate efectua în situaiile prevzute
+de art. 6 alin. (1) din Regulamentul general privind protecia datelor.
+(2)Prelucrarea unui numr de identificare naional, inclusiv prin colectarea sau
+dezvluirea documentelor ce îl conin, în scopul prevzut la art. 6 alin. (1) lit.
+f) din Regulamentul general privind protecia datelor, respectiv al realizrii
+intereselor legitime urmrite de operator sau de o parte ter, se efectueaz
+cu instituirea de ctre operator a urmtoarelor garanii:
+a)punerea în aplicare de msuri tehnice i organizatorice adecvate pentru
+respectarea, în special, a principiului reducerii la minimum a datelor, precum
+i pentru asigurarea securitii i confidenialitii prelucrrilor de date cu
+caracter personal, conform dispoziiilor art. 32 din Regulamentul general
+privind protecia datelor;
+b)numirea unui responsabil pentru protecia datelor, în conformitate cu
+prevederile art. 10 din prezenta lege;
+c)stabilirea de termene de stocare în funcie de natura datelor i scopul
+prelucrrii, precum i de termene specifice în care datele cu caracter personal
+trebuie terse sau revizuite în vederea tergerii;
+d)instruirea periodic cu privire la obligaiile ce le revin a persoanelor care,
+sub directa autoritate a operatorului sau a persoanei împuternicite de
+operator, prelucreaz date cu caracter personal.
+Art. 5: Prelucrarea datelor cu caracter personal în contextul relaiilor
+de munc
+În cazul în care sunt utilizate sisteme de monitorizare prin mijloace de
+comunicaii electronice i/sau prin mijloace de supraveghere video la locul de
+munc, prelucrarea datelor cu caracter personal ale angajailor, în scopul
+realizrii intereselor legitime urmrite de angajator, este permis numai dac:
+a)interesele legitime urmrite de angajator sunt temeinic justificate i
+prevaleaz asupra intereselor sau drepturilor i libertilor persoanelor vizate;
+b)angajatorul a realizat informarea prealabil obligatorie, complet i în mod
+explicit a angajailor;
+c)angajatorul a consultat sindicatul sau, dup caz, reprezentanii angajailor
+înainte de introducerea sistemelor de monitorizare;
+d)alte forme i modaliti mai puin intruzive pentru atingerea scopului
+urmrit de angajator nu i-au dovedit anterior eficiena; i
+e)durata de stocare a datelor cu caracter personal este proporional cu
+scopul prelucrrii, dar nu mai mare de 30 de zile, cu excepia situaiilor expres
+reglementate de lege sau a cazurilor temeinic justificate.
+Art. 6: Prelucrarea datelor cu caracter personal i de categorii
+speciale de date cu caracter personal, în contextul îndeplinirii unei
+sarcini care servete unui interes public
+În cazul în care prelucrarea datelor personale i speciale este necesar pentru
+îndeplinirea unei sarcini care servete unui interes public conform art. 6 alin.
+(1) lit. e) i art. 9 lit. g) din Regulamentul general privind protecia datelor se
+efectueaz cu instituirea de ctre operator sau de ctre partea ter a
+urmtoarelor garanii:
+a)punerea în aplicare a msurilor tehnice i organizatorice adecvate pentru
+respectarea principiilor enumerate la art. 5 din Regulamentul general privind
+protecia datelor, în special a reducerii la minimum a datelor, respectiv a
+principiului integritii i confidenialitii;
+b)numirea unui responsabil pentru protecia datelor, dac aceasta este
+necesar în conformitate cu art. 10 din prezenta lege;
+c)stabilirea de termene de stocare în funcie de natura datelor i scopul
+prelucrrii, precum i de termene specifice în care datele cu caracter personal
+trebuie terse sau revizuite în vederea tergerii.
+CAPITOLUL III: Derogri
+Art. 7: Prelucrarea datelor cu caracter personal în scopuri
+jurnalistice sau în scopul exprimrii academice, artistice sau literare
+În vederea asigurrii unui echilibru între dreptul la protecia datelor cu
+caracter personal, libertatea de exprimare i dreptul la informaie, prelucrarea
+în scopuri jurnalistice sau în scopul exprimrii academice, artistice sau literare
+poate fi efectuat, dac aceasta privete date cu caracter personal care au
+fost fcute publice în mod manifest de ctre persoana vizat sau care sunt
+strâns legate de calitatea de persoan public a persoanei vizate ori de
+caracterul public al faptelor în care este implicat, prin derogare de la
+urmtoarele capitole din Regulamentul general privind protecia datelor:
+a)capitolul II - Principii;
+b)capitolul III - Drepturile persoanei vizate;
+c)capitolul IV - Operatorul i persoana împuternicit de operator;
+d)capitolul V - Transferurile de date cu caracter personal ctre ri tere sau
+organizaii internaionale;
+e)capitolul VI - Autoriti de supraveghere independente;
+f)capitolul VII - Cooperare i coeren;
+g)capitolul IX - Dispoziii referitoare la situaii specifice de prelucrare.
+Art. 8: Prelucrarea datelor cu caracter personal în scopuri de
+cercetare tiinific sau istoric, în scopuri statistice ori în scopuri de
+arhivare în interes public
+(1)Prevederile art. 15, 16, 18 i 21 din Regulamentul general privind protecia
+datelor nu se aplic în cazul în care datele cu caracter personal sunt
+prelucrate în scopuri de cercetare tiinific sau istoric, în msura în care
+drepturile menionate la aceste articole sunt de natur s fac imposibil sau
+s afecteze în mod grav realizarea scopurilor specifice, iar derogrile
+respective sunt necesare pentru îndeplinirea acestor scopuri.
+(2)Prevederile art. 15, 16, 18, 19, 20 i 21 din Regulamentul general privind
+protecia datelor nu se aplic în cazul în care datele cu caracter personal sunt
+prelucrate în scopuri de arhivare în interes public, în msura în care drepturile
+menionate la aceste articole sunt de natur s fac imposibil sau s
+afecteze în mod grav realizarea scopurilor specifice, iar aceste derogri sunt
+necesare pentru îndeplinirea acestor scopuri.
+(3)Derogrile prevzute la alin. (1) i (2) sunt aplicabile numai sub rezerva
+existenei garaniilor corespunztoare pentru drepturile i libertile
+persoanelor vizate, prevzute la art. 89 alin. (1) din Regulamentul general
+privind protecia datelor.
+(4)În cazul în care prelucrarea menionat la alin. (1) i (2) servete în acelai
+timp i altui scop, derogrile se aplic numai prelucrrii în scopurile
+menionate la alineatele respective.
+Art. 9
+(1)În vederea asigurrii proporionalitii i a unui echilibru între dreptul la
+protecia datelor cu caracter personal i a datelor speciale i prelucrarea unor
+astfel de date de ctre partidele politice i organizaiile cetenilor aparinând
+minoritilor naionale, organizaiilor neguvernamentale, se vor realiza
+urmtoarele garanii:
+a)informarea persoanei vizate despre prelucrarea datelor cu caracter
+personal;
+b)garantarea transparenei informaiilor, a comunicrilor i a modalitilor de
+exercitare a drepturilor persoanei vizate;
+c)garantarea dreptului de rectificare i tergere.
+(2)Prelucrarea datelor cu caracter personal i special este permis partidelor
+politice i organizaiilor cetenilor aparinând minoritilor naionale,
+organizaiilor neguvernamentale, în vederea realizrii obiectivelor acestora,
+fr consimmântul expres al persoanei vizate, dar cu condiia s se prevad
+garaniile corespunztoare, menionate la alineatul precedent.
+CAPITOLUL IV: Responsabilul cu protecia datelor
+Art. 10: Desemnarea i sarcinile responsabilului cu protecia datelor
+(1)Operatorii i persoanele împuternicite de operator desemneaz un
+responsabil cu protecia datelor în situaiile i condiiile prevzute la art. 37-39
+din Regulamentul general privind protecia datelor.
+(2)În cazul în care operatorul sau persoana împuternicit de operator este o
+autoritate public sau un organism public, astfel cum este definit la art. 2 alin.
+(1) lit. a), poate fi desemnat un responsabil cu protecia datelor, unic pentru
+mai multe dintre aceste autoriti sau organisme, luând în considerare
+structura organizatoric i dimensiunea acestora.
+(3)Activitatea i sarcinile responsabilului cu protecia datelor se realizeaz cu
+respectarea prevederilor art. 38 i 39 din Regulamentul general privind
+protecia datelor i a reglementrilor legale naionale aplicabile.
+CAPITOLUL V: Organisme de certificare
+Art. 11: Acreditarea organismelor de certificare
+(1)Acreditarea organismelor de certificare prevzute la art. 43 din
+Regulamentul general privind protecia datelor se realizeaz de Asociaia de
+Acreditare din România - RENAR, în calitate de organism naional de
+acreditare, în conformitate cu Regulamentul (CE) nr. 765/2008 al
+Parlamentului European i al Consiliului din 9 iulie 2008 de stabilire a
+cerinelor de acreditare i de supraveghere a pieei în ceea ce privete
+comercializarea produselor i de abrogare a Regulamentului (CEE) nr.
+339/93, publicat în Jurnalul Oficial al Uniunii Europene, seria L, nr. 218 din
+13 august 2008, precum i în conformitate cu Ordonana Guvernului nr.
+23/2009 privind activitatea de acreditare a organismelor de evaluare a
+conformitii, aprobat cu modificri prin Legea nr. 256/2011
+(2)Organismele de certificare vor fi acreditate potrivit reglementrilor legale
+aplicabile, în conformitate cu standardul EN-ISO/IEC 17065 i cu cerinele
+suplimentare stabilite de Autoritatea naional de supraveghere, precum i cu
+respectarea prevederilor art. 43 din Regulamentul general privind protecia
+datelor.
+CAPITOLUL VI: Msuri corective i sanciuni
+Art. 12: Dispoziii generale privind msuri corective i sanciuni
+(1)Înclcarea dispoziiilor enumerate la art. 83 alin. (4)-(6) din Regulamentul
+general privind protecia datelor constituie contravenie.
+(2)Sanciunile contravenionale principale sunt avertismentul i amenda
+contravenional.
+(3)Înclcarea prevederilor art. 3-9 din prezenta lege constituie contravenie i
+se sancioneaz în condiiile prevzute la art. 83 alin. (5) din Regulamentul
+general privind protecia datelor.
+(4)Constatarea contraveniilor prevzute de prezenta lege i aplicarea
+sanciunilor contravenionale, precum i a celorlalte msuri corective
+prevzute de art. 58 din Regulamentul general privind protecia datelor se fac
+de Autoritatea naional de supraveghere, în conformitate cu dispoziiile
+Regulamentului general privind protecia datelor, ale Legii nr. 102/2005
+privind înfiinarea, organizarea i funcionarea Autoritii Naionale de
+Supraveghere a Prelucrrii Datelor cu Caracter Personal, cu modificrile i
+completrile ulterioare, i ale prezentei legi.
+Art. 13: Aplicarea msurilor corective autoritilor i organismelor
+publice
+(1)În cazul constatrii înclcrii prevederilor Regulamentului general privind
+protecia datelor i ale prezentei legi de ctre autoritile/organismele publice,
+Autoritatea naional de supraveghere încheie un proces-verbal de constatare
+i sancionare a contraveniei prin care se aplic sanciunea avertismentului i
+la care anexeaz un plan de remediere.
+(2)Termenul de remediere se stabilete în funcie de riscurile asociate
+prelucrrii, precum i demersurile necesar a fi îndeplinite pentru asigurarea
+conformiti prelucrrii.
+(3)În termen de 10 zile de la data expirrii termenului de remediere,
+Autoritatea naional de supraveghere poate s reia controlul.
+(4)Responsabilitatea îndeplinirii msurilor de remediere revine
+autoritii/organismului public care, potrivit legii, poart rspunderea
+contravenional pentru faptele constatate.
+(5)Modelul planului de remediere care se anexeaz la procesul-verbal de
+constatare i sancionare a contraveniei este prevzut în anexa Plan de
+remediere, care face parte integrant din prezenta lege.
+Art. 14: Constatarea contraveniilor i aplicarea de sanciuni
+autoritilor i organismelor publice
+(1)Dac în urma controlului prevzut la art. 13 alin. (3) se constat faptul c
+autoritile/organismele publice nu au adus la îndeplinire în totalitate msurile
+prevzute în planul de remediere, Autoritatea naional de supraveghere, în
+funcie de circumstanele fiecrui caz în parte, poate aplica sanciunea
+contravenional a amenzii, cu luarea în considerare a criteriilor prevzute la
+art. 83 alin. (2) din Regulamentul general privind protecia datelor.
+(2)Constituie contravenie înclcarea de ctre autoritile/organismele publice
+a urmtoarelor dispoziii din Regulamentul general privind protecia datelor,
+referitoare la:
+a)obligaiile operatorului i ale persoanei împuternicite de operator în
+conformitate cu prevederile art. 8, art. 11, art. 25-39, art. 42 i 43;
+b)obligaiile organismului de certificare în conformitate cu art. 42 i 43;
+c)obligaiile organismului de monitorizare în conformitate cu art. 41 alin. (4).
+(3)Constituie contravenie înclcarea de ctre autoritile/organismele publice
+a dispoziiilor art. 3-9 din prezenta lege.
+(4)Contraveniile prevzute la alin. (2) i (3) se sancioneaz cu amend de la
+10.000 lei pân la 100.000 lei.
+(5)Constituie contravenie înclcarea de ctre autoritile/organismele publice
+a urmtoarelor dispoziii din Regulamentul general privind protecia datelor,
+referitoare la:
+a)principiile de baz pentru prelucrare, inclusiv condiiile privind
+consimmântul, în conformitate cu art. 5-7 i art. 9;
+b)drepturile persoanelor vizate în conformitate cu art. 12-22;
+c)transferurile de date cu caracter personal ctre un destinatar dintr-o ar
+ter sau o organizaie internaional, în conformitate cu art. 44-49;
+d)orice obligaii în temeiul legislaiei naionale adoptate în temeiul capitolului
+IX;
+e)nerespectarea unei decizii sau a unei limitri temporare sau definitive
+asupra prelucrrii sau a suspendrii fluxurilor de date, emis de ctre
+Autoritatea naional de supraveghere în temeiul art. 58 alin. (2), sau
+neacordarea accesului, prin înclcarea dispoziiilor art. 58 alin. (1).
+(6)Prin derogare de la prevederile art. 8 alin. (2) lit. a) din Ordonana
+Guvernului nr. 2/2001 privind regimul juridic al contraveniilor, aprobat cu
+modificri i completri prin Legea nr. 180/2002, cu modificrile i
+completrile ulterioare, contraveniile prevzute la alin. (5) se sancioneaz cu
+amend de la 10.000 lei pân la 200.000 lei.
+(7)Constituie contravenie înclcarea de ctre autoritile/organismele publice
+a unei decizii emise de Autoritatea naional de supraveghere în conformitate
+cu art. 58 alin. (2) coroborat cu art. 83 alin. (2) din Regulamentul general
+privind protecia datelor.
+(8)Prin derogare de la prevederile art. 8 alin. (2) lit. a) din Ordonana
+Guvernului nr. 2/2002, cu modificrile i completrile ulterioare,
+contraveniile prevzute la alin. (7) se sancioneaz cu amend de la 10.000
+lei pân la 200.000 lei.
+Art. 15
+În aplicarea prevederilor art. 58 alin. (2) lit. b) din Regulamentul general
+privind protecia datelor, art. 142 alin. (1) din Legea nr. 102/2005 privind
+înfiinarea, organizarea i funcionarea Autoritii Naionale de Supraveghere
+a Prelucrrii Datelor cu Caracter Personal, publicat în Monitorul Oficial al
+României, Partea I, nr. 391 din 9 mai 2005, cu modificrile i completrile
+ulterioare, se modific i va avea urmtorul cuprins:
+"- Art. 14
+(1)Sanciunile contravenionale principale pe care le aplica Autoritatea
+naional de supraveghere, potrivit art. 58 alin. (2) lit. b) i i) din
+Regulamentul general privind protecia datelor, sunt avertismentul i amenda.
+Aplicarea amenzii se face în condiiile art. 83 din Regulamentul general privind
+protecia datelor."
+Art. 16
+Prezenta lege intr în vigoare la 5 zile de la data publicrii în Monitorul Oficial
+al României, Partea I.
+-****-
+Aceast lege a fost adoptat de Parlamentul României, cu respectarea
+prevederilor art. 75 i ale art. 76 alin. (1) din Constituia României,
+republicat.
+
+                                 p. PREEDINTELE CAMEREI DEPUTAILOR,
+                                             PETRU-GABRIEL VLASE
+
+                                          p. PREEDINTELE SENATULUI,
+                                           IULIAN-CLAUDIU MANDA
+
+ANEX: Plan de remediere ziua ........ luna ...... anul ........ - Modul de
+îndeplinire a msurilor de remediere
+
+Nr. Fapta svârit Msuri de remediere  Termen de   Mod de
+                                     remediere  îndeplinire
+
+Alte meniuni
+..................................................................................................................
+..................................................................................................................
+Agent constatator/                 Contravenient
+Persoan competent,                 ................................
+.................................  (numele, prenumele, semntura)
+(numele, prenumele, semntura)      tampila
+

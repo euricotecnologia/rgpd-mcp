@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.env
+*.secret
+*.bak-*
+# imagens originais na raiz: versões publicadas estão em docs/images/
+/img0*.png

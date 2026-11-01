@@ -1,0 +1,115 @@
+{
+ "code": "LT",
+ "name": {
+  "en": "Lithuania",
+  "pt": "Lituânia",
+  "es": "Lituania",
+  "fr": "Lituanie",
+  "de": "Litauen",
+  "it": "Lituania",
+  "nl": "Litouwen",
+  "lt": "Lietuva"
+ },
+ "region": "EU",
+ "languages": [
+  "lt"
+ ],
+ "authority": {
+  "name": "State Data Protection Inspectorate",
+  "url": "https://vdai.lrv.lt/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "/www.datenschutzstelle.li info.dss@llv.li +423 236 6090 Dr Marie-Louise Gächter Lithuania State Data Protection Inspectorate L. Sapiegos str. 17 10312 Vilnius Lithuania https://vdai.lrv.lt/ ada@ada.lt +370 5 271 28"
+  }
+ },
+ "laws": [
+  {
+   "id": "i-1374",
+   "role": "implementation",
+   "title": "Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymas (I-1374)",
+   "language": "lt",
+   "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.5368B592234C/asr",
+   "number": "I-1374",
+   "date": "1996-06-11",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.5368B592234C/asr",
+    "retrievedAt": "2026-11-01",
+    "sha256": "7239602ee3bd7ca636c3d82fb97d1c4775e431ba1867dfcc14345d6805d7730a",
+    "language": "lt",
+    "excerpt": "ledition/TAR.5368B592234C/kqEdQJIjKX/) - lido em 2026-11-01 Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymas. Rūšis: Įstatymas. Priėmimo data: 1996-06-11. Galiojanti suvestinė redakcija: 2026-06-30. Įstaigos suteiktas Nr.: I-1374. Paskelbta: Valstybės žinios, 1996-07-03, Nr. 63-1479. 6 straipsnis. Vaiko, kuriam siūlomos informacinės visuomenės paslaugos, amžius sutikimui duoti Kai va"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "6 straipsnis (asmens duomenų teisinės apsaugos įstatymas I-1374)",
+  "lawId": "i-1374",
+  "evidence": {
+   "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.5368B592234C/asr",
+   "retrievedAt": "2026-11-01",
+   "sha256": "7239602ee3bd7ca636c3d82fb97d1c4775e431ba1867dfcc14345d6805d7730a",
+   "language": "lt",
+   "excerpt": "gal Reglamento (ES) 2016/679 6 straipsnio 1 dalies a punktą duoda ne jaunesnis negu 14 metų vaikas."
+  }
+ },
+ "notes": [
+  "Lido no e-TAR (redacao consolidada em vigor desde 2026-06-30) renderizado no navegador; extrato guardado."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "i-1562",
+   "title": "Lietuvos Respublikos pacientų teisių ir žalos sveikatai atlyginimo įstatymas (I-1562)",
+   "language": "lt",
+   "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C6E4170DB704/asr",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "7 straipsnis 1 d.",
+     "topic": "Teisė susipažinti su įrašais savo medicinos dokumentuose",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C6E4170DB704/asr",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2689673e8ea90bd460109c41922164ea27f7e1be56a97007c1526b60334365db",
+      "language": "lt",
+      "excerpt": "7 straipsnis. Teisė susipažinti su įrašais savo medicinos dokumentuose 1. Paciento pageidavimu jam turi būti pateikti jo medicinos dokumentai. Šiame straipsnyje nurodytų medicinos dokumentų pateikimas pacientui gali būti ribojamas, jeigu juose esanti informacija pakenktų paciento sveikatai ar sukeltų pavojų jo gyvybei. 8 straipsnis. Teisė į privataus gyvenimo neliečiamumą 1. Paciento privatus gyven"
+     }
+    },
+    {
+     "article": "8 straipsnis 1 d.",
+     "topic": "Teisė į privataus gyvenimo neliečiamumą",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C6E4170DB704/asr",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2689673e8ea90bd460109c41922164ea27f7e1be56a97007c1526b60334365db",
+      "language": "lt",
+      "excerpt": "8 straipsnis. Teisė į privataus gyvenimo neliečiamumą 1. Paciento privatus gyvenimas yra neliečiamas. Informacija apie paciento gyvenimo faktus gali būti renkama asmens duomenų tvarkymą reguliuojančių teisės aktų nustatyta tvarka tik tuo atveju, jeigu tai yra būtina ligai diagnozuoti, gydyti ar pacientui slaugyti. 14 straipsnis. Draudimas teikti sveikatos pr"
+     }
+    },
+    {
+     "article": "14 straipsnis 1 d.",
+     "topic": "Draudimas teikti sveikatos priežiūros paslaugas be paciento sutikimo",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.e-tar.lt/portal/lt/legalAct/TAR.C6E4170DB704/asr",
+      "retrievedAt": "2026-11-01",
+      "sha256": "2689673e8ea90bd460109c41922164ea27f7e1be56a97007c1526b60334365db",
+      "language": "lt",
+      "excerpt": "14 straipsnis. Draudimas teikti sveikatos priežiūros paslaugas be paciento sutikimo 1. Pacientui nuo 16 metų sveikatos priežiūros paslaugos teikiamos tik su jo sutikimu, išskyrus būtinosios medicinos pagalbos paslaugų teikimo atvejus, kai pacientas negali savo valios išreikšti pats. 2. Nepilnamečiam pacientui iki 16 metų sveikatos priežiūra teikiama tik su jo atstovų sutikimu, išskyrus būtinosios medicinos pagalbos p"
+     }
+    }
+   ],
+   "number": "I-1562",
+   "note": "e-TAR, suvestinė redakcija nuo 2025-07-01 (pode existir redação posterior). Lidos só o início de cada artigo."
+  }
+ ]
+}

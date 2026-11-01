@@ -1,0 +1,144 @@
+{
+ "code": "DE",
+ "name": {
+  "en": "Germany",
+  "pt": "Alemanha",
+  "es": "Alemania",
+  "fr": "Allemagne",
+  "de": "Deutschland",
+  "it": "Germania",
+  "nl": "Duitsland"
+ },
+ "region": "EU",
+ "languages": [
+  "de"
+ ],
+ "authority": {
+  "name": "Die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)",
+  "url": "http://www.bfdi.bund.de/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "ure Denis Germany Die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI) Graurheindorfer Straße 153 53117 Bonn Germany http://www.bfdi.bund.de/ poststelle@bfdi.b"
+  }
+ },
+ "laws": [
+  {
+   "id": "bdsg",
+   "role": "implementation",
+   "title": "Bundesdatenschutzgesetz (BDSG)",
+   "language": "de",
+   "url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+   "number": "BGBl. I S. 2097",
+   "date": "2017-06-30",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.gesetze-im-internet.de/bdsg_2018/BJNR209710017.html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "b25242d37be2d21289257f53e2a6e8bca17565d373ad2b0d5e2f8e1bf01549c4",
+    "language": "de",
+    "excerpt": "nschutzgesetz (BDSG) Nichtamtliches Inhaltsverzeichnis BDSG Ausfertigungsdatum: 30.06.2017 Vollzitat: \"Bundesdatenschutzgesetz vom 30. Juni 2017 (BGBl. I S. 2097), das zuletzt durch Artikel 3 des Gesetzes vom 3. Juli 2026 (BGBl. 2026 I Nr. 199) geändert worden ist\" Stand: Zuletzt geändert durch Art. 3 G v. 12.5.2026 I Nr. 139 Hinweis: Änderung durc"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "Keine Abweichung im BDSG (der geprüfte Volltext enthält keine Regelung zur Einwilligung von Kindern); es gilt Art. 8 Abs. 1 DSGVO: 16 Jahre",
+  "lawId": "bdsg"
+ },
+ "notes": [
+  "O BDSG não fixa idade própria; 'inferred' = ausência de derrogação no texto consultado. Os Länder têm leis de proteção de dados e leis hospitalares próprias: não cobertas."
+ ],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "§ 22 Abs. 1 Nr. 1 Buchst. b BDSG",
+    "lawId": "bdsg",
+    "topic": "Gesundheitsvorsorge, medizinische Diagnostik, Versorgung oder Behandlung im Gesundheits- oder Sozialbereich",
+    "status": "verified",
+    "evidence": {
+     "url": "https://www.gesetze-im-internet.de/bdsg_2018/__22.html",
+     "retrievedAt": "2026-11-01",
+     "sha256": "9bf194dccf2714fcb306b3e451844ac5a842a00bfc0a234ac0898b85234fa3d9",
+     "language": "de",
+     "excerpt": "en diesbezüglichen Pflichten nachzukommen, b) zum Zweck der Gesundheitsvorsorge, für die Beurteilung der Arbeitsfähigkeit des Beschäftigten, für die medizinische Diagnostik, die Versorgung oder Behandlung im Gesundheits- oder Sozialbereich oder für die Verwaltung von Systemen und Diensten im Gesundheits- und Sozialbereich oder aufgrund e"
+    }
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "bgb-behandlungsvertrag",
+   "title": "Bürgerliches Gesetzbuch (BGB), Behandlungsvertrag: §§ 630d, 630f, 630g",
+   "language": "de",
+   "url": "https://www.gesetze-im-internet.de/bgb/__630d.html",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 630d Abs. 1 BGB",
+     "topic": "Einwilligung",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630d.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "d35164106877be1dead300caacc8915fef8a0cba1ecb46630042e17745d75a32",
+      "language": "de",
+      "excerpt": "§ 630d Einwilligung (1) Vor Durchführung einer medizinischen Maßnahme, insbesondere eines Eingriffs in den Körper oder die Gesundheit, ist der Behandelnde verpflichtet, die Einwilligung des Patienten einzuholen. Ist der Patient einwilligungsunfähig, ist die Einwilligung eines hierzu Berechtigten einzuholen, soweit nicht eine Patientenverfügung nach § 1827 Absatz 1 Satz 1 die Maßnahme gestattet oder untersagt. Weitergehende"
+     }
+    },
+    {
+     "article": "§ 630f Abs. 1 BGB",
+     "topic": "Dokumentation der Behandlung (Behandlungsakte)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630f.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "8bdb2e22c9ce205eacc1b62c863070f94a261a221e7d2fbd0ecc3ab7cf500a49",
+      "language": "de",
+      "excerpt": "§ 630f Dokumentation der Behandlung (1) Der Behandelnde ist verpflichtet, zum Zweck der Dokumentation in unmittelbarem zeitlichen Zusammenhang mit der Behandlung eine Behandlungsakte in Papierform oder elektronisch zu führen. Berichtigungen und Änderungen von Eintragungen in der Behandlungsakte sind nur zulässig, wenn neben dem ursprünglichen Inhalt erkennbar bleibt, wann sie vorgenommen worden sind. Dies ist auch für elektronisch geführt"
+     }
+    },
+    {
+     "article": "§ 630g Abs. 1 BGB",
+     "topic": "Einsichtnahme in die Behandlungsakte",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze-im-internet.de/bgb/__630g.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "01871816d24706b92d3b45d9d34e8894e62d8a452d5c08f2937df9fd89bf477c",
+      "language": "de",
+      "excerpt": "§ 630g Einsichtnahme in die Behandlungsakte (1) Dem Patienten ist auf Verlangen unverzüglich Einsicht in die vollständige, ihn betreffende Behandlungsakte zu gewähren. § 811 ist entsprechend anzuwenden. Der Patient kann auch Abschriften von der Behandlungsakte, einschließlich elektronischer Abschriften, verlangen. Die erste Abschrift wird unentgeltlich zur Verfügung gestellt. (2) Das Recht nach Absatz 1 besteht nicht"
+     }
+    }
+   ],
+   "note": "Gesetze-im-Internet (Bundesministerium der Justiz). Os Länder têm leis hospitalares e de profissões de saúde próprias, não verificadas."
+  },
+  {
+   "id": "stgb-203",
+   "title": "Strafgesetzbuch (StGB) § 203 — Verletzung von Privatgeheimnissen (segredo profissional, incl. médicos)",
+   "language": "de",
+   "url": "https://www.gesetze-im-internet.de/stgb/__203.html",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 203 Abs. 1 StGB",
+     "topic": "Verletzung von Privatgeheimnissen",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze-im-internet.de/stgb/__203.html",
+      "retrievedAt": "2026-11-01",
+      "sha256": "e28273ab626e1871070f7f4cdff4b12d858ebd53ea3faa7d6ac2597578e85ce1",
+      "language": "de",
+      "excerpt": "§ 203 Verletzung von Privatgeheimnissen (1) Wer unbefugt ein fremdes Geheimnis, namentlich ein zum persönlichen Lebensbereich gehörendes Geheimnis oder ein Betriebs- oder Geschäftsgeheimnis, offenbart, das ihm als 1. Arzt, Zahnarzt, Tierarzt, Apotheker oder Angehörigen eines anderen Heilberufs, der für die Berufsausübung oder die Führun"
+     }
+    }
+   ]
+  }
+ ]
+}

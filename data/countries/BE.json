@@ -1,0 +1,68 @@
+{
+ "code": "BE",
+ "name": {
+  "en": "Belgium",
+  "pt": "Bélgica",
+  "es": "Bélgica",
+  "fr": "Belgique",
+  "de": "Belgien",
+  "it": "Belgio",
+  "nl": "België"
+ },
+ "region": "EU",
+ "languages": [
+  "nl",
+  "fr",
+  "de"
+ ],
+ "authority": {
+  "name": "Autorité de la protection des données - Gegevensbeschermingsautoriteit (APD-GBA)",
+  "url": "https://www.autoriteprotectiondonnees.be",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "itee, PDK Belgium Autorité de la protection des données - Gegevensbeschermingsautoriteit (APD-GBA) Rue de la Presse 35 – Drukpersstraat 35 1000 Bruxelles - Brussel Belgium https://www.aut"
+  }
+ },
+ "laws": [
+  {
+   "id": "loi2018-07-30",
+   "role": "implementation",
+   "title": "Loi relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel",
+   "language": "fr",
+   "url": "https://www.ejustice.just.fgov.be/eli/loi/2018/07/30/2018040581/justel",
+   "number": "Numac 2018040581",
+   "date": "2018-07-30",
+   "journal": "Moniteur belge, 5 septembre 2018",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.ejustice.just.fgov.be/eli/loi/2018/07/30/2018040581/justel",
+    "retrievedAt": "2026-11-01",
+    "sha256": "074f1d2b8cdc02e3d951e9df396da126056cd2607fd69559571197f19001a25f",
+    "language": "fr",
+    "excerpt": "0/2018040581/justel - lido em 2026-11-01 Numac 2018040581 - 30 JUILLET 2018. - Loi relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel (NOTE : Consultation des versions antérieures à partir du 05-09-2018 et mise à jour au 02-04-2026) Source: Justice - Intérieur - Défense Nationale | Publication: 5 septembre 2018 | Entrée en vigueur : 5 septembre 2018 Art. 7. En exécution de l'article 8.1 du"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "art. 7 loi du 30 juillet 2018",
+  "lawId": "loi2018-07-30",
+  "evidence": {
+   "url": "https://www.ejustice.just.fgov.be/eli/loi/2018/07/30/2018040581/justel",
+   "retrievedAt": "2026-11-01",
+   "sha256": "074f1d2b8cdc02e3d951e9df396da126056cd2607fd69559571197f19001a25f",
+   "language": "fr",
+   "excerpt": "de services de la société de l'information aux enfants, est licite lorsque le consentement a été donné par des enfants âgés de 13 ans ou plus Lorsque ce traitement porte sur des données à caractère personnel de l'enfant âgé de moins de 13 ans, il n'est licite que si le consentement est donné par le représentant légal de cet enfant"
+  }
+ },
+ "notes": [
+  "Justel (mise a jour au 02-04-2026) renderizado no navegador; extrato guardado."
+ ],
+ "lastReviewed": "2026-11-01"
+}

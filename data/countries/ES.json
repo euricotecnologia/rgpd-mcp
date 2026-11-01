@@ -1,0 +1,154 @@
+{
+ "code": "ES",
+ "name": {
+  "en": "Spain",
+  "pt": "Espanha",
+  "es": "España",
+  "fr": "Espagne",
+  "de": "Spanien",
+  "it": "Spagna",
+  "nl": "Spanje"
+ },
+ "region": "EU",
+ "languages": [
+  "es"
+ ],
+ "authority": {
+  "name": "Agencia Española de Protección de Datos (AEPD)",
+  "url": "https://www.aepd.es/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "30 +386 1 230 9778 Dr Jelena Virant Burnik Spain Agencia Española de Protección de Datos (AEPD) C/Jorge Juan, 6 28001 Madrid Madrid Spain https://www.aepd.es/ internacional@aepd.es 900"
+  }
+ },
+ "laws": [
+  {
+   "id": "lopdgdd",
+   "role": "implementation",
+   "title": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales",
+   "language": "es",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+   "number": "Ley Orgánica 3/2018",
+   "date": "2018-12-05",
+   "journal": "BOE núm. 294, de 6 de diciembre de 2018 (BOE-A-2018-16673)",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "retrievedAt": "2026-11-01",
+    "sha256": "fe3f124f27f13619adbdb830238cda20f7a4351666aed9960ff9056c603ab893",
+    "language": "es",
+    "excerpt": "BOE-A-2018-16673 Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Agencia Estatal Boletín Oficial del Estado Ir a contenido Consultar el diario oficial BOE Idioma actual: Castellano / es Puede seleccionar otro idioma: es / Castellano ca / Català gl / G"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "art. 7.1 LOPDGDD",
+  "lawId": "lopdgdd",
+  "evidence": {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+   "retrievedAt": "2026-11-01",
+   "sha256": "fe3f124f27f13619adbdb830238cda20f7a4351666aed9960ff9056c603ab893",
+   "language": "es",
+   "excerpt": "El tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años. Se exceptúan los supuestos en que la ley exija la asistencia de los titulares de la patria potestad o tutela para la celebración del acto o negocio jurídico en cuyo contexto se recaba el consentimiento para el tratamiento. 2. El tratamiento de los datos de l"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "Disposición adicional decimoséptima",
+    "lawId": "lopdgdd",
+    "topic": "Tratamientos de datos de salud",
+    "status": "verified",
+    "evidence": {
+     "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+     "retrievedAt": "2026-11-01",
+     "sha256": "fe3f124f27f13619adbdb830238cda20f7a4351666aed9960ff9056c603ab893",
+     "language": "es",
+     "excerpt": "onómicas de protección de datos. Disposición adicional decimoséptima. Tratamientos de datos de salud. 1. Se encuentran amparados en las letras g), h), i) y j) del artículo 9.2 del Reglamento (UE) 2016/679 los tratamientos de datos relacionados con la salud y de datos genéticos que estén regulados en las siguientes leyes y sus disposiciones de desarrollo: a)"
+    }
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "ley41-2002",
+   "title": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica",
+   "language": "es",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Artículo 7.1",
+     "topic": "El derecho a la intimidad",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-22188-consolidado.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c02ae59b0676e3033ce4b4bdd11216f8194b6c49c97affe9fe726c01ed11d3b3",
+      "language": "es",
+      "excerpt": "Artículo 7. El derecho a la intimidad. 1. Toda persona tiene derecho a que se respete el carácter confidencial de los datos referentes a su salud, y a que nadie pueda acceder a ellos sin previa autorización amparada por la Ley. 2. Los centros sanitarios adoptarán las medidas oportunas para garantizar los derechos a que se refiere el apartado anterior, y elaborarán, cuando proceda, las normas y los proc"
+     }
+    },
+    {
+     "article": "Artículo 8.1",
+     "topic": "Consentimiento informado",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-22188-consolidado.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c02ae59b0676e3033ce4b4bdd11216f8194b6c49c97affe9fe726c01ed11d3b3",
+      "language": "es",
+      "excerpt": "Artículo 8. Consentimiento informado. 1. Toda actuación en el ámbito de la salud de un paciente necesita el consentimiento libre y voluntario del afectado, una vez que, recibida la información prevista en el artículo 4, haya valorado las opciones propias del caso. 2. El consentimiento será verbal por regla general. Sin embargo, se prestará por escrito en los casos siguientes: intervención quirúrgica, procedimie"
+     }
+    },
+    {
+     "article": "Artículo 14.1",
+     "topic": "Definición y archivo de la historia clínica",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-22188-consolidado.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c02ae59b0676e3033ce4b4bdd11216f8194b6c49c97affe9fe726c01ed11d3b3",
+      "language": "es",
+      "excerpt": "Artículo 14. Definición y archivo de la historia clínica. 1. La historia clínica comprende el conjunto de los documentos relativos a los procesos asistenciales de cada paciente, con la identificación de los médicos y de los demás profesionales que han intervenido en ellos, con objeto de obtener la máxima integración posible de la documentación clínica de cada paciente, al menos"
+     }
+    },
+    {
+     "article": "Artículo 18.1",
+     "topic": "Derechos de acceso a la historia clínica y a obtener copia",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-22188-consolidado.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c02ae59b0676e3033ce4b4bdd11216f8194b6c49c97affe9fe726c01ed11d3b3",
+      "language": "es",
+      "excerpt": "Artículo 18. Derechos de acceso a la historia clínica. 1. El paciente tiene el derecho de acceso, con las reservas señaladas en el apartado 3 de este artículo, a la documentación de la historia clínica y a obtener copia de los datos que figuran en ella. Los centros sanitarios regularán el procedimiento que garantice la observancia de estos derechos. 2. El derecho de acceso del paciente a la historia clínica puede ejercerse también por representación debidam"
+     }
+    },
+    {
+     "article": "Artículo 17.1",
+     "topic": "Conservación de la documentación clínica (mínimo cinco años desde el alta)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-22188-consolidado.pdf",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c02ae59b0676e3033ce4b4bdd11216f8194b6c49c97affe9fe726c01ed11d3b3",
+      "language": "es",
+      "excerpt": "Artículo 17. La conservación de la documentación clínica. 1. Los centros sanitarios tienen la obligación de conservar la documentación clínica en condiciones que garanticen su correcto mantenimiento y seguridad, aunque no necesariamente en el soporte original, para la debida asistencia al paciente durante el tiempo adecuado a cada caso y, como mínimo, cinco años contados desde la fecha del alta de c"
+     }
+    }
+   ],
+   "number": "Ley 41/2002",
+   "note": "Texto consolidado do BOE (carácter informativo, sem valor jurídico próprio); há também leis autonómicas de documentação clínica, não verificadas."
+  }
+ ]
+}

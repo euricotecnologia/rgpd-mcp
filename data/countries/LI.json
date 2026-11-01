@@ -1,0 +1,94 @@
+{
+ "code": "LI",
+ "name": {
+  "en": "Liechtenstein",
+  "pt": "Listenstaine",
+  "es": "Liechtenstein",
+  "fr": "Liechtenstein",
+  "de": "Liechtenstein",
+  "it": "Liechtenstein",
+  "nl": "Liechtenstein"
+ },
+ "region": "EEA",
+ "languages": [
+  "de"
+ ],
+ "authority": {
+  "name": "Data Protection Authority, Principality of Liechtenstein",
+  "url": "https://www.datenschutzstelle.li",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "71 6722 3131 +371 6722 3556 Ms Jekaterina Macuka Liechtenstein Data Protection Authority, Principality of Liechtenstein Kirchstrasse 8 9490 Vaduz Liechtenstein https://www.datenschutzstelle.li info.dss@llv.li "
+  }
+ },
+ "laws": [
+  {
+   "id": "dsg-li",
+   "role": "implementation",
+   "title": "Datenschutzgesetz (DSG), LR 235.1",
+   "language": "de",
+   "url": "https://www.gesetze.li/konso/pdf/2018272000?version=1",
+   "number": "LGBl. 2018 Nr. 272",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.gesetze.li/konso/pdf/2018272000?version=1",
+    "retrievedAt": "2026-11-01",
+    "sha256": "a433780fe6eb51656a6f00f339b69e4ff2f3ad2b125e33ff89c6620032ed268c",
+    "language": "de",
+    "excerpt": "235.1 Liechtensteinisches Landesgesetzblatt Jahrgang 2018 Nr. 272 ausgegeben am 7. Dezember 2018 Datenschutzgesetz (DSG) vom 4. Oktober 2018 Dem nachstehenden vom Landtag gefassten Beschluss erteile Ich Meine Zustimmung:1 I. Allgemeine Bestimmungen A. Zweck, Anwendungsbereich und Begriffsbestimmungen Art. 1 Zweck 1) Dieses"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "inferred",
+  "article": "O DSG (LR 235.1) nao contem regra de idade (verificado por ausencia no texto integral); aplica-se o art. 8(1) RGPD, que vigora no EEE: 16 anos",
+  "lawId": "dsg-li"
+ },
+ "notes": [
+  "Texto lido do PDF oficial do LGBl. (gesetze.li), convertido com pdftotext; hash do texto extraido. A Datenschutzstelle indica tambem 16 anos (fonte secundaria)."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "gesg",
+   "title": "Gesundheitsgesetz (GesG), LR 811.01",
+   "language": "de",
+   "url": "https://www.gesetze.li/konso/2008030000",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Art. 10",
+     "topic": "Behandlung und Beratung der Patienten (Pflichten der Berufsausübungsbewilligten)",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze.li/konso/pdf/2008030000?version=15",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c097c35ca8f28e53356748da9abef7d672906a10ac78ebb06fb329ba51b097cb",
+      "language": "de",
+      "excerpt": "Art. 10 Behandlung und Beratung der Patienten Inhaber einer Berufsausübungsbewilligung sind verpflichtet: a) jeden in Beratung oder Behandlung übernommenen Patienten ohne Unterschied der Person gewissenhaft und nach Massgabe der Wissenschaft und Erfahrung zu betreuen; b) den Patienten über die Folgen und Risiken einer Behandlung einschliesslich der wirtschaftlic"
+     }
+    },
+    {
+     "article": "Art. 12 Abs. 1",
+     "topic": "Dokumentations- und Auskunftspflicht",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.gesetze.li/konso/pdf/2008030000?version=15",
+      "retrievedAt": "2026-11-01",
+      "sha256": "c097c35ca8f28e53356748da9abef7d672906a10ac78ebb06fb329ba51b097cb",
+      "language": "de",
+      "excerpt": "Art. 12 Dokumentations- und Auskunftspflicht 1) Inhaber einer Berufsausübungsbewilligung sind verpflichtet, Aufzeichnungen über die Beratung oder Behandlung der Patienten zu führen und ihnen oder der zu ihrer gesetzlichen Vertretung befugten Person alle Auskünfte zu erteilen. 2) Die Regierung regelt das Nähere mit Verordnung, insbesondere die Aufbewahrungsfrist für Aufzeichnungen. Art. 13 Fortbildung Inhaber einer Berufsausübungsbewilli"
+     }
+    }
+   ],
+   "number": "LR 811.01",
+   "note": "Versão 15 da consolidação oficial (gesetze.li). A regra da Aufklärung/consentimento e o segredo profissional (Berufsgeheimnis) não foram lidos."
+  }
+ ]
+}

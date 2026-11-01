@@ -1,0 +1,82 @@
+{
+ "code": "IE",
+ "name": {
+  "en": "Ireland",
+  "pt": "Irlanda",
+  "es": "Irlanda",
+  "fr": "Irlande",
+  "de": "Irland",
+  "it": "Irlanda",
+  "nl": "Ierland",
+  "ga": "Éire"
+ },
+ "region": "EU",
+ "languages": [
+  "en",
+  "ga"
+ ],
+ "authority": {
+  "name": "Data Protection Commission",
+  "url": "http://www.dataprotection.ie/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": " of Information Deputy for the federal states of Germany: Prof. Dr. Thomas Petri Bavarian Data Protection Commissioner Postfach 22 12 19 80502 München Email: laendervertreter@datenschutz-bayern.de The compe"
+  }
+ },
+ "laws": [
+  {
+   "id": "dpa2018",
+   "role": "implementation",
+   "title": "Data Protection Act 2018 (Number 7 of 2018)",
+   "language": "en",
+   "url": "https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html",
+   "number": "Number 7 of 2018",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html",
+    "retrievedAt": "2026-11-01",
+    "sha256": "c5d0f287b591ff4c54dcae2bf62ac1974b3dea76560a91e27514dbd981a47de7",
+    "language": "en",
+    "excerpt": "t Section An Chéad Alt Eile Print Section Priontáil an tAlt Number 7 of 2018 DATA PROTECTION ACT 2018 CONTENTS PART 1 Preliminary and General 1. Short title, citation and commencement 2. Interpretation 3. Designation by appropriate authority 4. Obligation not to require data subject to exercise right of access under Data Protection Re"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 16,
+  "status": "verified",
+  "article": "s. 31(1) Data Protection Act 2018",
+  "lawId": "dpa2018",
+  "evidence": {
+   "url": "https://www.irishstatutebook.ie/eli/2018/act/7/section/31/enacted/en/html",
+   "retrievedAt": "2026-11-01",
+   "sha256": "6017631b7396bb4f481b495d8a46fdf745cfdef5000e11d36a2e6c31ad26ee92",
+   "language": "en",
+   "excerpt": "f child in relation to information society services 31. (1) The age of a child specified for the purposes of Article 8 is 16 years of age. (2) For the purposes of the application of Article 8 in the State, the reference in that Article to “information society services” does not include a reference to preventative or counselling services. (3) The Minister shall— (a) not later than 3 years after"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "s. 52",
+    "lawId": "dpa2018",
+    "topic": "Processing of special categories of personal data for purposes of Article 9(2)(h)",
+    "status": "verified",
+    "evidence": {
+     "url": "https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html",
+     "retrievedAt": "2026-11-01",
+     "sha256": "c5d0f287b591ff4c54dcae2bf62ac1974b3dea76560a91e27514dbd981a47de7",
+     "language": "en",
+     "excerpt": "Article 10 data for reasons of substantial public interest 52. Processing of special categories of personal data for purposes of Article 9(2)(h) 53. Processing of special categories of personal data for purposes of public interest in the area of public health 54. Processing of special categories of personal data for archiving purposes in the public interest, scientific or historical research purposes"
+    },
+    "headingOnly": true
+   }
+  ]
+ }
+}

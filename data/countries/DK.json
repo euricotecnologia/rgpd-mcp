@@ -1,0 +1,103 @@
+{
+ "code": "DK",
+ "name": {
+  "en": "Denmark",
+  "pt": "Dinamarca",
+  "es": "Dinamarca",
+  "fr": "Danemark",
+  "de": "Dänemark",
+  "it": "Danimarca",
+  "nl": "Denemarken",
+  "da": "Danmark"
+ },
+ "region": "EU",
+ "languages": [
+  "da"
+ ],
+ "authority": {
+  "name": "Datatilsynet",
+  "url": "http://www.datatilsynet.dk/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "4 Mr Jiří KAUCKÝ Denmark Datatilsynet Carl Jacobsens Vej 35 2500 Valby Denmark http://www.datatilsynet.dk/ dt@datatilsynet.dk +45 33 1932 00 Ms Cristina Angela GULISANO Estonia Estonian Data Prot"
+  }
+ },
+ "laws": [
+  {
+   "id": "dbl2018-502",
+   "role": "implementation",
+   "title": "Lov om supplerende bestemmelser til forordning om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger (databeskyttelsesloven)",
+   "language": "da",
+   "url": "https://www.retsinformation.dk/eli/lta/2018/502",
+   "number": "lov nr. 502 af 23/05/2018",
+   "date": "2018-05-23",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.retsinformation.dk/eli/lta/2018/502",
+    "retrievedAt": "2026-11-01",
+    "sha256": "14f82c5d994c9ffe2618d8e71cd7f9325ad753deb2003890e967a5ff1c1af52a",
+    "language": "da",
+    "excerpt": "LOV H#LOKDOK 01 A A20180050230 AA010666 201319 Lov om supplerende bestemmelser til forordning om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger (databeskyttelsesloven) 2018 2018-05-23 2018-05-23 2024-03-22 Historic 502 Databeskyttelsesloven Lovtidende A 2019-11-05 2024-03-21 A20230178330 2023-12-28 Lov om ændring af databeskyttelsesloven (Justering af aldersgrænsen for samtykke til behandling af personoplysninger i forbinde"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "§ 6, stk. 2 databeskyttelsesloven",
+  "lawId": "dbl2018-502",
+  "evidence": {
+   "url": "https://www.retsinformation.dk/eli/lta/2018/502",
+   "retrievedAt": "2026-11-01",
+   "sha256": "14f82c5d994c9ffe2618d8e71cd7f9325ad753deb2003890e967a5ff1c1af52a",
+   "language": "da",
+   "excerpt": "ed udbud af informationssamfundstjenester direkte til børn, er behandling af personoplysninger om et barn lovlig, hvis barnet er mindst 13 år. Stk. 3. Er barnet under 13 år, er behandling kun lovlig, hvis og i det omfang samtykke gives eller godkendes af indehaveren af forældremyndigheden over barnet. § 7. Forbuddet mod behandling af følsomme personoplysninger omfattet af databeskyttelsesforordning"
+  }
+ },
+ "notes": [
+  "Texto lido: versao de 2018-05-23 marcada 'Historic' no Retsinformation; confirmar alteracoes posteriores na lovbekendtgorelse em vigor."
+ ],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "sundhedsloven",
+   "title": "Bekendtgørelse af sundhedsloven (LBK nr. 275 af 12/03/2025)",
+   "language": "da",
+   "url": "https://www.retsinformation.dk/eli/lta/2025/275",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "§ 15 stk. 1",
+     "topic": "Informeret samtykke",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.retsinformation.dk/eli/lta/2025/275/xml",
+      "retrievedAt": "2026-11-01",
+      "sha256": "d7c6da29479f7eec58ea1c57d57bfc2107b6140344c92802df5f3500af71387b",
+      "language": "da",
+      "excerpt": "Informeret samtykke § 15. Ingen behandling må indledes eller fortsættes uden patientens informerede samtykke, medmindre andet følger af lov eller bestemmelser fastsat i henhold til lov eller af §§ 17-19. Stk. 2. Patienten kan på ethvert tidspunkt tilbagekalde sit samtykke efter stk. 1. Stk. 3. Ved informeret samtykke forstås i denne lov et samtykke, der er givet på"
+     }
+    },
+    {
+     "article": "§ 41 stk. 1",
+     "topic": "Videregivelse af helbredsoplysninger til andre sundhedspersoner kun med patientens samtykke",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.retsinformation.dk/eli/lta/2025/275/xml",
+      "retrievedAt": "2026-11-01",
+      "sha256": "d7c6da29479f7eec58ea1c57d57bfc2107b6140344c92802df5f3500af71387b",
+      "language": "da",
+      "excerpt": "§ 41. Med patientens samtykke kan sundhedspersoner videregive oplysninger til andre sundhedspersoner om patientens helbredsforhold og andre fortrolige oplysninger i forbindelse med behandling af patienten eller behandling af andre patienter. Stk. 2. Videregivelse af de i stk. 1 nævnte oplysninger kan uden patientens samtykke ske, når 1) det er nødvendigt af hensyn til et aktuelt behandli"
+     }
+    }
+   ],
+   "number": "LBK nr. 275/2025",
+   "note": "Retsinformation marca esta versão como 'Historic' (existe versão posterior a 2026-10-22): confirmar a lovbekendtgørelse em vigor. Lidos apenas §§ 15 e 41; as regras de journalføring e tavshedspligt (cap. 9) estão em outros artigos e na bekendtgørelse sobre patientjournaler, não lidos."
+  }
+ ]
+}

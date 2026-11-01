@@ -1,0 +1,4 @@
+Coloque aqui os textos oficiais, um ficheiro por pais, com o codigo ISO no nome:
+  GR.pdf  LV.pdf  BE.pdf  SI.pdf  LU.pdf  EE.pdf  SK.pdf  IS.pdf  LT.pdf
+(PDF, HTML guardado ou .txt; texto completo da lei nacional que executa o RGPD, versao consolidada se existir.)
+Depois avise no chat: eu extraio o texto, procuro a regra de idade (Art. 8) e a lei, e so marco "verified" se o trecho existir no ficheiro.

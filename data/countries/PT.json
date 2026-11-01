@@ -1,0 +1,155 @@
+{
+ "code": "PT",
+ "name": {
+  "en": "Portugal",
+  "pt": "Portugal",
+  "es": "Portugal",
+  "fr": "Portugal",
+  "de": "Portugal",
+  "it": "Portogallo",
+  "nl": "Portugal"
+ },
+ "region": "EU",
+ "languages": [
+  "pt"
+ ],
+ "authority": {
+  "name": "Comissão Nacional de Proteção de Dados (CNPD)",
+  "url": "http://www.cnpd.pt/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "/ kancelaria@uodo.gov.pl dwm@uodo.gov.pl +48 22 531 03 00 Mr Mirosław Wróblewski Portugal Comissão Nacional de Proteção de Dados - CNPD Av. D. Carlos I, 134, 1º 1200-651 Lisboa Portugal http://www.cnpd.pt/ geral@cnpd.p"
+  }
+ },
+ "laws": [
+  {
+   "id": "lei58-2019",
+   "role": "implementation",
+   "title": "Lei n.º 58/2019, de 8 de agosto — Assegura a execução, na ordem jurídica nacional, do Regulamento (UE) 2016/679",
+   "language": "pt",
+   "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+   "number": "Lei n.º 58/2019",
+   "date": "2019-08-08",
+   "journal": "Diário da República, 1.ª série, n.º 151, de 8 de agosto de 2019",
+   "status": "verified",
+   "evidence": {
+    "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+    "retrievedAt": "2026-11-01",
+    "sha256": "d01dfc0809537df75b63cd8b72dcf352befa91b1c37896456601e5c11cd3b6f0",
+    "language": "pt",
+    "excerpt": "N.º 151 8 de agosto de 2019 Pág. 3 ASSEMBLEIA DA REPÚBLICA Lei n.º 58/2019 de 8 de agosto Sumário: Assegura a execução, na ordem jurídica nacional, do Regulamento (UE) 2016/679 do Parlamento e do Conselho, de 27 de abril de 2016, relativo à proteção das pessoas singulares no que diz respeito ao tratamento de dados pessoais e à livre circulação des"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 13,
+  "status": "verified",
+  "article": "art. 16.º n.º 1 Lei 58/2019",
+  "lawId": "lei58-2019",
+  "evidence": {
+   "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+   "retrievedAt": "2026-11-01",
+   "sha256": "d01dfc0809537df75b63cd8b72dcf352befa91b1c37896456601e5c11cd3b6f0",
+   "language": "pt",
+   "excerpt": "tivo à oferta direta de serviços da sociedade de informação quando as mesmas já tenham completado 13 anos de idade. 2 — Caso a criança tenha idade inferior a 13 anos, o tratamento só é lícito se o consentimento for dado pelos representantes legais desta, de preferência com recurso a meios de autenticação segura. Artigo 17.º Proteção de dados pessoais de pessoas falecidas"
+  }
+ },
+ "notes": [
+  "Texto lido no PDF oficial do Diário da República (files.diariodarepublica.pt), convertido com pdftotext. A Deliberação CNPD 2019/494 desaplicou normas desta lei por incompatibilidade com o RGPD (fonte secundária, não verificada aqui)."
+ ],
+ "lastReviewed": "2026-11-01",
+ "health": {
+  "provisions": [
+   {
+    "article": "Artigo 29.º",
+    "lawId": "lei58-2019",
+    "topic": "Tratamento de dados de saúde e dados genéticos",
+    "status": "verified",
+    "evidence": {
+     "url": "https://files.diariodarepublica.pt/1s/2019/08/15100/0000300040.pdf",
+     "retrievedAt": "2026-11-01",
+     "sha256": "d01dfc0809537df75b63cd8b72dcf352befa91b1c37896456601e5c11cd3b6f0",
+     "language": "pt",
+     "excerpt": "recolha não permita a reversibilidade dos referidos dados. Artigo 29.º Tratamento de dados de saúde e dados genéticos 1 — Nos tratamentos de dados de saúde e de dados genéticos, o acesso a dados pessoais rege-se pelo princípio da necessidade de conhecer a informação. 2 — Nos casos previstos nas alíneas h) e i) do n.º 2 do artigo 9.º do RGPD, o tratamento dos dados previstos no n.º 1 do mesmo artigo deve ser efetuado por um profissional obrigado a sigilo ou por outra pessoa sujeita a dever de confidencialidade, devendo se"
+    }
+   }
+  ]
+ },
+ "sectorHealth": [
+  {
+   "id": "lei12-2005",
+   "title": "Lei n.º 12/2005, de 26 de janeiro — Informação genética pessoal e informação de saúde (versão consolidada)",
+   "language": "pt",
+   "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-106603593",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Artigo 3.º n.º 1",
+     "topic": "Propriedade da informação de saúde",
+     "status": "verified",
+     "evidence": {
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-106603593",
+      "retrievedAt": "2026-11-01",
+      "sha256": "650b2590c2066bf629359216c5a551ad7a38a216be806b45fc55b5883f29efeb",
+      "language": "pt",
+      "excerpt": "Lei 12/2005 - Artigo 3.º Propriedade da informação de saúde 1 - A informação de saúde, incluindo os dados clínicos registados, resultados de análises e outros exames subsidiários, intervenções e diagnósticos, é propriedade da pessoa, sendo as unidades do sistema de saúde os depositários da informação, a qual não pode ser utilizada para outros fins que não os da prestação de cuidados"
+     }
+    },
+    {
+     "article": "Artigo 3.º n.º 2",
+     "topic": "Direito do titular a conhecer todo o processo clínico",
+     "status": "verified",
+     "evidence": {
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2005-106603593",
+      "retrievedAt": "2026-11-01",
+      "sha256": "650b2590c2066bf629359216c5a551ad7a38a216be806b45fc55b5883f29efeb",
+      "language": "pt",
+      "excerpt": "2 - O titular da informação de saúde tem o direito de, querendo, tomar conhecimento de todo o processo clínico que lhe diga respeito, salvo circunstâncias excepcionais devidamente justificadas e em que seja inequivocamente demonstrado que isso lhe possa ser prejudicial, ou de o fazer comunicar a quem seja por si indicado. Lei 15/2014 - Artigo 3.º Consentimento ou recusa 1 - O consentimento"
+     }
+    }
+   ],
+   "number": "Lei n.º 12/2005",
+   "note": "Versão consolidada do Diário da República (lida em 2026-11-01); última alteração listada: Lei n.º 26/2016. O art. 3.º consolidado é igual ao original. Lidos só os n.os 1 e 2."
+  },
+  {
+   "id": "lei15-2014",
+   "title": "Lei n.º 15/2014, de 21 de março — Direitos e deveres do utente dos serviços de saúde (versão consolidada)",
+   "language": "pt",
+   "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2014-106901319",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Artigo 3.º",
+     "topic": "Consentimento ou recusa dos cuidados de saúde",
+     "status": "verified",
+     "evidence": {
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2014-106901319",
+      "retrievedAt": "2026-11-01",
+      "sha256": "650b2590c2066bf629359216c5a551ad7a38a216be806b45fc55b5883f29efeb",
+      "language": "pt",
+      "excerpt": "Lei 15/2014 - Artigo 3.º Consentimento ou recusa 1 - O consentimento ou a recusa da prestação dos cuidados de saúde devem ser declarados de forma livre e esclarecida, salvo disposição especial da lei. 2 - O utente dos serviços de saúde pode, em qualquer momento da prestação dos cuidados de saúde, revogar o consentimento. Lei 15/2014 - Artigo 6.º Sigilo 1 - O utente dos serviços de saúde tem direito ao sigilo sobre os seus"
+     }
+    },
+    {
+     "article": "Artigo 6.º",
+     "topic": "Sigilo",
+     "status": "verified",
+     "evidence": {
+      "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2014-106901319",
+      "retrievedAt": "2026-11-01",
+      "sha256": "650b2590c2066bf629359216c5a551ad7a38a216be806b45fc55b5883f29efeb",
+      "language": "pt",
+      "excerpt": "Lei 15/2014 - Artigo 6.º Sigilo 1 - O utente dos serviços de saúde tem direito ao sigilo sobre os seus dados pessoais. 2 - Os profissionais de saúde estão obrigados ao dever de sigilo relativamente aos factos de que tenham conhecimento no exercício das suas funções, salvo lei que disponha em contrário ou decisão judicial que imponha a sua revelação."
+     }
+    }
+   ],
+   "number": "Lei n.º 15/2014",
+   "note": "Versão consolidada do Diário da República (lida em 2026-11-01); alterações listadas até a Lei n.º 57/2026. Os arts. 3.º e 6.º consolidados são iguais ao original. Os arts. 5.º (proteção de dados) e 7.º (informação) não foram registados."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "code": "IT",
+ "name": {
+  "en": "Italy",
+  "pt": "Itália",
+  "es": "Italia",
+  "fr": "Italie",
+  "de": "Italien",
+  "it": "Italia",
+  "nl": "Italië"
+ },
+ "region": "EU",
+ "languages": [
+  "it"
+ ],
+ "authority": {
+  "name": "Garante per la protezione dei dati personali",
+  "url": "http://www.garanteprivacy.it/",
+  "language": "en",
+  "status": "verified",
+  "evidence": {
+   "url": "https://www.edpb.europa.eu/about-edpb/about-edpb/members_en",
+   "retrievedAt": "2026-11-01",
+   "sha256": "da5b495343fd46bf67537938598df89dce69c11766b096dbdbde1ce83d627616",
+   "language": "en",
+   "excerpt": "taprotection.ie/ info@dataprotection.ie +3531 7650100 +353 1800437 737 Dr Des Hogan Italy Garante per la protezione dei dati personali Piazza Venezia, 11 00187 Roma RM Italy http://www.garanteprivacy.it/ segreteria.stanzione"
+  }
+ },
+ "laws": [
+  {
+   "id": "d196-2003",
+   "role": "implementation",
+   "title": "Codice in materia di protezione dei dati personali (d.lgs. 30 giugno 2003, n. 196, come adeguato al Regolamento)",
+   "language": "it",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196",
+   "number": "D.Lgs. 30 giugno 2003, n. 196",
+   "date": "2003-06-30",
+   "status": "verified",
+   "evidence": {
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196",
+    "retrievedAt": "2026-11-01",
+    "sha256": "8356e525b06079e02a5451233f8d51403f136f40721f37c929ee1e0306837032",
+    "language": "it",
+    "excerpt": "--> --> DECRETO LEGISLATIVO 30 giugno 2003, n. 196 - Normattiva Presidenza del Consiglio dei Ministri ITA ITA ENG Normattiva - Il portale della legge vigente close Home current Il progetto L'obiettivo Il coordinamento delle iniziative pubbliche I caratteri qualificanti del progetto Obiettivi Raggiunti Obietti"
+   }
+  }
+ ],
+ "digitalConsentAge": {
+  "value": 14,
+  "status": "verified",
+  "article": "art. 2-quinquies co. 1 Codice privacy",
+  "lawId": "d196-2003",
+  "evidence": {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196",
+   "retrievedAt": "2026-11-01",
+   "sha256": "8356e525b06079e02a5451233f8d51403f136f40721f37c929ee1e0306837032",
+   "language": "it",
+   "excerpt": "n attuazione dell'articolo 8, paragrafo 1, del Regolamento, il minore che ha compiuto i quattordici anni può esprimere il consenso al trattamento dei propri dati personali in relazione all'offerta diretta di servizi della società dell'informazione. Con riguardo a tali servizi, il trattamento dei dati personali del minore di età inferiore a quattordici anni, fondato sull'articolo 6, parag"
+  }
+ },
+ "notes": [],
+ "lastReviewed": "2026-11-01",
+ "sectorHealth": [
+  {
+   "id": "l219-2017",
+   "title": "Legge 22 dicembre 2017, n. 219 — Norme in materia di consenso informato e di disposizioni anticipate di trattamento",
+   "language": "it",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-12-22;219",
+   "status": "verified",
+   "provisions": [
+    {
+     "article": "Art. 1 comma 1",
+     "topic": "Consenso informato: nessun trattamento sanitario senza consenso libero e informato",
+     "status": "verified",
+     "evidence": {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-12-22;219",
+      "retrievedAt": "2026-11-01",
+      "sha256": "cf069bf7f053a3a1a188e37d9d1d39f115635359c9083e8aaadc69878933ded1",
+      "language": "it",
+      "excerpt": "Art. 1 Consenso informato 1. La presente legge, nel rispetto dei principi di cui agli articoli 2, 13 e 32 della Costituzione e degli articoli 1, 2 e 3 della Carta dei diritti fondamentali dell'Unione europea, tutela il diritto alla vita, alla salute, alla dignità e all'autodeterminazione della persona e stabilisce che nessun trattamento sanitario può essere iniziato o proseguito se"
+     }
+    }
+   ],
+   "number": "Legge n. 219/2017",
+   "note": "Normattiva (lida no Chrome do utilizador). Lido só o art. 1, comma 1. Não cobre prontuário nem segredo profissional (art. 622 do Código Penal e código deontológico), não lidos."
+  }
+ ]
+}
