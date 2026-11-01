@@ -31,13 +31,27 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | 30 países (UE-27 + NO, IS, LI): autoridade de controlo | ✅ lista oficial do EDPB |
 | Lei nacional, idade do Art. 8, disposições de saúde, legislação setorial de saúde | ⚠️ **22 países verificados**, 8 parciais (DE, HU, LI, LU, MT, NL, PL, RO), 0 sem verificação. Setorial de saúde em 26 países (faltam BE, IE, MT, RO) |
 | Construtor que **recusa** desenhos ilegais | ✅ |
-| Modal acessível (Web Component) + página para iframe/WebView | ✅ testado em Chrome |
+| Modal acessível (Web Component) + página para iframe/WebView | ✅ Testado |
 | Ledger de consentimento (cadeia de hash, retirada, verificação) | ✅ |
 | Instaladores (6 clientes + genérico) | ✅ formatos verificados em docs oficiais; só o Claude Code instalado de verdade |
 | Rótulos da interface | 25 idiomas, **não revistos por falante nativo** |
 | Testes automáticos | 41 |
 
 Reino Unido e Suíça **não** estão incluídos.
+
+## Clientes suportados
+
+| Cliente | Comando de instalação |
+|---|---|
+| **Claude Code** | `node dist/cli.js install claude-code --scope user` |
+| **Codex** | `node dist/cli.js install codex` |
+| **Gemini CLI** | `node dist/cli.js install gemini` |
+| **Antigravity IDE** e **Antigravity** (CLI) | `node dist/cli.js install antigravity` (um só ficheiro de configuração, partilhado pela IDE e pela CLI) |
+| **OpenCode** | `node dist/cli.js install opencode --scope project` |
+| **VS Code / Visual Studio Code** | `node dist/cli.js install vscode --scope project` |
+| **Claude Desktop, Cursor, Windsurf e qualquer cliente MCP** | `node dist/cli.js install generic` (imprime o JSON `mcpServers`) |
+
+Detalhes e formatos de configuração em [docs/CLIENTS.md](docs/CLIENTS.md). Use `--dry-run` para ver o que será alterado.
 
 ## Início rápido
 
