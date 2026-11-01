@@ -8,7 +8,7 @@ import type { Ledger } from "./ledger.js";
 import { BuildSchema } from "./schemas.js";
 import { SNIPPET_LANGUAGES, integrationSnippet } from "./snippets.js";
 
-export const VERSION = "0.1.0";
+export const VERSION = "1.0.0";
 
 const text = (v: unknown) => ({ content: [{ type: "text" as const, text: typeof v === "string" ? v : JSON.stringify(v, null, 2) }] });
 const fail = (e: unknown) => ({ isError: true, content: [{ type: "text" as const, text: e instanceof Error ? e.message : String(e) }] });
