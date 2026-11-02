@@ -36,8 +36,15 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | Modal acessível (Web Component) + página para iframe/WebView | ✅ Testado |
 | Ledger de consentimento (cadeia de hash, retirada, verificação) | ✅ |
 | Instaladores (6 clientes + genérico) | ✅ formatos verificados em docs oficiais; só o Claude Code instalado de verdade |
-| Rótulos da interface | 25 idiomas, **não revistos por falante nativo** |
-| Testes automáticos | 41 |
+| Rótulos da interface | 25 idiomas |
+| Ferramentas MCP | 12 ferramentas, 2 recursos (`rgpd://gdpr/…`, `rgpd://country/…`) e 2 prompts (`integrar_no_sistema`, `healthcare_first_visit`) |
+| Agente de integração | `rgpd-integrador`: explora o projeto, implementa backend, modal, bloqueio no servidor e saída alternativa, e testa |
+| API HTTP | Criação de documentos, registo de decisões, retirada (Art. 7(3)), estado e verificação do ledger; chave de API ou token de captura de curta duração |
+| Consentimento | 16 categorias de dados, bases do Art. 6(1) e condições do Art. 9(2); responsável legal para menores (Art. 8); retirada com um clique |
+| Linguagens de integração | Snippets para HTML, React, Node, Go, Java, Rust, Delphi, Python, C# e PHP |
+| Exemplos executáveis | `examples/clinic` (Node) e `examples/clinic-react` (React + TypeScript) |
+| Segurança | Loopback por omissão, CSP no modal, tokens HMAC presos a documento e titular, `subjectRef` pseudónimo, ledger encadeado por hash |
+| Requisitos | Node ≥ 20 |
 
 Reino Unido e Suíça **não** estão incluídos.
 
@@ -60,7 +67,7 @@ Detalhes e formatos de configuração em [docs/CLIENTS.md](docs/CLIENTS.md). Use
 Requer Node ≥ 20.
 
 ```bash
-git clone https://github.com/euricotecnologia/rgpd-mcp.git   # repositório privado: requer acesso à conta
+git clone https://github.com/euricotecnologia/rgpd-mcp.git
 cd rgpd-mcp
 npm install
 npm run build
