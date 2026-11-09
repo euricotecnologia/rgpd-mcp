@@ -20,7 +20,7 @@ Resumo: texto jurídico só vem das ferramentas; tratar apenas `verified` como a
 | `get_consent_status` | `subjectRef` | Estado efetivo por item (última decisão vence; retiradas incluídas) |
 | `verify_ledger` | — | Recalcula a cadeia de hash e indica o primeiro registo quebrado |
 | `get_integration_snippet` | `language` (`html`, `react`, `node`, `go`, `java`, `rust`, `delphi`, `python`, `csharp`, `php`), `baseUrl?` | Código de integração com nota honesta sobre se foi executado nos testes |
-| `resolve_locale` | `ip?`, `acceptLanguage?`, `establishmentCountry?`, `userChoice?{country,language}` | **Opcional.** Sugere país e idioma (ver [INTEGRACAO.md](INTEGRACAO.md#país-e-idioma-por-ip-opcional)). Devolve `country`, `language`, a origem de cada um, `needsUserChoice`, `languageOptions` e avisos. O IP é dado pessoal: não é gravado nem registado |
+| `resolve_locale` | `ip?`, `acceptLanguage?`, `establishmentCountry?`, `fallbackCountry?` | **Opcional.** Sugere país e idioma (ver [INTEGRACAO.md](INTEGRACAO.md#país-e-idioma-por-ip-opcional)). Devolve `country`, `language`, a origem de cada um, `undetermined`, `languageOptions` e avisos. O IP é dado pessoal: não é gravado nem registado |
 | `get_integration_guide` | `country` (padrão `PT`), `language?` | Receita completa para integrar o consentimento no início do atendimento: arquitetura, endpoints a criar, bloqueio no servidor, pedido-modelo da primeira consulta, retirada (Art. 7(3)), regras e 5 testes de aceitação |
 
 ### Entrada do construtor

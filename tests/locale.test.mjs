@@ -37,24 +37,26 @@ test("country from IP picks the national language and the right law profile", ()
   assert.equal(doc.language, "es");
 });
 
-test("priority: clinic establishment > user choice > IP > Accept-Language", () => {
+test("priority: clinic establishment > IP > Accept-Language > fallbackCountry", () => {
   assert.equal(resolveLocale({ ip: "203.0.113.7", establishmentCountry: "PT" }, geo).countrySource, "establishment");
   assert.equal(resolveLocale({ ip: "203.0.113.7", establishmentCountry: "PT" }, geo).country, "PT");
   assert.ok(resolveLocale({ ip: "203.0.113.7", establishmentCountry: "PT" }, geo).warnings.some((w) => /clinic's country was used/.test(w)));
-  const u = resolveLocale({ ip: "203.0.113.7", userChoice: { country: "it" } }, geo);
-  assert.deepEqual([u.country, u.countrySource], ["IT", "user"]);
+  const f = resolveLocale({ ip: "192.0.2.50", fallbackCountry: "PT" }, geo); // visitor from a country without a profile
+  assert.deepEqual([f.country, f.countrySource, f.language, f.undetermined], ["PT", "fallback", "pt", false]);
+  assert.ok(f.warnings.some((w) => /fallback country/.test(w)));
   const a = resolveLocale({ acceptLanguage: "pt-PT,pt;q=0.9" });
   assert.deepEqual([a.country, a.countrySource, a.language], ["PT", "accept-language", "pt"]);
 });
 
-test("country without a profile never falls back silently to another law", () => {
-  const br = resolveLocale({ ip: "192.0.2.50", acceptLanguage: "pt-PT" }, geo);
+test("country without a profile never guesses another law: fallback is explicit, otherwise undetermined", () => {
+  const br = resolveLocale({ ip: "192.0.2.50", acceptLanguage: "pt-BR" }, geo);
   assert.equal(br.country, null);
-  assert.equal(br.needsUserChoice, true);
+  assert.equal(br.undetermined, true);
   assert.equal(br.ipCountry, "BR");
   assert.ok(br.warnings.some((w) => /no profile/.test(w)));
   assert.equal(resolveLocale({ establishmentCountry: "GB" }).country, null);
-  assert.equal(resolveLocale({}).needsUserChoice, true);
+  assert.equal(resolveLocale({}).undetermined, true);
+  assert.equal(resolveLocale({ fallbackCountry: "GB" }).country, null);
 });
 
 test("private IP or no database: warns and uses the other signals", () => {
@@ -66,15 +68,15 @@ test("private IP or no database: warns and uses the other signals", () => {
   assert.ok(n.warnings.some((w) => /not enabled/.test(w)));
 });
 
-test("multilingual country: Accept-Language or user picks the language, otherwise warns", () => {
+test("multilingual country: Accept-Language picks the language, otherwise the primary one with a warning", () => {
   const nl = resolveLocale({ ip: "203.0.113.99", acceptLanguage: "fr-BE,fr;q=0.9" }, geo);
   assert.deepEqual([nl.country, nl.language, nl.languageSource], ["BE", "fr", "accept-language"]);
   assert.ok(nl.languageOptions.length > 1);
   const d = resolveLocale({ ip: "203.0.113.99" }, geo);
   assert.equal(d.languageSource, "country-default");
   assert.ok(d.warnings.some((w) => /several official languages/.test(w)));
-  const bad = resolveLocale({ ip: "203.0.113.99", userChoice: { language: "ja" } }, geo);
-  assert.ok(bad.warnings.some((w) => /not an official language/.test(w)));
+  const ja = resolveLocale({ ip: "203.0.113.99", acceptLanguage: "ja" }, geo); // browser language is not official there: primary language
+  assert.deepEqual([ja.language, ja.languageSource], ["nl", "country-default"]);
 });
 
 test("HTTP /v1/resolve-locale: needs the API key, works with and without GeoIP, does not echo the IP", async () => {
@@ -111,20 +113,38 @@ test("real .mmdb database lookup", { skip: !MMDB || !existsSync(MMDB) ? "RGPD_TE
   await assert.rejects(() => openGeoDatabase("does-not-exist.mmdb"), /not found/);
 });
 
-test("locale picker: public options route and widget support", async () => {
-  const h = await startHttp({ port: 0, apiKey: "k", stateDir: mkdtempSync(path.join(tmpdir(), "rgpd-pick-")) });
+test("automatic: POST /v1/consent-documents with autoLocale builds the document in the detected country and language, no selector involved", async () => {
+  const h = await startHttp({ port: 0, apiKey: "k", stateDir: mkdtempSync(path.join(tmpdir(), "rgpd-auto-")), geoip: geo });
+  const post = (b) => fetch(h.url + "/v1/consent-documents", { method: "POST", headers: { Authorization: "Bearer k", "Content-Type": "application/json" }, body: JSON.stringify({ ...base, ...b }) });
   try {
-    const r = await fetch(h.url + "/v1/locale-options"); // no API key: static, non-sensitive
-    assert.equal(r.status, 200);
-    const list = await r.json();
-    assert.equal(list.length, 30);
-    const be = list.find((c) => c.code === "BE");
-    assert.deepEqual(be.languages, ["nl", "fr", "de"]);
-    assert.ok(list.every((c) => c.name && c.languages.length));
+    const ok = await post({ autoLocale: { ip: "203.0.113.7", acceptLanguage: "es-ES", fallbackCountry: "PT" } });
+    assert.equal(ok.status, 201);
+    const txt = await ok.text();
+    assert.ok(!txt.includes("203.0.113.7"), "the IP must not appear in the document or response");
+    const d = JSON.parse(txt);
+    assert.deepEqual([d.country, d.language, d.locale.countrySource], ["ES", "es", "ip"]);
+    // visitor from a country without a profile: the clinic's fallback law applies, reported in locale.warnings
+    const fb = await (await post({ autoLocale: { ip: "192.0.2.50", fallbackCountry: "PT" } })).json();
+    assert.deepEqual([fb.country, fb.language, fb.locale.countrySource], ["PT", "pt", "fallback"]);
+    // an explicit language still wins over the detected one
+    const ex = await (await post({ language: "en", autoLocale: { ip: "203.0.113.7" } })).json();
+    assert.deepEqual([ex.country, ex.language], ["ES", "en"]);
+    // nothing detected and no fallback: refuse instead of guessing a law
+    const none = await post({ autoLocale: { ip: "192.0.2.50" } });
+    assert.equal(none.status, 422);
+    assert.equal((await none.json()).locale.undetermined, true);
+    // the stored document carries no IP
+    const got = await (await fetch(h.url + "/v1/consent-documents/" + d.documentId)).text();
+    assert.ok(!got.includes("203.0.113.7"));
+  } finally { h.server.close(); }
+});
+
+test("no country/language selector exists: widget, modal page and API expose none", async () => {
+  const h = await startHttp({ port: 0, apiKey: "k", stateDir: mkdtempSync(path.join(tmpdir(), "rgpd-nopick-")) });
+  try {
     const w = await (await fetch(h.url + "/widget/rgpd-consent.js")).text();
-    assert.match(w, /locale-picker/);
-    assert.match(w, /rgpd:localechange/);
     const mp = await (await fetch(h.url + "/widget/modal-page.js")).text();
-    assert.match(mp, /localePicker/);
+    assert.ok(!/locale-picker|localechange|<select|"select"/i.test(w + mp));
+    assert.equal((await fetch(h.url + "/v1/locale-options")).status, 401); // route removed (falls under the API key wall)
   } finally { h.server.close(); }
 });

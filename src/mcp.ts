@@ -10,7 +10,7 @@ import { SNIPPET_LANGUAGES, integrationSnippet } from "./snippets.js";
 import { LocaleSchema } from "./schemas.js";
 import { resolveLocale, type GeoResolver } from "./locale.js";
 
-export const VERSION = "1.1.0";
+export const VERSION = "1.1.1";
 
 const text = (v: unknown) => ({ content: [{ type: "text" as const, text: typeof v === "string" ? v : JSON.stringify(v, null, 2) }] });
 const fail = (e: unknown) => ({ isError: true, content: [{ type: "text" as const, text: e instanceof Error ? e.message : String(e) }] });
@@ -209,7 +209,7 @@ export function createMcpServer(ctx: McpContext): McpServer {
     "resolve_locale",
     {
       title: "Suggest country and language (optional)",
-      description: "OPTIONAL. Suggests the country (and so the national law) and the language for the consent modal from the clinic's country, an explicit user choice, the visitor IP (local GeoIP database only, if configured) and the Accept-Language header, in that priority. The result is a suggestion with its source and warnings: the applicable law does not follow the IP (GDPR Art. 3). The IP is personal data: pass it only from your own trusted backend; nothing is stored or logged. Feed `country` and `language` to build_consent_document.",
+      description: "OPTIONAL. Suggests the country (and so the national law) and the language for the consent modal from the clinic's country, the visitor IP (local GeoIP database only, if configured), the Accept-Language header and a fallback country, in that priority. Fully automatic: the patient is never asked to pick a country. The result is a suggestion with its source and warnings: the applicable law does not follow the IP (GDPR Art. 3). The IP is personal data: pass it only from your own trusted backend; nothing is stored or logged. Feed `country` and `language` to build_consent_document.",
       inputSchema: LocaleSchema.shape,
       annotations: { readOnlyHint: true, openWorldHint: false },
     },
@@ -280,16 +280,16 @@ export function createMcpServer(ctx: McpContext): McpServer {
           optionalCountryDetection: {
             note: "ONLY if the user asks for automatic country/language detection. Otherwise use the fixed country of the clinic.",
             how: [
-              "BACKEND: POST {base}/v1/resolve-locale (API key) with {ip: <client IP validated by YOUR proxy setup>, acceptLanguage: <request header>, establishmentCountry: <clinic country, if fixed>, userChoice: {country?, language?}} -> {country, language, countrySource, supported, needsUserChoice, languageOptions, warnings}.",
-              "Use the returned country/language in POST /v1/consent-documents. If needsUserChoice is true, show a country/language picker first and call again with userChoice.",
-              "Offer the person a way to change country/language (required when languageOptions has several languages).",
+              "BACKEND, one call: POST {base}/v1/consent-documents with `autoLocale: {ip: <client IP validated by YOUR proxy setup>, acceptLanguage: <request header>, establishmentCountry?: <clinic country, if fixed>, fallbackCountry: <clinic country>}` INSTEAD of `country`/`language`. The server detects the country, builds the document in that country's law and language and returns it with a `locale` object (sources and warnings). Never add a country/language selector to the modal: the patient must not be asked.",
+              "Always send fallbackCountry (the clinic's country): when the IP is unknown, private or from a country without a profile, that country's law is used; without it the call fails (422) instead of guessing.",
+              "POST {base}/v1/resolve-locale accepts the same fields when you only want the suggestion.",
               "Server option: start with --geoip-db <file.mmdb> (or RGPD_GEOIP_DB). The database is local (GeoLite2/DB-IP); the IP never leaves the machine and is never stored. Without a database the endpoint still works from the other signals.",
             ],
             rules: [
               "The IP is personal data: do not log or store it; mention it in the privacy notice.",
-              "Priority: clinic establishment > explicit user choice > IP > Accept-Language. In-person care follows the clinic's country, not the IP.",
+              "Priority: clinic establishment > IP > Accept-Language > fallbackCountry. In-person care follows the clinic's country, not the IP.",
               "Behind a proxy, never trust a raw X-Forwarded-For from the client.",
-              "A country without a profile in this project (e.g. UK, CH, rest of the world) returns needsUserChoice: do not apply another country's law silently.",
+              "A visitor from a country without a profile in this project (e.g. UK, CH, rest of the world) gets the fallbackCountry's law, reported in `locale.warnings`; never invent another country's law.",
             ],
           },
           rules: [

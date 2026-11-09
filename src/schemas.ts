@@ -55,5 +55,5 @@ export const LocaleSchema = z.object({
   ip: z.string().max(64).optional().describe("Visitor IP as seen by your trusted backend. Personal data: not stored or logged"),
   acceptLanguage: z.string().max(300).optional().describe("Value of the Accept-Language header"),
   establishmentCountry: z.string().length(2).optional().describe("Country where the clinic/controller is established; wins over the IP"),
-  userChoice: z.object({ country: z.string().length(2).optional(), language: z.string().min(2).max(5).optional() }).optional(),
+  fallbackCountry: z.string().length(2).optional().describe("Used when no covered country is detected; typically the clinic's country"),
 });

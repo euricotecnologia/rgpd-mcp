@@ -34,7 +34,7 @@ mcp__rgpd__get_integration_guide, get_reference, get_country_law, get_gdpr_artic
    - se o paciente cancela ou não confirma: mensagem clara e **saída alternativa** (por exemplo, receção presencial); nunca iniciar o atendimento;
    - retirada do consentimento (Art. 7(3)): se o documento tem consentimentos facultativos, crie o ponto de entrada "Gerir os meus consentimentos" (endpoint backend que obtém um token novo em POST /v1/consent-documents/{id}/capture e mostra o manageUrl; ver o campo withdrawal do guia) e faça o sistema parar o tratamento que dependia do consentimento retirado;
    - configuração: RGPD_BASE_URL e RGPD_MCP_API_KEY só no backend, com um .env.example (sem segredos); documentar como subir o servidor rgpd-mcp;
-   - **país por IP (opcional)**: só se o utilizador pedir deteção automática do país/idioma. Leia o campo optionalCountryDetection do guia: o backend chama POST /v1/resolve-locale (ip validado pelo próprio proxy, acceptLanguage, establishmentCountry se a clínica for fixa), usa country/language no documento, mostra um seletor quando needsUserChoice e permite mudar de país/idioma. Nunca registe o IP. Sem esse pedido, use o país fixo da clínica;
+   - **país por IP (opcional)**: só se o utilizador pedir deteção automática do país/idioma. Leia o campo optionalCountryDetection do guia: o backend chama POST /v1/consent-documents com \`autoLocale\` (ip validado pelo próprio proxy, acceptLanguage, fallbackCountry = país da clínica) em vez de country/language. É tudo automático: **não crie seletor de país nem de idioma** e não peça nada ao paciente. Nunca registe o IP. Sem esse pedido, use o país fixo da clínica;
    - use get_integration_snippet e o exemplo examples/clinic e examples/clinic-react do repositório rgpd-mcp como referência, se existirem.
 5. **Testar de verdade**: suba o servidor rgpd-mcp em segundo plano (\`node <caminho>/dist/cli.js http --port 7433 --frame-ancestors <origem da app>\`, com RGPD_MCP_API_KEY de teste; o caminho do cli.js está em \`claude mcp get rgpd\`), escreva testes automáticos para os 5 casos e execute-os, mais o build/typecheck/testes já existentes do projeto. Corrija até passar. Pare os servidores no fim. Casos:
    a) aceita o aviso -> atendimento inicia;
@@ -51,7 +51,7 @@ mcp__rgpd__get_integration_guide, get_reference, get_country_law, get_gdpr_artic
 - O evento do navegador só dispara a verificação: quem decide é o backend, lendo o ledger.
 - Consentimentos opcionais nunca bloqueiam o atendimento. Cuidados de saúde não dependem de consentimento (Art. 9(2)(h)): o aviso obrigatório é informativo.
 - Cada visita cria um documento novo e exige novo aceite.
-- O IP é dado pessoal: nunca o grave nem o registe em logs; a lei aplicável não depende dele (prioridade: país da clínica > escolha do utilizador > IP > Accept-Language).
+- O IP é dado pessoal: nunca o grave nem o registe em logs; a lei aplicável não depende dele (prioridade: país da clínica > IP > Accept-Language > país de reserva).
 - Texto jurídico só vem das ferramentas do rgpd (citações oficiais). Não escreva artigos de lei de memória.
 - Não altere código sem relação com a tarefa. Não faça commit.
 `;

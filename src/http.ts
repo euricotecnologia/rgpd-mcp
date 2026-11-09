@@ -98,10 +98,6 @@ export function createHttpServer(opts: HttpOptions = {}): { server: Server; ledg
 
       // ---- public, static, non-sensitive ----
       if (req.method === "GET" && p === "/health") return reply(200, { status: "ok", countries: listCountries().length, gdprLanguages: gdprLanguages().length, geoip: !!opts.geoip });
-      // static, non-sensitive list used by the optional country/language picker of the modal
-      if (req.method === "GET" && p === "/v1/locale-options") {
-        return reply(200, listCountries().map((c) => ({ code: c.code, name: c.name[c.languages[0]!] ?? c.name["en"] ?? c.code, languages: c.languages })));
-      }
       if (req.method === "GET" && (p === "/widget/rgpd-consent.js" || p === "/widget/modal-page.js")) {
         const f = path.join(widgetDir, path.basename(p));
         res.writeHead(200, { "Content-Type": "text/javascript; charset=utf-8", "Cache-Control": "public, max-age=300", "X-Content-Type-Options": "nosniff", ...corsHeaders });
@@ -167,11 +163,20 @@ export function createHttpServer(opts: HttpOptions = {}): { server: Server; ledg
 
       if (req.method === "POST" && p === "/v1/consent-documents") {
         const raw = (await readJson(req)) as Record<string, unknown>;
+        // Optional automatic country/language: `autoLocale` replaces `country`/`language` (nobody is asked to pick one).
+        let locale: ReturnType<typeof resolveLocale> | undefined;
+        if (raw["autoLocale"] !== undefined) {
+          locale = resolveLocale(LocaleSchema.parse(raw["autoLocale"]), opts.geoip);
+          if (locale.undetermined) return reply(422, { error: "could not determine a covered country automatically: set establishmentCountry or fallbackCountry in autoLocale", locale });
+          raw["country"] = locale.country;
+          if (raw["language"] === undefined) raw["language"] = locale.language;
+          delete raw["autoLocale"];
+        }
         const input = BuildSchema.parse(raw);
         const cap = z.object({ subjectRef: z.string().min(1).max(128), ttlSeconds: z.number().int().min(30).max(86400).optional() }).optional().parse(raw["capture"]);
         const doc = buildConsentDocument(input);
         ledger.saveDocument(doc);
-        const out: Record<string, unknown> = { ...doc, modalUrl: `/modal/${doc.documentId}` };
+        const out: Record<string, unknown> = { ...doc, modalUrl: `/modal/${doc.documentId}`, ...(locale ? { locale } : {}) };
         if (cap) {
           const t = issueToken(doc.documentId, cap.subjectRef, cap.ttlSeconds ?? 3600);
           Object.assign(out, { captureToken: t.token, captureExpiresAt: t.expiresAt, captureSubjectRef: cap.subjectRef });

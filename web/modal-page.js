@@ -1,6 +1,6 @@
 /* Bootstraps /modal/<documentId> pages (iframe / WebView mode).
  * Parameters are read from the URL *fragment* (never sent to servers or written to access logs):
- *   #subjectRef=...&token=<captureToken>&channel=...&parentOrigin=https://app.example.com&localePicker=1 */
+ *   #subjectRef=...&token=<captureToken>&channel=...&parentOrigin=https://app.example.com */
 (function () {
   var s = document.currentScript;
   var q = new URLSearchParams(location.hash.replace(/^#/, ""));
@@ -12,7 +12,6 @@
     var a = p.split(":");
     if (q.get(a[0])) m.setAttribute(a[1], q.get(a[0]));
   });
-  if (q.get("localePicker") === "1") m.setAttribute("locale-picker", "");
   m.setAttribute("open", "");
   document.body.appendChild(m);
 })();

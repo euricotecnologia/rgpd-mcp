@@ -12,13 +12,12 @@ Servidor: `node dist/cli.js http [--port 7433] [--host 127.0.0.1] [--api-key KEY
 | Rota | Auth | Descrição |
 |---|---|---|
 | `GET /health` | pública | Estado, nº de países e de idiomas |
-| `GET /v1/locale-options` | pública | Lista estática (código, nome no idioma do país, idiomas oficiais) para o seletor de país/idioma do modal |
 | `GET /widget/rgpd-consent.js`, `GET /widget/modal-page.js` | pública | Web Component e bootstrap das páginas |
 | `GET /modal/:id` | pública | Página do modal (CSP restritiva; `frame-ancestors` configurável) |
 | `GET /manage/:id` | pública | Tela “Gerir os meus consentimentos” (retirada com um clique) |
 | `GET /v1/consent-documents/:id` | pública (UUID) | Texto do documento (não contém dados de titulares) |
-| `POST /v1/resolve-locale` | chave | **Opcional.** Sugere país e idioma: corpo `{ip?, acceptLanguage?, establishmentCountry?, userChoice?{country,language}}` → `{country, language, countrySource, languageSource, ipCountry, supported, needsUserChoice, languageOptions, warnings, geoip}`. O IP é processado em memória e nunca é gravado, registado nem devolvido. Ver [INTEGRACAO.md](INTEGRACAO.md#país-e-idioma-por-ip-opcional) |
-| `POST /v1/consent-documents` | chave | Constrói, valida e guarda o documento. Corpo = entrada do construtor + `capture?: {subjectRef, ttlSeconds?}`. Devolve o documento, `modalUrl` e, se houve `capture`, `captureToken` |
+| `POST /v1/resolve-locale` | chave | **Opcional.** Sugere país e idioma: corpo `{ip?, acceptLanguage?, establishmentCountry?, fallbackCountry?}` → `{country, language, countrySource, languageSource, ipCountry, supported, undetermined, languageOptions, warnings, geoip}`. Totalmente automático (sem seletor). O IP é processado em memória e nunca é gravado, registado nem devolvido. Ver [INTEGRACAO.md](INTEGRACAO.md#país-e-idioma-por-ip-opcional) |
+| `POST /v1/consent-documents` | chave | Constrói, valida e guarda o documento. Corpo = entrada do construtor + `capture?: {subjectRef, ttlSeconds?}`. Em vez de `country`/`language` pode vir `autoLocale: {ip?, acceptLanguage?, establishmentCountry?, fallbackCountry?}` (país e idioma automáticos; a resposta inclui `locale`; 422 se não for possível determinar um país com perfil). Devolve o documento, `modalUrl` e, se houve `capture`, `captureToken` |
 | `POST /v1/consent-documents/:id/capture` | chave | Novo token para um documento existente (`{subjectRef, ttlSeconds?}`) → `captureToken`, `manageUrl` |
 | `POST /v1/consents` | chave **ou** token | Regista decisões `{documentId, subjectRef, decisions:[{itemId, granted}], guardian?, channel?}` |
 | `POST /v1/consents/withdraw` | chave **ou** token | Retira consentimentos `{documentId, subjectRef, itemIds?, channel?}` (sem `itemIds` retira todos) |
@@ -63,11 +62,10 @@ Servidor: `node dist/cli.js http [--port 7433] [--host 127.0.0.1] [--api-key KEY
 | `api-key` | chave de API (só para backends/ambientes de confiança) |
 | `channel` | rótulo livre do canal de registo |
 | `parent-origin` | origem exata que recebe `window.parent.postMessage` (modo iframe); sem ele não há `postMessage` |
-| `locale-picker` | mostra um seletor de país e idioma no topo do modal; ao mudar, emite `rgpd:localechange {country, language}` (não altera o documento: o seu backend cria um documento novo e recarrega o modal). Na página `/modal/<id>` ative com `#localePicker=1` |
 | `mode="manage"` | tela de retirada em vez do consentimento |
 | `open` | abre ao carregar |
 
-**Eventos** (propagam-se, `composed`): `rgpd:ready`, `rgpd:decision {record}`, `rgpd:cancel`, `rgpd:error {message}`, `rgpd:withdrawn {itemIds}`, `rgpd:localechange {country, language}` (só com `locale-picker`), `rgpd:closed`.
+**Eventos** (propagam-se, `composed`): `rgpd:ready`, `rgpd:decision {record}`, `rgpd:cancel`, `rgpd:error {message}`, `rgpd:withdrawn {itemIds}`, `rgpd:closed`.
 
 **Pontes para hosts sem DOM de página** (JSON em string): `window.rgpdConsentBridge.onDecision/onCancel/onError/onWithdrawn`, WebView2 `window.chrome.webview.postMessage`, WKWebView `window.webkit.messageHandlers.rgpd.postMessage`, ou `postMessage` com `parent-origin`.
 

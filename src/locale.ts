@@ -5,7 +5,7 @@ import { countryCodes, getCountry } from "./data.js";
 /**
  * OPTIONAL country/language detection. The legal rule that applies does not follow the IP address
  * (GDPR Art. 3: establishment of the controller / whom the service targets), so the result is a
- * SUGGESTION with its source. Priority: clinic establishment > explicit user choice > IP > Accept-Language.
+ * SUGGESTION with its source. Fully automatic (nobody is asked to pick a country). Priority: clinic establishment > IP > Accept-Language > fallbackCountry.
  * The IP is never stored or logged by this module.
  */
 export type GeoLookup = (ip: string) => string | null;
@@ -21,10 +21,11 @@ export interface LocaleInput {
   acceptLanguage?: string;
   /** Country where the controller (clinic) is established. When set and covered, it wins: in-person care follows it. */
   establishmentCountry?: string;
-  userChoice?: { country?: string; language?: string };
+  /** Used when nothing else determines a covered country (e.g. a visitor from outside the covered countries). Typically the clinic's country. */
+  fallbackCountry?: string;
 }
 
-export type Source = "establishment" | "user" | "ip" | "accept-language" | "country-default" | "none";
+export type Source = "establishment" | "ip" | "accept-language" | "fallback" | "country-default" | "none";
 
 export interface LocaleResult {
   country: string | null;
@@ -35,9 +36,9 @@ export interface LocaleResult {
   ipCountry: string | null;
   /** True when the country is one of the profiles shipped in this project. */
   supported: boolean;
-  /** The app should ask the person to pick a country (and/or language). */
-  needsUserChoice: boolean;
-  /** Official languages of the chosen country (offer a switch when there is more than one). */
+  /** No covered country could be determined and no usable fallbackCountry was given: configure establishmentCountry or fallbackCountry. */
+  undetermined: boolean;
+  /** Official languages of the chosen country. */
   languageOptions: string[];
   warnings: string[];
 }
@@ -96,45 +97,38 @@ export function resolveLocale(input: LocaleInput, geo?: GeoResolver): LocaleResu
   }
   const acceptRegion = accept.find((a) => a.region)?.region;
 
-  // ---- country by priority ----
+  // ---- country by priority (fully automatic) ----
   let country: string | null = null;
   let countrySource: Source = "none";
   const est = up(input.establishmentCountry);
-  const chosen = up(input.userChoice?.country);
+  const fb = up(input.fallbackCountry);
   if (input.establishmentCountry && !est) warnings.push("establishmentCountry is not a valid ISO 3166-1 alpha-2 code.");
+  if (input.fallbackCountry && !fb) warnings.push("fallbackCountry is not a valid ISO 3166-1 alpha-2 code.");
   if (est && covered.has(est)) { country = est; countrySource = "establishment"; }
   else {
     if (est) warnings.push(`The clinic's country (${est}) has no profile in this project.`);
-    if (chosen && covered.has(chosen)) { country = chosen; countrySource = "user"; }
+    if (ipCountry && covered.has(ipCountry)) { country = ipCountry; countrySource = "ip"; }
     else {
-      if (chosen) warnings.push(`The chosen country (${chosen}) has no profile in this project.`);
-      if (ipCountry && covered.has(ipCountry)) { country = ipCountry; countrySource = "ip"; }
-      else {
-        if (ipCountry) warnings.push(`The IP points to ${ipCountry}, which has no profile in this project: ask the person to choose a country.`);
-        if (!ipCountry && acceptRegion && covered.has(acceptRegion)) { country = acceptRegion; countrySource = "accept-language"; }
-      }
+      if (ipCountry) warnings.push(`The IP points to ${ipCountry}, which has no profile in this project.`);
+      if (acceptRegion && covered.has(acceptRegion)) { country = acceptRegion; countrySource = "accept-language"; }
+      else if (fb && covered.has(fb)) { country = fb; countrySource = "fallback"; warnings.push(`No covered country was detected: the fallback country (${fb}) was used.`); }
+      else if (fb) warnings.push(`The fallback country (${fb}) has no profile in this project.`);
     }
   }
   if (countrySource === "establishment" && ipCountry && ipCountry !== country) warnings.push(`The IP points to ${ipCountry} but the clinic is established in ${country}: the clinic's country was used.`);
-  if (countrySource === "user" && ipCountry && ipCountry !== country) warnings.push(`The IP points to ${ipCountry} but the person chose ${country}: the choice was used.`);
-  if (countrySource === "ip") warnings.push("Country inferred from the IP: this is an estimate (VPNs, proxies and mobile networks mislead it). Let the person confirm or change it.");
+  if (countrySource === "ip") warnings.push("Country inferred from the IP: this is an estimate (VPNs, proxies and mobile networks mislead it).");
 
-  if (!country) return { country: null, language: null, countrySource: "none", languageSource: "none", ipCountry, supported: false, needsUserChoice: true, languageOptions: [], warnings };
+  if (!country) return { country: null, language: null, countrySource: "none", languageSource: "none", ipCountry, supported: false, undetermined: true, languageOptions: [], warnings };
 
-  // ---- language ----
+  // ---- language: Accept-Language when it is an official language of the country, else the country's primary language ----
   const options = getCountry(country).languages;
   let language: string | null = null;
   let languageSource: Source = "none";
-  const wanted = input.userChoice?.language?.toLowerCase().slice(0, 2);
-  if (wanted && options.includes(wanted)) { language = wanted; languageSource = "user"; }
-  else {
-    if (wanted) warnings.push(`The chosen language (${wanted}) is not an official language of ${country}: ${options.join(", ")}.`);
-    const hit = accept.find((a) => options.includes(a.lang));
-    if (hit) { language = hit.lang; languageSource = "accept-language"; }
-    else { language = options[0] ?? null; languageSource = "country-default"; }
-  }
-  if (options.length > 1 && languageSource === "country-default") warnings.push(`${country} has several official languages (${options.join(", ")}): offer a language switch.`);
-  return { country, language, countrySource, languageSource, ipCountry, supported: true, needsUserChoice: false, languageOptions: options, warnings };
+  const hit = accept.find((a) => options.includes(a.lang));
+  if (hit) { language = hit.lang; languageSource = "accept-language"; }
+  else { language = options[0] ?? null; languageSource = "country-default"; }
+  if (options.length > 1 && languageSource === "country-default") warnings.push(`${country} has several official languages (${options.join(", ")}): the primary one (${language}) was used because the browser language is not one of them.`);
+  return { country, language, countrySource, languageSource, ipCountry, supported: true, undetermined: false, languageOptions: options, warnings };
 }
 
 /**

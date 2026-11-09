@@ -60,51 +60,49 @@ Contrato igual em todas as linguagens:
 
 ## País e idioma por IP (opcional)
 
-Recurso **desligado por omissão**. Serve para sugerir o país (e assim a lei nacional) e o idioma do modal quando o seu sistema atende pessoas de vários países. Se a clínica atende num país fixo, passe esse país em `build_consent_document` e ignore esta secção.
+Recurso **opcional e totalmente automático**: o paciente **nunca** vê nem escolhe um país ou idioma. O servidor deteta o país, aplica a lei desse país e abre o modal no idioma certo. Se a clínica atende num país fixo, basta passar `country` em `POST /v1/consent-documents` e ignorar esta secção.
 
-### Como funciona
-O backend chama `POST /v1/resolve-locale` (chave de API) com o que sabe do pedido e usa `country` e `language` da resposta em `POST /v1/consent-documents`. A ordem de prioridade é fixa:
-
-| # | Sinal | Campo do pedido | Observação |
-|---|---|---|---|
-| 1 | País onde a clínica está estabelecida | `establishmentCountry` | Atendimento presencial segue o país da clínica, não o IP |
-| 2 | Escolha explícita da pessoa | `userChoice.country`, `userChoice.language` | Para corrigir um palpite errado |
-| 3 | IP (base GeoIP local) | `ip` | Estimativa: VPN, proxy e redes móveis enganam |
-| 4 | Região do `Accept-Language` (ex.: `pt-PT` → PT) | `acceptLanguage` | Só quando o IP não deu resultado |
-
-O **idioma** vem da escolha da pessoa, depois do `Accept-Language` (se for um idioma oficial do país) e por fim do primeiro idioma oficial do país. Países com vários idiomas (por exemplo BE, LU, FI, IE, MT) devolvem `languageOptions` e um aviso: mostre um seletor.
+### Como funciona: uma só chamada
+O backend chama `POST /v1/consent-documents` com `autoLocale` **no lugar de** `country`/`language`:
 
 ```json
-POST /v1/resolve-locale
-{ "ip": "<IP validado pelo seu proxy>", "acceptLanguage": "es-ES,es;q=0.9", "establishmentCountry": null }
-→ { "country": "ES", "language": "es", "countrySource": "ip", "languageSource": "accept-language",
-    "supported": true, "needsUserChoice": false, "languageOptions": ["es"], "warnings": ["…estimativa…"], "geoip": "mmdb" }
+POST /v1/consent-documents
+{
+  "autoLocale": { "ip": "<IP validado pelo seu proxy>", "acceptLanguage": "es-ES,es;q=0.9", "fallbackCountry": "PT" },
+  "controller": { "…": "…" }, "dataCategories": ["identification", "health"], "purposes": [ "…" ],
+  "capture": { "subjectRef": "p-8f3a21" }
+}
+→ documento em ES/espanhol (lei e RGPD oficial no idioma do país) + "locale": { "country": "ES", "language": "es", "countrySource": "ip", "warnings": [ … ] }
 ```
 
-Se o país detetado **não tem perfil** neste projeto (Reino Unido, Suíça, resto do mundo), a resposta traz `country: null` e `needsUserChoice: true`: o sistema nunca aplica a lei de outro país em silêncio.
+O `modalUrl` devolvido já abre no país e idioma detetados. Um `language` explícito no pedido prevalece sobre o detetado.
+
+A ordem de prioridade é fixa:
+
+| # | Sinal | Campo de `autoLocale` | Observação |
+|---|---|---|---|
+| 1 | País onde a clínica está estabelecida | `establishmentCountry` | Atendimento presencial segue o país da clínica, não o IP |
+| 2 | IP (base GeoIP local) | `ip` | Estimativa: VPN, proxy e redes móveis enganam |
+| 3 | Região do `Accept-Language` (ex.: `pt-PT` → PT) | `acceptLanguage` | Quando o IP não deu um país com perfil |
+| 4 | País de reserva | `fallbackCountry` | Use o país da clínica. Sem ele, o pedido falha (422) em vez de adivinhar uma lei |
+
+O **idioma** é o do `Accept-Language` quando for idioma oficial do país; caso contrário, o idioma principal do país. Em países com vários idiomas oficiais (BE, LU, FI, IE, MT) isso decide sozinho, e a resposta traz um aviso quando foi usado o idioma principal.
+
+Quando o visitante está num país **sem perfil** neste projeto (Reino Unido, Suíça, resto do mundo), aplica-se a lei do `fallbackCountry` (a da clínica, que é o responsável pelo tratamento), e isso fica registado em `locale.warnings`. Para só obter a sugestão sem criar documento, use `POST /v1/resolve-locale` com os mesmos campos (ou a ferramenta MCP `resolve_locale`).
 
 ### Ativar a deteção por IP
 1. Obtenha uma base `.mmdb` de país ou cidade. A forma mais simples: `node dist/cli.js geoip-download` descarrega a **DB-IP Country Lite** (gratuita, atualizada todos os meses, licença Creative Commons Attribution: é preciso creditar a DB-IP; confira as condições em db-ip.com). Também serve a MaxMind GeoLite2 (exige conta e aceitação da licença deles). As bases gratuitas têm cobertura e precisão reduzidas.
-2. Inicie com `node dist/cli.js http --geoip-db /caminho/GeoLite2-Country.mmdb` (ou `RGPD_GEOIP_DB`). O pacote opcional `maxmind` é instalado com `npm install`; sem ele ou sem base, o endpoint continua a funcionar com os outros sinais e avisa.
+2. Inicie com `node dist/cli.js http --geoip-db /caminho/dbip-country-lite.mmdb` (ou `RGPD_GEOIP_DB`). O pacote opcional `maxmind` é instalado com `npm install`; sem base, o `autoLocale` continua a funcionar com o `Accept-Language` e o `fallbackCountry`, e avisa.
 3. A consulta é **local**: o IP não sai da máquina.
 
-### Seletor de país e idioma no modal
-Adicione `locale-picker` ao `<rgpd-consent-modal>` (ou `#localePicker=1` na URL do modal). O seletor mostra os 30 países e os idiomas oficiais do país escolhido. Quando a pessoa muda:
-
-1. o modal emite `rgpd:localechange {country, language}` (e o `postMessage`/ponte equivalente);
-2. o seu backend chama `POST /v1/resolve-locale` com `userChoice` (ou diretamente `POST /v1/consent-documents` com `country` e `language`) e obtém um documento novo;
-3. a aplicação recarrega o modal com o novo documento.
-
-O modal **não** muda sozinho de país: cada documento tem um hash próprio e só o backend o cria. O seletor usa nomes de países no idioma oficial de cada um e rótulos de acessibilidade multilingues fixos (não passam pelos 25 idiomas de rótulos).
-
 ### Regras de privacidade
-- O IP é **dado pessoal** (considerando 30 do RGPD e jurisprudência do TJUE): informe-o no aviso de privacidade e não o grave. O servidor processa-o em memória, não o regista e não o devolve na resposta.
+- O IP é **dado pessoal** (considerando 30 do RGPD e jurisprudência do TJUE): informe-o no aviso de privacidade e não o grave. O servidor processa-o em memória; não o regista, não o guarda no documento nem o devolve na resposta.
 - Atrás de um proxy ou balanceador, use o IP validado pela sua infraestrutura. **Nunca** confie num `X-Forwarded-For` enviado diretamente pelo cliente: o servidor não lê cabeçalhos de IP, recebe-o só no corpo.
 - Endereços privados, de loopback ou inválidos são ignorados com aviso.
-- Dê sempre à pessoa uma forma de mudar o país e o idioma.
+- O modal **não** tem seletor de país nem de idioma, e não deve ser criado um na sua aplicação.
 
 ### Com o agente
-Peça: `@agent-rgpd-integrador … com deteção automática do país e idioma por IP`. Sem esse pedido o agente usa o país fixo da clínica.
+Peça: `@agent-rgpd-integrador … com deteção automática do país e idioma por IP (país da clínica: PT)`. Sem esse pedido o agente usa o país fixo da clínica.
 
 ## 3. Exemplos incluídos
 - `examples/clinic/` — clínica simulada em Node (zero dependências): fila de pacientes, “Chamar paciente”, modal em iframe, atendimento, saída alternativa e 403 sem consentimento. Coberta por `tests/clinic.test.mjs`.

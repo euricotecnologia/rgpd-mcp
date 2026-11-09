@@ -39,7 +39,6 @@
     "header{padding:18px 22px 10px;border-bottom:1px solid var(--line)}",
     "h2{margin:0;font-size:1.25rem;line-height:1.3}",
     "header p{margin:6px 0 0;color:var(--muted)}",
-    ".loc{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}.loc select{font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 6px;min-height:32px}",
     ".body{overflow:auto;padding:12px 22px;flex:1}",
     "details{border:1px solid var(--line);border-radius:8px;margin:8px 0;background:transparent}",
     "details>summary{cursor:pointer;padding:10px 12px;font-weight:600;min-height:24px}",
@@ -89,7 +88,7 @@
     try {
       var b = window.rgpdConsentBridge;
       if (b) {
-        var fn = { decision: "onDecision", cancel: "onCancel", error: "onError", withdrawn: "onWithdrawn", localechange: "onLocaleChange" }[kind];
+        var fn = { decision: "onDecision", cancel: "onCancel", error: "onError", withdrawn: "onWithdrawn" }[kind];
         if (fn && b[fn]) b[fn](json);
       }
       if (window.chrome && window.chrome.webview && window.chrome.webview.postMessage) window.chrome.webview.postMessage(json);
@@ -212,36 +211,6 @@
         .catch(function (e) { err.textContent = String(e.message || e); emit(self, "rgpd:error", { message: String(e.message || e) }); bridge(self, "error", { message: String(e.message || e) }); if (self.hasAttribute("open")) self.open(); });
     }
 
-    // Optional country/language picker (attribute `locale-picker`). It does NOT change the document: it tells the host
-    // (rgpd:localechange + bridges) so the backend builds a new document for that country/language and reloads the modal.
-    _localePicker(d, head) {
-      var self = this;
-      var base = (this.getAttribute("api-base") || "").replace(/\/$/, "");
-      var box = el("div", { class: "loc" });
-      head.insertBefore(box, head.firstChild);
-      fetch(base + "/v1/locale-options")
-        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
-        .then(function (list) {
-          var selC = el("select", { "aria-label": "Country / Pa\u00eds / Pays / Land / Paese" });
-          var selL = el("select", { "aria-label": "Language / Idioma / Langue / Sprache / Lingua" });
-          list.forEach(function (c) { var o = el("option", { value: c.code, text: c.name }); if (c.code === d.country) o.selected = true; selC.appendChild(o); });
-          function langs() {
-            var c = list.filter(function (x) { return x.code === selC.value; })[0];
-            selL.textContent = "";
-            ((c && c.languages) || []).forEach(function (l) { var o = el("option", { value: l, text: l.toUpperCase() }); if (l === d.language && selC.value === d.country) o.selected = true; selL.appendChild(o); });
-            selL.disabled = !c || c.languages.length < 2;
-          }
-          function changed() { var det = { country: selC.value, language: selL.value }; emit(self, "rgpd:localechange", det); bridge(self, "localechange", det); }
-          selC.addEventListener("change", function () { langs(); changed(); });
-          selL.addEventListener("change", changed);
-          langs();
-          box.appendChild(el("span", { "aria-hidden": "true", text: "\ud83c\udf10" }));
-          box.appendChild(selC);
-          box.appendChild(selL);
-        })
-        .catch(function () { box.remove(); });
-    }
-
     _render() {
       var d = this._doc;
       if (!d) return;
@@ -258,7 +227,6 @@
 
       var head = el("header", null, [el("h2", { id: "ttl", text: d.title }), el("p", { id: "intro", text: d.intro })]);
       var body = el("div", { class: "body" });
-      if (this.hasAttribute("locale-picker")) this._localePicker(d, head);
 
       (d.issues || []).forEach(function (i) {
         if (i.code === "UI_FALLBACK" || i.code.indexOf("COUNTRY_DATA_") === 0) body.appendChild(el("div", { class: "warn", text: i.message }));
