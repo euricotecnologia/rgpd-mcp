@@ -10,7 +10,7 @@ import { SNIPPET_LANGUAGES, integrationSnippet } from "./snippets.js";
 import { LocaleSchema } from "./schemas.js";
 import { resolveLocale, type GeoResolver } from "./locale.js";
 
-export const VERSION = "1.1.1";
+export const VERSION = "1.1.0";
 
 const text = (v: unknown) => ({ content: [{ type: "text" as const, text: typeof v === "string" ? v : JSON.stringify(v, null, 2) }] });
 const fail = (e: unknown) => ({ isError: true, content: [{ type: "text" as const, text: e instanceof Error ? e.message : String(e) }] });

@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/images/img00.png" alt="RGPD na Europa: documento de consentimento, escudo de proteção e estetoscópio sobre o mapa da Europa" width="520"></p>
 
-**Versão 1.1.1**
+**Versão 1.1.0**
 
 Servidor **MCP** (Model Context Protocol) + **API HTTP** + **modal web** para criar consentimentos e avisos de
 privacidade conforme o **RGPD (Regulamento (UE) 2016/679)** e as leis nacionais de proteção de dados de 30 países
