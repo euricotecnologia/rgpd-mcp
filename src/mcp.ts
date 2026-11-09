@@ -7,6 +7,8 @@ import { coverage, countryState } from "./coverage.js";
 import type { Ledger } from "./ledger.js";
 import { BuildSchema } from "./schemas.js";
 import { SNIPPET_LANGUAGES, integrationSnippet } from "./snippets.js";
+import { LocaleSchema } from "./schemas.js";
+import { resolveLocale, type GeoResolver } from "./locale.js";
 
 export const VERSION = "1.0.0";
 
@@ -24,6 +26,8 @@ export interface McpContext {
   ledger: Ledger;
   /** Base URL of the HTTP API/modal server when it is running in this or another process. */
   httpBase?: string;
+  /** Optional local IP -> country resolver. */
+  geoip?: GeoResolver;
 }
 
 export function createMcpServer(ctx: McpContext): McpServer {
@@ -202,6 +206,17 @@ export function createMcpServer(ctx: McpContext): McpServer {
   );
 
   server.registerTool(
+    "resolve_locale",
+    {
+      title: "Suggest country and language (optional)",
+      description: "OPTIONAL. Suggests the country (and so the national law) and the language for the consent modal from the clinic's country, an explicit user choice, the visitor IP (local GeoIP database only, if configured) and the Accept-Language header, in that priority. The result is a suggestion with its source and warnings: the applicable law does not follow the IP (GDPR Art. 3). The IP is personal data: pass it only from your own trusted backend; nothing is stored or logged. Feed `country` and `language` to build_consent_document.",
+      inputSchema: LocaleSchema.shape,
+      annotations: { readOnlyHint: true, openWorldHint: false },
+    },
+    async (input) => { try { return text({ ...resolveLocale(input, ctx.geoip), geoip: ctx.geoip?.kind ?? null }); } catch (e) { return fail(e); } },
+  );
+
+  server.registerTool(
     "get_integration_snippet",
     {
       title: "Integration code",
@@ -261,6 +276,21 @@ export function createMcpServer(ctx: McpContext): McpServer {
               "BACKEND: stop the processing that depended on the withdrawn consent (e.g. remove the patient from the newsletter list) when GET {base}/v1/consents?subjectRef=.. shows granted=false.",
             ],
             note: "The notice acknowledgement is not a consent and cannot be withdrawn here; care does not depend on consent.",
+          },
+          optionalCountryDetection: {
+            note: "ONLY if the user asks for automatic country/language detection. Otherwise use the fixed country of the clinic.",
+            how: [
+              "BACKEND: POST {base}/v1/resolve-locale (API key) with {ip: <client IP validated by YOUR proxy setup>, acceptLanguage: <request header>, establishmentCountry: <clinic country, if fixed>, userChoice: {country?, language?}} -> {country, language, countrySource, supported, needsUserChoice, languageOptions, warnings}.",
+              "Use the returned country/language in POST /v1/consent-documents. If needsUserChoice is true, show a country/language picker first and call again with userChoice.",
+              "Offer the person a way to change country/language (required when languageOptions has several languages).",
+              "Server option: start with --geoip-db <file.mmdb> (or RGPD_GEOIP_DB). The database is local (GeoLite2/DB-IP); the IP never leaves the machine and is never stored. Without a database the endpoint still works from the other signals.",
+            ],
+            rules: [
+              "The IP is personal data: do not log or store it; mention it in the privacy notice.",
+              "Priority: clinic establishment > explicit user choice > IP > Accept-Language. In-person care follows the clinic's country, not the IP.",
+              "Behind a proxy, never trust a raw X-Forwarded-For from the client.",
+              "A country without a profile in this project (e.g. UK, CH, rest of the world) returns needsUserChoice: do not apply another country's law silently.",
+            ],
           },
           rules: [
             "subjectRef is an opaque pseudonymous id: never name, e-mail, phone or national id.",

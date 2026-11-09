@@ -7,6 +7,7 @@ import { createMcpServer, VERSION } from "./mcp.js";
 import { coverage } from "./coverage.js";
 import { AGENT_NAME, installAgent } from "./agent.js";
 import { gdprLanguages, availableLocales, listCountries } from "./data.js";
+import { openGeoDatabase, type GeoResolver } from "./locale.js";
 
 function parse(argv: string[]) {
   const flags: Record<string, string | boolean> = {};
@@ -16,7 +17,7 @@ function parse(argv: string[]) {
     if (a.startsWith("--")) {
       const [k, v] = a.slice(2).split("=", 2);
       if (v !== undefined) flags[k!] = v;
-      else if (argv[i + 1] && !argv[i + 1]!.startsWith("--") && ["port", "host", "api-key", "cors", "frame-ancestors", "scope", "name", "state-dir"].includes(k!)) flags[k!] = argv[++i]!;
+      else if (argv[i + 1] && !argv[i + 1]!.startsWith("--") && ["port", "host", "api-key", "cors", "frame-ancestors", "scope", "name", "state-dir", "geoip-db"].includes(k!)) flags[k!] = argv[++i]!;
       else flags[k!] = true;
     } else pos.push(a);
   }
@@ -25,14 +26,23 @@ function parse(argv: string[]) {
 
 const HELP = `rgpd-mcp ${VERSION}
   serve [--http] [--port N]    MCP server on stdio (add --http to also expose the modal/API on 127.0.0.1)
-  http  [--port 7433] [--host 127.0.0.1] [--api-key KEY|env RGPD_MCP_API_KEY] [--cors origin,origin] [--frame-ancestors origin,origin]
+  http  [--port 7433] [--host 127.0.0.1] [--api-key KEY|env RGPD_MCP_API_KEY] [--cors origin,origin] [--frame-ancestors origin,origin] [--geoip-db FILE.mmdb|env RGPD_GEOIP_DB]
   install-agent [--scope user|project] [--force]   instala o agente rgpd-integrador (Claude Code)
   install <client> [--scope user|project] [--name rgpd] [--dry-run] [--npx]
           clients: ${CLIENTS.join(", ")}
   doctor                       checks data, locales, ledger
   coverage                     verification status per country
   verify-ledger                recompute the consent hash chain
-Env: RGPD_MCP_STATE_DIR (default ~/.rgpd-mcp), RGPD_MCP_API_KEY, RGPD_MCP_PORT`;
+Env: RGPD_MCP_STATE_DIR (default ~/.rgpd-mcp), RGPD_MCP_API_KEY, RGPD_MCP_PORT, RGPD_GEOIP_DB (optional: país por IP)`;
+
+async function loadGeo(flags: Record<string, string | boolean>): Promise<GeoResolver | undefined> {
+  const file = (typeof flags["geoip-db"] === "string" ? (flags["geoip-db"] as string) : undefined) ?? process.env["RGPD_GEOIP_DB"];
+  if (!file) return undefined;
+  const g = await openGeoDatabase(file);
+  process.stderr.write(`[rgpd-mcp] GeoIP (local, optional) enabled: ${file}
+`);
+  return g;
+}
 
 async function main() {
   const { flags, pos } = parse(process.argv.slice(2));
@@ -42,11 +52,12 @@ async function main() {
   switch (cmd) {
     case "serve": {
       const ledger = new Ledger(stateDir);
+      const geoip = await loadGeo(flags);
       let httpBase: string | undefined;
       if (flags["http"]) {
         const port = Number(flags["port"] ?? process.env["RGPD_MCP_PORT"] ?? 7433);
         try {
-          const h = await startHttp({ port, stateDir, apiKey: process.env["RGPD_MCP_API_KEY"] });
+          const h = await startHttp({ port, stateDir, apiKey: process.env["RGPD_MCP_API_KEY"], geoip });
           httpBase = h.url;
           process.stderr.write(`[rgpd-mcp] HTTP/modal on ${h.url}\n`);
         } catch (e) {
@@ -60,7 +71,7 @@ async function main() {
           } else throw e;
         }
       }
-      const server = createMcpServer({ ledger, httpBase });
+      const server = createMcpServer({ ledger, httpBase, geoip });
       await server.connect(new StdioServerTransport());
       process.stderr.write(`[rgpd-mcp] ${VERSION} ready (stdio)\n`);
       return;
@@ -74,6 +85,7 @@ async function main() {
         process.exit(2);
       }
       const h = await startHttp({
+        geoip: await loadGeo(flags),
         host,
         port: Number(flags["port"] ?? process.env["RGPD_MCP_PORT"] ?? 7433),
         apiKey,

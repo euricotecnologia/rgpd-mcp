@@ -58,6 +58,45 @@ Contrato igual em todas as linguagens:
 | HTML/JS | widget exercitado em Chrome real |
 | **Delphi, C#, PHP** | **não compilados** (sem as toolchains): tratar como rascunho |
 
+## País e idioma por IP (opcional)
+
+Recurso **desligado por omissão**. Serve para sugerir o país (e assim a lei nacional) e o idioma do modal quando o seu sistema atende pessoas de vários países. Se a clínica atende num país fixo, passe esse país em `build_consent_document` e ignore esta secção.
+
+### Como funciona
+O backend chama `POST /v1/resolve-locale` (chave de API) com o que sabe do pedido e usa `country` e `language` da resposta em `POST /v1/consent-documents`. A ordem de prioridade é fixa:
+
+| # | Sinal | Campo do pedido | Observação |
+|---|---|---|---|
+| 1 | País onde a clínica está estabelecida | `establishmentCountry` | Atendimento presencial segue o país da clínica, não o IP |
+| 2 | Escolha explícita da pessoa | `userChoice.country`, `userChoice.language` | Para corrigir um palpite errado |
+| 3 | IP (base GeoIP local) | `ip` | Estimativa: VPN, proxy e redes móveis enganam |
+| 4 | Região do `Accept-Language` (ex.: `pt-PT` → PT) | `acceptLanguage` | Só quando o IP não deu resultado |
+
+O **idioma** vem da escolha da pessoa, depois do `Accept-Language` (se for um idioma oficial do país) e por fim do primeiro idioma oficial do país. Países com vários idiomas (por exemplo BE, LU, FI, IE, MT) devolvem `languageOptions` e um aviso: mostre um seletor.
+
+```json
+POST /v1/resolve-locale
+{ "ip": "<IP validado pelo seu proxy>", "acceptLanguage": "es-ES,es;q=0.9", "establishmentCountry": null }
+→ { "country": "ES", "language": "es", "countrySource": "ip", "languageSource": "accept-language",
+    "supported": true, "needsUserChoice": false, "languageOptions": ["es"], "warnings": ["…estimativa…"], "geoip": "mmdb" }
+```
+
+Se o país detetado **não tem perfil** neste projeto (Reino Unido, Suíça, resto do mundo), a resposta traz `country: null` e `needsUserChoice: true`: o sistema nunca aplica a lei de outro país em silêncio.
+
+### Ativar a deteção por IP
+1. Obtenha uma base `.mmdb` de país ou cidade (por exemplo MaxMind GeoLite2 ou DB-IP Lite; confira a licença e as condições de cada uma).
+2. Inicie com `node dist/cli.js http --geoip-db /caminho/GeoLite2-Country.mmdb` (ou `RGPD_GEOIP_DB`). O pacote opcional `maxmind` é instalado com `npm install`; sem ele ou sem base, o endpoint continua a funcionar com os outros sinais e avisa.
+3. A consulta é **local**: o IP não sai da máquina.
+
+### Regras de privacidade
+- O IP é **dado pessoal** (considerando 30 do RGPD e jurisprudência do TJUE): informe-o no aviso de privacidade e não o grave. O servidor processa-o em memória, não o regista e não o devolve na resposta.
+- Atrás de um proxy ou balanceador, use o IP validado pela sua infraestrutura. **Nunca** confie num `X-Forwarded-For` enviado diretamente pelo cliente: o servidor não lê cabeçalhos de IP, recebe-o só no corpo.
+- Endereços privados, de loopback ou inválidos são ignorados com aviso.
+- Dê sempre à pessoa uma forma de mudar o país e o idioma.
+
+### Com o agente
+Peça: `@agent-rgpd-integrador … com deteção automática do país e idioma por IP`. Sem esse pedido o agente usa o país fixo da clínica.
+
 ## 3. Exemplos incluídos
 - `examples/clinic/` — clínica simulada em Node (zero dependências): fila de pacientes, “Chamar paciente”, modal em iframe, atendimento, saída alternativa e 403 sem consentimento. Coberta por `tests/clinic.test.mjs`.
 - `examples/clinic-react/` — React 18 + TypeScript (Vite) + backend mínimo. Copiar `useConsentGate.ts`, `ConsentModalFrame.tsx` e as 3 rotas do `server.mjs`. Ver o README da pasta.

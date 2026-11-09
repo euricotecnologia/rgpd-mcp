@@ -66,7 +66,7 @@ Escuta em loopback por omissão; **recusa arrancar em outro endereço sem chave 
 | Comando | Descrição |
 |---|---|
 | `serve [--http] [--port N]` | Servidor MCP em stdio; `--http` expõe também a API/modal |
-| `http [--port 7433] [--host 127.0.0.1] [--api-key KEY] [--cors o1,o2] [--frame-ancestors o1,o2]` | API HTTP + modal |
+| `http [--port 7433] [--host 127.0.0.1] [--api-key KEY] [--cors o1,o2] [--frame-ancestors o1,o2] [--geoip-db FICHEIRO.mmdb]` | API HTTP + modal |
 | `install <cliente> [--scope] [--name] [--dry-run] [--npx]` | Regista o MCP num cliente |
 | `install-agent [--scope] [--force]` | Instala o agente `rgpd-integrador` |
 | `doctor` | Verifica dados, locales e ledger |
@@ -80,6 +80,7 @@ Escuta em loopback por omissão; **recusa arrancar em outro endereço sem chave 
 | `RGPD_MCP_STATE_DIR` | `~/.rgpd-mcp` | Estado: `ledger.jsonl`, `documents/`, `capture.secret` |
 | `RGPD_MCP_API_KEY` | — | Chave de API (Bearer) da API HTTP |
 | `RGPD_MCP_PORT` | `7433` | Porta HTTP |
+| `RGPD_GEOIP_DB` | — | Opcional: ficheiro `.mmdb` (GeoLite2/GeoIP2 Country ou City, DB-IP) para detetar o país pelo IP. Também aceito por `serve` |
 | `RGPD_MCP_DATA` | `<repo>/data` | Pasta de dados alternativa |
 
 ## Estado persistente

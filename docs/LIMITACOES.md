@@ -26,5 +26,6 @@ Este projeto **não é aconselhamento jurídico**. Antes de uso em produção �
 - **Clientes:** só o Claude Code foi instalado de verdade; Codex, Gemini CLI, Antigravity, OpenCode e VS Code foram testados em pastas temporárias; Claude Desktop, Cursor e Windsurf só têm o snippet genérico.
 - **Acessibilidade e responsividade** não foram testadas no navegador (ESC, leitor de ecrã, telemóvel).
 - **Agente `rgpd-integrador`:** testado numa sessão com `--agent` num projeto pequeno e sem build; a frase solta (sem citar o agente) e o caminho `@agent-` não foram testados. Duas execuções sobrepuseram-se nesse teste.
+- **País por IP (opcional):** é uma estimativa; a lei aplicável não depende do IP (RGPD, Art. 3). Os testes automáticos usam um resolvedor simulado; a leitura de um `.mmdb` real só corre quando `RGPD_TEST_MMDB` aponta para uma base (testada com a base de teste da MaxMind). Nenhuma base GeoIP é distribuída com o projeto. O seletor de país/idioma na interface é responsabilidade da sua aplicação: o modal não o inclui.
 - Quem **cancela** o modal não deixa registo no ledger (escolha de desenho).
 - Os exemplos correm em `127.0.0.1`; produção exige HTTPS, `--frame-ancestors` com o domínio real e chave forte.

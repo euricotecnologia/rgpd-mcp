@@ -16,7 +16,7 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | [docs/VISAO-GERAL.md](docs/VISAO-GERAL.md) | O que é, arquitetura, componentes |
 | [docs/INSTALACAO.md](docs/INSTALACAO.md) | Instalação, build, registo nos clientes MCP, agente, CLI |
 | [docs/CLIENTS.md](docs/CLIENTS.md) | Formato de configuração de cada cliente (Claude Code, Codex, Gemini CLI, Antigravity, OpenCode, VS Code) |
-| [docs/FERRAMENTAS-MCP.md](docs/FERRAMENTAS-MCP.md) | As 12 ferramentas, recursos e prompts MCP |
+| [docs/FERRAMENTAS-MCP.md](docs/FERRAMENTAS-MCP.md) | As 13 ferramentas, recursos e prompts MCP |
 | [docs/API-HTTP.md](docs/API-HTTP.md) | Rotas HTTP, autenticação, widget `<rgpd-consent-modal>`, segurança |
 | [docs/INTEGRACAO.md](docs/INTEGRACAO.md) | Integração no seu sistema (agente `rgpd-integrador` ou manual), exemplos |
 | [docs/MODELO-DE-DADOS.md](docs/MODELO-DE-DADOS.md) | Estados `verified/inferred/unverified`, perfil de país, evidência, como estender |
@@ -37,13 +37,14 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | Ledger de consentimento (cadeia de hash, retirada, verificação) | ✅ |
 | Instaladores (6 clientes + genérico) | ✅ formatos verificados em docs oficiais; só o Claude Code instalado de verdade |
 | Rótulos da interface | 25 idiomas |
-| Ferramentas MCP | 12 ferramentas, 2 recursos (`rgpd://gdpr/…`, `rgpd://country/…`) e 2 prompts (`integrar_no_sistema`, `healthcare_first_visit`) |
+| Ferramentas MCP | 13 ferramentas, 2 recursos (`rgpd://gdpr/…`, `rgpd://country/…`) e 2 prompts (`integrar_no_sistema`, `healthcare_first_visit`) |
 | Agente de integração | `rgpd-integrador`: explora o projeto, implementa backend, modal, bloqueio no servidor e saída alternativa, e testa |
 | API HTTP | Criação de documentos, registo de decisões, retirada (Art. 7(3)), estado e verificação do ledger; chave de API ou token de captura de curta duração |
 | Consentimento | 16 categorias de dados, bases do Art. 6(1) e condições do Art. 9(2); responsável legal para menores (Art. 8); retirada com um clique |
 | Linguagens de integração | Snippets para HTML, React, Node, Go, Java, Rust, Delphi, Python, C# e PHP |
 | Exemplos executáveis | `examples/clinic` (Node) e `examples/clinic-react` (React + TypeScript) |
 | Segurança | Loopback por omissão, CSP no modal, tokens HMAC presos a documento e titular, `subjectRef` pseudónimo, ledger encadeado por hash |
+| País e idioma por IP (opcional) | `POST /v1/resolve-locale` e ferramenta `resolve_locale` sugerem país e idioma a partir do país da clínica, da escolha do utilizador, do IP (base GeoIP **local**, `--geoip-db`) e do `Accept-Language`. Desligado por omissão |
 | Requisitos | Node ≥ 20 |
 
 Reino Unido e Suíça **não** estão incluídos.

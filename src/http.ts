@@ -5,7 +5,8 @@ import path from "node:path";
 import { ROOT, articleText, getCountry, listCountries, searchGdpr, availableLocales, gdprLanguages } from "./data.js";
 import { ConsentValidationError, buildConsentDocument } from "./consent.js";
 import { Ledger, LedgerError, defaultStateDir } from "./ledger.js";
-import { BuildSchema, RecordSchema, WithdrawSchema } from "./schemas.js";
+import { BuildSchema, LocaleSchema, RecordSchema, WithdrawSchema } from "./schemas.js";
+import { resolveLocale, type GeoResolver } from "./locale.js";
 import { z } from "zod";
 import { coverage } from "./coverage.js";
 
@@ -16,6 +17,8 @@ export interface HttpOptions {
   corsOrigins?: string[];
   frameAncestors?: string[];
   stateDir?: string;
+  /** Optional IP -> country resolver (see openGeoDatabase). Without it /v1/resolve-locale still works from the other signals. */
+  geoip?: GeoResolver;
 }
 
 const MAX_BODY = 256 * 1024;
@@ -94,7 +97,7 @@ export function createHttpServer(opts: HttpOptions = {}): { server: Server; ledg
       const p = url.pathname;
 
       // ---- public, static, non-sensitive ----
-      if (req.method === "GET" && p === "/health") return reply(200, { status: "ok", countries: listCountries().length, gdprLanguages: gdprLanguages().length });
+      if (req.method === "GET" && p === "/health") return reply(200, { status: "ok", countries: listCountries().length, gdprLanguages: gdprLanguages().length, geoip: !!opts.geoip });
       if (req.method === "GET" && (p === "/widget/rgpd-consent.js" || p === "/widget/modal-page.js")) {
         const f = path.join(widgetDir, path.basename(p));
         res.writeHead(200, { "Content-Type": "text/javascript; charset=utf-8", "Cache-Control": "public, max-age=300", "X-Content-Type-Options": "nosniff", ...corsHeaders });
@@ -152,6 +155,11 @@ export function createHttpServer(opts: HttpOptions = {}): { server: Server; ledg
       if (req.method === "GET" && m) return reply(200, articleText(m[1]!, m[2]!));
       m = p.match(/^\/v1\/gdpr\/([a-z]{2})\/search$/);
       if (req.method === "GET" && m) return reply(200, searchGdpr(m[1]!, url.searchParams.get("q") ?? "", Number(url.searchParams.get("limit") ?? 10)));
+
+      // ---- optional: suggest country + language (the IP is processed in memory and never stored or logged) ----
+      if (req.method === "POST" && p === "/v1/resolve-locale") {
+        return reply(200, { ...resolveLocale(LocaleSchema.parse(await readJson(req)), opts.geoip), geoip: opts.geoip?.kind ?? null });
+      }
 
       if (req.method === "POST" && p === "/v1/consent-documents") {
         const raw = (await readJson(req)) as Record<string, unknown>;

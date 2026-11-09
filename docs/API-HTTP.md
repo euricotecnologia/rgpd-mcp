@@ -16,6 +16,7 @@ Servidor: `node dist/cli.js http [--port 7433] [--host 127.0.0.1] [--api-key KEY
 | `GET /modal/:id` | pública | Página do modal (CSP restritiva; `frame-ancestors` configurável) |
 | `GET /manage/:id` | pública | Tela “Gerir os meus consentimentos” (retirada com um clique) |
 | `GET /v1/consent-documents/:id` | pública (UUID) | Texto do documento (não contém dados de titulares) |
+| `POST /v1/resolve-locale` | chave | **Opcional.** Sugere país e idioma: corpo `{ip?, acceptLanguage?, establishmentCountry?, userChoice?{country,language}}` → `{country, language, countrySource, languageSource, ipCountry, supported, needsUserChoice, languageOptions, warnings, geoip}`. O IP é processado em memória e nunca é gravado, registado nem devolvido. Ver [INTEGRACAO.md](INTEGRACAO.md#país-e-idioma-por-ip-opcional) |
 | `POST /v1/consent-documents` | chave | Constrói, valida e guarda o documento. Corpo = entrada do construtor + `capture?: {subjectRef, ttlSeconds?}`. Devolve o documento, `modalUrl` e, se houve `capture`, `captureToken` |
 | `POST /v1/consent-documents/:id/capture` | chave | Novo token para um documento existente (`{subjectRef, ttlSeconds?}`) → `captureToken`, `manageUrl` |
 | `POST /v1/consents` | chave **ou** token | Regista decisões `{documentId, subjectRef, decisions:[{itemId, granted}], guardian?, channel?}` |

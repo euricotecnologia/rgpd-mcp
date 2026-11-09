@@ -9,7 +9,7 @@
 | Camada | O que faz |
 |---|---|
 | **Base legal** | Texto oficial do RGPD (99 artigos, 173 considerandos) nas **24 línguas oficiais da UE**; perfil de 30 países com autoridade de controlo, lei nacional, idade do consentimento digital (Art. 8), disposições de saúde (Art. 9(4)) e legislação setorial de saúde. Ver [PAISES.md](PAISES.md) |
-| **Servidor MCP** (stdio) | 12 ferramentas, 2 recursos e 2 prompts para agentes de IA (Claude Code, Codex, Gemini CLI, Antigravity, OpenCode, VS Code…). Ver [FERRAMENTAS-MCP.md](FERRAMENTAS-MCP.md) |
+| **Servidor MCP** (stdio) | 13 ferramentas, 2 recursos e 2 prompts para agentes de IA (Claude Code, Codex, Gemini CLI, Antigravity, OpenCode, VS Code…). Ver [FERRAMENTAS-MCP.md](FERRAMENTAS-MCP.md) |
 | **Construtor de consentimento** | Gera o documento (secções com artigos oficiais, itens a marcar) e **recusa desenhos ilegais** (ex.: dados de saúde sem condição do Art. 9(2); consentimento obrigatório). Ver [REGRAS-E-VALIDACOES.md](REGRAS-E-VALIDACOES.md) |
 | **Modal web** | Web Component `<rgpd-consent-modal>` e páginas `/modal/<id>` e `/manage/<id>` (iframe/WebView). Funciona com qualquer linguagem. Ver [API-HTTP.md](API-HTTP.md) |
 | **Ledger de consentimento** | Registo apenas-acrescenta, encadeado por hash, com retirada (Art. 7(3)) e verificação de integridade |
