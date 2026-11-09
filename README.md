@@ -24,6 +24,7 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | [docs/PAISES.md](docs/PAISES.md) | **Ficha de cada país integrado** (gerada a partir dos dados) |
 | [docs/LEGAL-METHOD.md](docs/LEGAL-METHOD.md) | Método de verificação jurídica |
 | [docs/LIMITACOES.md](docs/LIMITACOES.md) | Avisos e lacunas conhecidas |
+| [docs/ALTERACOES.md](docs/ALTERACOES.md) | Registo de alterações por versão |
 
 ## Estado real
 
