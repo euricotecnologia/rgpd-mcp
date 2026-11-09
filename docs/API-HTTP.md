@@ -12,6 +12,7 @@ Servidor: `node dist/cli.js http [--port 7433] [--host 127.0.0.1] [--api-key KEY
 | Rota | Auth | Descrição |
 |---|---|---|
 | `GET /health` | pública | Estado, nº de países e de idiomas |
+| `GET /v1/locale-options` | pública | Lista estática (código, nome no idioma do país, idiomas oficiais) para o seletor de país/idioma do modal |
 | `GET /widget/rgpd-consent.js`, `GET /widget/modal-page.js` | pública | Web Component e bootstrap das páginas |
 | `GET /modal/:id` | pública | Página do modal (CSP restritiva; `frame-ancestors` configurável) |
 | `GET /manage/:id` | pública | Tela “Gerir os meus consentimentos” (retirada com um clique) |
@@ -62,10 +63,11 @@ Servidor: `node dist/cli.js http [--port 7433] [--host 127.0.0.1] [--api-key KEY
 | `api-key` | chave de API (só para backends/ambientes de confiança) |
 | `channel` | rótulo livre do canal de registo |
 | `parent-origin` | origem exata que recebe `window.parent.postMessage` (modo iframe); sem ele não há `postMessage` |
+| `locale-picker` | mostra um seletor de país e idioma no topo do modal; ao mudar, emite `rgpd:localechange {country, language}` (não altera o documento: o seu backend cria um documento novo e recarrega o modal). Na página `/modal/<id>` ative com `#localePicker=1` |
 | `mode="manage"` | tela de retirada em vez do consentimento |
 | `open` | abre ao carregar |
 
-**Eventos** (propagam-se, `composed`): `rgpd:ready`, `rgpd:decision {record}`, `rgpd:cancel`, `rgpd:error {message}`, `rgpd:withdrawn {itemIds}`, `rgpd:closed`.
+**Eventos** (propagam-se, `composed`): `rgpd:ready`, `rgpd:decision {record}`, `rgpd:cancel`, `rgpd:error {message}`, `rgpd:withdrawn {itemIds}`, `rgpd:localechange {country, language}` (só com `locale-picker`), `rgpd:closed`.
 
 **Pontes para hosts sem DOM de página** (JSON em string): `window.rgpdConsentBridge.onDecision/onCancel/onError/onWithdrawn`, WebView2 `window.chrome.webview.postMessage`, WKWebView `window.webkit.messageHandlers.rgpd.postMessage`, ou `postMessage` com `parent-origin`.
 

@@ -197,7 +197,7 @@ test("snippets: java compiles and runs against the live server", { timeout: 2000
   assert.match(r.stdout, /"documentId"/);
 });
 
-test("snippets: rust builds with cargo and runs against the live server", { timeout: 400000, skip: !has("cargo") }, async () => {
+test("snippets: rust builds with cargo and runs against the live server", { timeout: 400000, skip: !has("cargo") }, async (t) => {
   const dir = mkdtempSync(path.join(tmpdir(), "rgpd-rust-"));
   mkdirSync(path.join(dir, "src"));
   const r0 = integrationSnippet("rust", base).files[0];
@@ -205,6 +205,13 @@ test("snippets: rust builds with cargo and runs against the live server", { time
   writeFileSync(path.join(dir, "Cargo.toml"), '[package]\nname = "consent"\nversion = "0.1.0"\nedition = "2021"\n[dependencies]\nreqwest = { version = "0.12", features = ["blocking", "json"] }\nserde_json = "1"\n');
   const env = { ...process.env, RGPD_MCP_API_KEY: KEY };
   const r = await runAsync("cargo", ["run", "--quiet"], dir, env);
+  // Some Windows hosts (security software / policy) refuse to execute a freshly built binary: the snippet still has to COMPILE,
+  // and the run is then reported as skipped, never as passed.
+  if (r.status !== 0 && /could not execute process|os error (5|32)|Access is denied|Acesso negado/i.test(r.stderr)) {
+    const b = await runAsync("cargo", ["build", "--quiet"], dir, env);
+    assert.equal(b.status, 0, "cargo build: " + b.stderr.slice(-800));
+    return t.skip("the snippet compiles, but this host blocks executing the new binary: " + r.stderr.split("\n").find((l) => /os error|denied|negado/i.test(l)));
+  }
   assert.equal(r.status, 0, "cargo: " + r.stderr.slice(-800));
   assert.match(r.stdout, /\/modal\/[0-9a-f-]{36}#subjectRef=p-8f3a21&token=/);
 });

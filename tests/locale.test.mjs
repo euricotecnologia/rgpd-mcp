@@ -110,3 +110,21 @@ test("real .mmdb database lookup", { skip: !MMDB || !existsSync(MMDB) ? "RGPD_TE
   assert.deepEqual([r.country, r.language], ["SE", "sv"]);
   await assert.rejects(() => openGeoDatabase("does-not-exist.mmdb"), /not found/);
 });
+
+test("locale picker: public options route and widget support", async () => {
+  const h = await startHttp({ port: 0, apiKey: "k", stateDir: mkdtempSync(path.join(tmpdir(), "rgpd-pick-")) });
+  try {
+    const r = await fetch(h.url + "/v1/locale-options"); // no API key: static, non-sensitive
+    assert.equal(r.status, 200);
+    const list = await r.json();
+    assert.equal(list.length, 30);
+    const be = list.find((c) => c.code === "BE");
+    assert.deepEqual(be.languages, ["nl", "fr", "de"]);
+    assert.ok(list.every((c) => c.name && c.languages.length));
+    const w = await (await fetch(h.url + "/widget/rgpd-consent.js")).text();
+    assert.match(w, /locale-picker/);
+    assert.match(w, /rgpd:localechange/);
+    const mp = await (await fetch(h.url + "/widget/modal-page.js")).text();
+    assert.match(mp, /localePicker/);
+  } finally { h.server.close(); }
+});

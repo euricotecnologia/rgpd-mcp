@@ -69,6 +69,7 @@ Escuta em loopback por omissão; **recusa arrancar em outro endereço sem chave 
 | `http [--port 7433] [--host 127.0.0.1] [--api-key KEY] [--cors o1,o2] [--frame-ancestors o1,o2] [--geoip-db FICHEIRO.mmdb]` | API HTTP + modal |
 | `install <cliente> [--scope] [--name] [--dry-run] [--npx]` | Regista o MCP num cliente |
 | `install-agent [--scope] [--force]` | Instala o agente `rgpd-integrador` |
+| `geoip-download [--out FICHEIRO]` | Descarrega a base gratuita **DB-IP Country Lite** (`.mmdb`, atualização mensal) para a pasta de estado; depois use `http --geoip-db <ficheiro>`. É o único comando que acede à rede por causa do GeoIP, e só corre quando você o executa |
 | `doctor` | Verifica dados, locales e ledger |
 | `coverage` | Estado de verificação por país (JSON) |
 | `verify-ledger` | Recalcula a cadeia de hash do ledger (código de saída 1 se quebrada) |

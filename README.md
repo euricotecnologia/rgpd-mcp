@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/images/img00.png" alt="RGPD na Europa: documento de consentimento, escudo de proteção e estetoscópio sobre o mapa da Europa" width="520"></p>
 
-**Versão 1.0.0**
+**Versão 1.1.0**
 
 Servidor **MCP** (Model Context Protocol) + **API HTTP** + **modal web** para criar consentimentos e avisos de
 privacidade conforme o **RGPD (Regulamento (UE) 2016/679)** e as leis nacionais de proteção de dados de 30 países
@@ -44,7 +44,7 @@ JavaScript, Delphi, Rust, Python, C#, PHP…) porque o contrato é HTTP + uma ja
 | Linguagens de integração | Snippets para HTML, React, Node, Go, Java, Rust, Delphi, Python, C# e PHP |
 | Exemplos executáveis | `examples/clinic` (Node) e `examples/clinic-react` (React + TypeScript) |
 | Segurança | Loopback por omissão, CSP no modal, tokens HMAC presos a documento e titular, `subjectRef` pseudónimo, ledger encadeado por hash |
-| País e idioma por IP (opcional) | `POST /v1/resolve-locale` e ferramenta `resolve_locale` sugerem país e idioma a partir do país da clínica, da escolha do utilizador, do IP (base GeoIP **local**, `--geoip-db`) e do `Accept-Language`. Desligado por omissão |
+| País e idioma por IP (opcional) | `POST /v1/resolve-locale` e ferramenta `resolve_locale` sugerem país e idioma a partir do país da clínica, da escolha do utilizador, do IP (base GeoIP **local**, `--geoip-db`; `geoip-download` obtém a base gratuita DB-IP) e do `Accept-Language`. Seletor opcional de país/idioma no modal. Desligado por omissão |
 | Requisitos | Node ≥ 20 |
 
 Reino Unido e Suíça **não** estão incluídos.

@@ -1,6 +1,6 @@
 {
   "name": "rgpd-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server with GDPR/RGPD legal texts and national data-protection laws of European countries, consent-form builder and language-agnostic consent modal.",
   "type": "module",
   "license": "UNLICENSED",

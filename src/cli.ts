@@ -8,6 +8,8 @@ import { coverage } from "./coverage.js";
 import { AGENT_NAME, installAgent } from "./agent.js";
 import { gdprLanguages, availableLocales, listCountries } from "./data.js";
 import { openGeoDatabase, type GeoResolver } from "./locale.js";
+import { downloadDbipCountryLite } from "./geodb.js";
+import path from "node:path";
 
 function parse(argv: string[]) {
   const flags: Record<string, string | boolean> = {};
@@ -17,7 +19,7 @@ function parse(argv: string[]) {
     if (a.startsWith("--")) {
       const [k, v] = a.slice(2).split("=", 2);
       if (v !== undefined) flags[k!] = v;
-      else if (argv[i + 1] && !argv[i + 1]!.startsWith("--") && ["port", "host", "api-key", "cors", "frame-ancestors", "scope", "name", "state-dir", "geoip-db"].includes(k!)) flags[k!] = argv[++i]!;
+      else if (argv[i + 1] && !argv[i + 1]!.startsWith("--") && ["port", "host", "api-key", "cors", "frame-ancestors", "scope", "name", "state-dir", "geoip-db", "out"].includes(k!)) flags[k!] = argv[++i]!;
       else flags[k!] = true;
     } else pos.push(a);
   }
@@ -30,6 +32,7 @@ const HELP = `rgpd-mcp ${VERSION}
   install-agent [--scope user|project] [--force]   instala o agente rgpd-integrador (Claude Code)
   install <client> [--scope user|project] [--name rgpd] [--dry-run] [--npx]
           clients: ${CLIENTS.join(", ")}
+  geoip-download [--out FILE]  descarrega a base gratuita DB-IP Country Lite (.mmdb) para usar com --geoip-db
   doctor                       checks data, locales, ledger
   coverage                     verification status per country
   verify-ledger                recompute the consent hash chain
@@ -113,6 +116,12 @@ async function main() {
     case "install-agent": {
       const r = installAgent({ scope: (flags["scope"] as "user" | "project") ?? "user", cwd: process.cwd(), force: !!flags["force"] });
       process.stdout.write(JSON.stringify({ ...r, use: `@agent-${AGENT_NAME} integre o consentimento RGPD no meu sistema (clínica: <nome>, país: PT)`, note: r.restartNeeded ? "Abra uma sessão nova do Claude Code para carregar o agente." : "Já existia: use --force para substituir." }, null, 2) + "\n");
+      return;
+    }
+    case "geoip-download": {
+      const out = (typeof flags["out"] === "string" ? (flags["out"] as string) : undefined) ?? path.join(stateDir, "geoip", "dbip-country-lite.mmdb");
+      const r = await downloadDbipCountryLite(out);
+      process.stdout.write(JSON.stringify({ ...r, use: `node dist/cli.js http --geoip-db "${r.file}"` }, null, 2) + "\n");
       return;
     }
     case "coverage": {

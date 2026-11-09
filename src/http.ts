@@ -98,6 +98,10 @@ export function createHttpServer(opts: HttpOptions = {}): { server: Server; ledg
 
       // ---- public, static, non-sensitive ----
       if (req.method === "GET" && p === "/health") return reply(200, { status: "ok", countries: listCountries().length, gdprLanguages: gdprLanguages().length, geoip: !!opts.geoip });
+      // static, non-sensitive list used by the optional country/language picker of the modal
+      if (req.method === "GET" && p === "/v1/locale-options") {
+        return reply(200, listCountries().map((c) => ({ code: c.code, name: c.name[c.languages[0]!] ?? c.name["en"] ?? c.code, languages: c.languages })));
+      }
       if (req.method === "GET" && (p === "/widget/rgpd-consent.js" || p === "/widget/modal-page.js")) {
         const f = path.join(widgetDir, path.basename(p));
         res.writeHead(200, { "Content-Type": "text/javascript; charset=utf-8", "Cache-Control": "public, max-age=300", "X-Content-Type-Options": "nosniff", ...corsHeaders });

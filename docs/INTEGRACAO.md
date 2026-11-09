@@ -84,9 +84,18 @@ POST /v1/resolve-locale
 Se o país detetado **não tem perfil** neste projeto (Reino Unido, Suíça, resto do mundo), a resposta traz `country: null` e `needsUserChoice: true`: o sistema nunca aplica a lei de outro país em silêncio.
 
 ### Ativar a deteção por IP
-1. Obtenha uma base `.mmdb` de país ou cidade (por exemplo MaxMind GeoLite2 ou DB-IP Lite; confira a licença e as condições de cada uma).
+1. Obtenha uma base `.mmdb` de país ou cidade. A forma mais simples: `node dist/cli.js geoip-download` descarrega a **DB-IP Country Lite** (gratuita, atualizada todos os meses, licença Creative Commons Attribution: é preciso creditar a DB-IP; confira as condições em db-ip.com). Também serve a MaxMind GeoLite2 (exige conta e aceitação da licença deles). As bases gratuitas têm cobertura e precisão reduzidas.
 2. Inicie com `node dist/cli.js http --geoip-db /caminho/GeoLite2-Country.mmdb` (ou `RGPD_GEOIP_DB`). O pacote opcional `maxmind` é instalado com `npm install`; sem ele ou sem base, o endpoint continua a funcionar com os outros sinais e avisa.
 3. A consulta é **local**: o IP não sai da máquina.
+
+### Seletor de país e idioma no modal
+Adicione `locale-picker` ao `<rgpd-consent-modal>` (ou `#localePicker=1` na URL do modal). O seletor mostra os 30 países e os idiomas oficiais do país escolhido. Quando a pessoa muda:
+
+1. o modal emite `rgpd:localechange {country, language}` (e o `postMessage`/ponte equivalente);
+2. o seu backend chama `POST /v1/resolve-locale` com `userChoice` (ou diretamente `POST /v1/consent-documents` com `country` e `language`) e obtém um documento novo;
+3. a aplicação recarrega o modal com o novo documento.
+
+O modal **não** muda sozinho de país: cada documento tem um hash próprio e só o backend o cria. O seletor usa nomes de países no idioma oficial de cada um e rótulos de acessibilidade multilingues fixos (não passam pelos 25 idiomas de rótulos).
 
 ### Regras de privacidade
 - O IP é **dado pessoal** (considerando 30 do RGPD e jurisprudência do TJUE): informe-o no aviso de privacidade e não o grave. O servidor processa-o em memória, não o regista e não o devolve na resposta.
